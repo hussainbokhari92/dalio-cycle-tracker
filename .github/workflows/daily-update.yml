@@ -2,8 +2,8 @@ name: Daily News Update
 
 on:
   schedule:
-    - cron: '0 6 * * *'  # Daily at 6 AM UTC
-  workflow_dispatch:      # Allow manual trigger
+    - cron: '0 6 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -18,7 +18,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'   # <-- changed from '20'
 
       - name: Install dependencies
         run: npm install node-fetch@2 cheerio rss-parser
