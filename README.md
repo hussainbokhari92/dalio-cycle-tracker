@@ -1,8 +1,6 @@
 # dalio-cycle-tracker
 Ray Dalio Cycle Tracker
 
-readme = '''# Dalio Cycle Macro Tracker
-
 An open-source web tracker that maps global macro news and events to Ray Dalio's 18-step empire cycle, with an overlay of the international capital flow thesis.
 
 **Live at:** `https://yourusername.github.io/dalio-cycle-tracker`
