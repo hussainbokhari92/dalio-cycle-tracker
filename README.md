@@ -3,7 +3,7 @@ Ray Dalio Cycle Tracker
 
 An open-source web tracker that maps global macro news and events to Ray Dalio's 18-step empire cycle, with an overlay of the international capital flow thesis.
 
-**Live at:** `https://yourusername.github.io/dalio-cycle-tracker`
+**Live at:** `https://hussainbokhari92.github.io/dalio-cycle-tracker/`
 
 ---
 
