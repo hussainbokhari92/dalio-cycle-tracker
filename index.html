@@ -12,6 +12,7 @@
     --text: #e8e8f0;
     --text-secondary: #a0a0b8;
     --text-muted: #6a6a80;
+    --text-quaternary: #4a4a5a;
     --accent: #5b8def;
     --accent-dim: rgba(91,141,239,0.12);
     --rise: #4ade80;
@@ -75,9 +76,10 @@
     padding: 24px;
   }
 
-  .cycle-section { margin-bottom: 32px; }
+  /* ===== CYCLE ===== */
+  .cycle-section { margin-bottom: 28px; }
   .cycle-section h2 {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     color: var(--text-secondary);
     margin-bottom: 16px;
@@ -87,30 +89,150 @@
   .cycle-wrap {
     position: relative;
     overflow-x: auto;
-    padding-bottom: 8px;
+    padding: 8px 0 16px;
   }
   .cycle-wrap::-webkit-scrollbar { height: 4px; }
   .cycle-wrap::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
 
   #cycle-svg {
     display: block;
-    min-width: 900px;
+    min-width: 860px;
     width: 100%;
     height: auto;
   }
-  .c-node {
-    cursor: pointer;
-    transition: all 0.15s ease-out;
+  .c-node { cursor: pointer; }
+  .c-node circle {
+    transition: all 0.2s ease-out;
   }
-  .c-node:hover circle { stroke-width: 3px; filter: brightness(1.2); }
-  .c-node.active circle { stroke: var(--text); stroke-width: 3px; filter: brightness(1.3); }
-  .c-node.dimmed { opacity: 0.2; }
-  .c-label { font-size: 10px; font-weight: 600; text-anchor: middle; pointer-events: none; fill: var(--text); }
-  .c-phase { font-size: 12px; font-weight: 500; text-anchor: middle; pointer-events: none; }
-  .c-arc { fill: none; stroke-width: 2px; opacity: 0.25; }
-  .c-arc-rise { stroke: var(--rise); }
-  .c-arc-decline { stroke: var(--decline); }
+  .c-node:hover circle {
+    r: 20;
+    filter: brightness(1.3);
+  }
+  .c-node.active circle {
+    stroke: var(--text);
+    stroke-width: 3px;
+    filter: brightness(1.4);
+  }
+  .c-node.dimmed { opacity: 0.12; }
+  .c-label {
+    font-size: 11px;
+    font-weight: 600;
+    text-anchor: middle;
+    pointer-events: none;
+    fill: var(--text);
+  }
+  .c-label-name {
+    font-size: 9px;
+    font-weight: 400;
+    text-anchor: middle;
+    pointer-events: none;
+    fill: var(--text-muted);
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  .c-node:hover + .c-label-name,
+  .c-node.active + .c-label-name {
+    opacity: 1;
+  }
+  .c-phase-bg { opacity: 0.06; }
+  .c-phase-label {
+    font-size: 11px;
+    font-weight: 500;
+    text-anchor: middle;
+    pointer-events: none;
+    fill: var(--text-quaternary);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  .c-arc {
+    fill: none;
+    stroke-width: 2px;
+    opacity: 0.2;
+  }
 
+  /* Tooltip */
+  .cycle-tooltip {
+    position: absolute;
+    background: var(--bg-raised);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 12px 16px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: var(--text-secondary);
+    pointer-events: none;
+    opacity: 0;
+    transform: translateY(4px);
+    transition: all 0.15s ease-out;
+    z-index: 50;
+    max-width: 260px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  }
+  .cycle-tooltip.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .cycle-tooltip strong {
+    color: var(--text);
+    display: block;
+    margin-bottom: 4px;
+    font-size: 13px;
+  }
+  .tt-phase {
+    display: inline-block;
+    padding: 1px 8px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom: 6px;
+  }
+  .tt-desc { font-size: 11px; line-height: 1.5; }
+
+  /* ===== CHART ===== */
+  .chart-section { margin-bottom: 32px; }
+  .chart-section h2 {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-secondary);
+    margin-bottom: 16px;
+    text-transform: lowercase;
+    letter-spacing: 0.5px;
+  }
+  .chart-wrap {
+    position: relative;
+    background: var(--bg-raised);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px;
+    overflow-x: auto;
+  }
+  .chart-wrap canvas {
+    display: block;
+    min-width: 860px;
+    width: 100%;
+    height: auto;
+  }
+  .chart-legend {
+    display: flex;
+    gap: 16px;
+    margin-top: 12px;
+    font-size: 11px;
+    color: var(--text-muted);
+    flex-wrap: wrap;
+  }
+  .chart-legend span {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .chart-legend i {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+  }
+
+  /* ===== FILTERS ===== */
   .filters {
     display: flex;
     gap: 12px;
@@ -149,6 +271,7 @@
   .filter-pill.top.active { background: var(--top-dim); border-color: var(--top); color: var(--top); }
   .filter-pill.decline.active { background: var(--decline-dim); border-color: var(--decline); color: var(--decline); }
 
+  /* ===== EVENTS ===== */
   .events-header {
     display: flex;
     justify-content: space-between;
@@ -156,7 +279,7 @@
     margin-bottom: 16px;
   }
   .events-header h2 {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     color: var(--text-secondary);
     text-transform: lowercase;
@@ -167,7 +290,6 @@
     color: var(--text-muted);
     font-family: var(--mono);
   }
-
   .events-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
@@ -271,6 +393,17 @@
     font-size: 14px;
   }
 
+  /* ===== DETAIL PANEL ===== */
+  .detail-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 150;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+  }
+  .detail-overlay.open { opacity: 1; pointer-events: auto; }
   .detail-panel {
     position: fixed;
     right: 0;
@@ -287,16 +420,6 @@
     transition: transform 0.2s ease-out;
   }
   .detail-panel.open { transform: translateX(0); }
-  .detail-overlay {
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,0.5);
-    z-index: 150;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.2s;
-  }
-  .detail-overlay.open { opacity: 1; pointer-events: auto; }
   .detail-close {
     position: absolute;
     top: 16px;
@@ -396,97 +519,125 @@
 
 <div class="container">
 
+  <!-- CYCLE -->
   <div class="cycle-section">
-    <h2>the cycle — click a step to filter</h2>
-    <div class="cycle-wrap">
-      <svg viewBox="0 0 900 260" id="cycle-svg">
+    <h2>the cycle — hover for details, click to filter events</h2>
+    <div class="cycle-wrap" id="cycle-wrap">
+      <svg viewBox="0 0 900 320" id="cycle-svg">
         <defs>
-          <marker id="arrowhead" viewBox="0 0 8 8" refX="6" refY="4" markerWidth="5" markerHeight="5" orient="auto">
+          <linearGradient id="grad-rise" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="var(--rise)" stop-opacity="0.08"/>
+            <stop offset="100%" stop-color="var(--rise)" stop-opacity="0.02"/>
+          </linearGradient>
+          <linearGradient id="grad-top" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="var(--top)" stop-opacity="0.08"/>
+            <stop offset="100%" stop-color="var(--top)" stop-opacity="0.02"/>
+          </linearGradient>
+          <linearGradient id="grad-decline" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="var(--decline)" stop-opacity="0.08"/>
+            <stop offset="100%" stop-color="var(--decline)" stop-opacity="0.02"/>
+          </linearGradient>
+        </defs>
+
+        <!-- Phase background bands -->
+        <path class="c-phase-bg" d="M 60 280 Q 60 40 360 40 L 360 120 Q 180 120 60 280 Z" fill="url(#grad-rise)"/>
+        <path class="c-phase-bg" d="M 360 40 Q 660 40 660 280 L 540 280 Q 540 120 360 120 Z" fill="url(#grad-decline)"/>
+        <ellipse cx="360" cy="80" rx="80" ry="40" class="c-phase-bg" fill="url(#grad-top)"/>
+
+        <!-- Arcs -->
+        <path class="c-arc" d="M 80 260 Q 80 60 360 60" stroke="var(--rise)" stroke-dasharray="4,3"/>
+        <path class="c-arc" d="M 360 60 Q 640 60 640 260" stroke="var(--decline)" stroke-dasharray="4,3"/>
+
+        <!-- Phase labels -->
+        <text class="c-phase-label" x="180" y="295">the rise</text>
+        <text class="c-phase-label" x="360" y="28">the top</text>
+        <text class="c-phase-label" x="540" y="295">the decline</text>
+
+        <!-- Counterattack arrow -->
+        <path d="M 620 240 Q 580 100 460 90 Q 400 85 340 110" fill="none" stroke="var(--accent)" stroke-width="2" stroke-dasharray="6,4" opacity="0.5" marker-end="url(#arrow)"/>
+        <defs>
+          <marker id="arrow" viewBox="0 0 8 8" refX="6" refY="4" markerWidth="5" markerHeight="5" orient="auto">
             <path d="M0,0 L8,4 L0,8 Z" fill="var(--accent)" opacity="0.6"/>
           </marker>
         </defs>
-        <path class="c-arc c-arc-rise" d="M 60 230 Q 60 50 360 50" />
-        <path class="c-arc c-arc-decline" d="M 360 50 Q 660 50 660 230" />
-        <text class="c-phase" x="180" y="250" fill="var(--rise)">the rise</text>
-        <text class="c-phase" x="360" y="30" fill="var(--text)">the top</text>
-        <text class="c-phase" x="540" y="250" fill="var(--decline)">the decline</text>
+        <text x="520" y="75" fill="var(--accent)" style="font-size:10px;font-weight:500;text-anchor:middle;opacity:0.7">counterattack</text>
 
-        <g class="c-node" data-step="1" data-phase="rise" transform="translate(80,210)">
-          <circle r="14" fill="var(--rise-dim)" stroke="var(--rise)" stroke-width="1.5"/>
-          <text class="c-label" y="4">1</text>
-        </g>
-        <g class="c-node" data-step="2" data-phase="rise" transform="translate(115,175)">
-          <circle r="14" fill="var(--rise-dim)" stroke="var(--rise)" stroke-width="1.5"/>
-          <text class="c-label" y="4">2</text>
-        </g>
-        <g class="c-node" data-step="3" data-phase="rise" transform="translate(150,145)">
-          <circle r="14" fill="var(--rise-dim)" stroke="var(--rise)" stroke-width="1.5"/>
-          <text class="c-label" y="4">3</text>
-        </g>
-        <g class="c-node" data-step="4" data-phase="rise" transform="translate(190,120)">
-          <circle r="14" fill="var(--rise-dim)" stroke="var(--rise)" stroke-width="1.5"/>
-          <text class="c-label" y="4">4</text>
-        </g>
-        <g class="c-node" data-step="5" data-phase="rise" transform="translate(235,100)">
-          <circle r="14" fill="var(--rise-dim)" stroke="var(--rise)" stroke-width="1.5"/>
-          <text class="c-label" y="4">5</text>
-        </g>
-        <g class="c-node" data-step="6" data-phase="rise" transform="translate(285,85)">
-          <circle r="14" fill="var(--rise-dim)" stroke="var(--rise)" stroke-width="1.5"/>
-          <text class="c-label" y="4">6</text>
-        </g>
-        <g class="c-node" data-step="7" data-phase="rise" transform="translate(335,75)">
-          <circle r="14" fill="var(--rise-dim)" stroke="var(--rise)" stroke-width="1.5"/>
-          <text class="c-label" y="4">7</text>
-        </g>
-        <g class="c-node" data-step="8" data-phase="rise" transform="translate(385,70)">
-          <circle r="14" fill="var(--rise-dim)" stroke="var(--rise)" stroke-width="1.5"/>
-          <text class="c-label" y="4">8</text>
-        </g>
-        <g class="c-node" data-step="9" data-phase="top" transform="translate(430,75)">
-          <circle r="14" fill="var(--top-dim)" stroke="var(--top)" stroke-width="1.5"/>
-          <text class="c-label" y="4">9</text>
-        </g>
-        <g class="c-node" data-step="10" data-phase="top" transform="translate(470,90)">
-          <circle r="14" fill="var(--top-dim)" stroke="var(--top)" stroke-width="1.5"/>
-          <text class="c-label" y="4">10</text>
-        </g>
-        <g class="c-node" data-step="11" data-phase="top" transform="translate(505,110)">
-          <circle r="14" fill="var(--top-dim)" stroke="var(--top)" stroke-width="1.5"/>
-          <text class="c-label" y="4">11</text>
-        </g>
-        <g class="c-node" data-step="12" data-phase="top" transform="translate(535,135)">
-          <circle r="14" fill="var(--top-dim)" stroke="var(--top)" stroke-width="1.5"/>
-          <text class="c-label" y="4">12</text>
-        </g>
-        <g class="c-node" data-step="13" data-phase="decline" transform="translate(560,170)">
-          <circle r="14" fill="var(--decline-dim)" stroke="var(--decline)" stroke-width="1.5"/>
-          <text class="c-label" y="4">13</text>
-        </g>
-        <g class="c-node" data-step="14" data-phase="decline" transform="translate(575,205)">
-          <circle r="14" fill="var(--decline-dim)" stroke="var(--decline)" stroke-width="1.5"/>
-          <text class="c-label" y="4">14</text>
-        </g>
-        <g class="c-node" data-step="15" data-phase="decline" transform="translate(590,240)">
-          <circle r="14" fill="var(--decline-dim)" stroke="var(--decline)" stroke-width="1.5"/>
-          <text class="c-label" y="4">15</text>
-        </g>
-        <g class="c-node" data-step="16" data-phase="decline" transform="translate(615,270)">
-          <circle r="16" fill="var(--decline-dim)" stroke="var(--danger)" stroke-width="2"/>
-          <text class="c-label" y="4">16</text>
-        </g>
-        <g class="c-node" data-step="17" data-phase="decline" transform="translate(655,275)">
-          <circle r="14" fill="var(--decline-dim)" stroke="var(--decline)" stroke-width="1.5"/>
-          <text class="c-label" y="4">17</text>
-        </g>
-        <g class="c-node" data-step="18" data-phase="decline" transform="translate(700,270)">
-          <circle r="14" fill="var(--decline-dim)" stroke="var(--decline)" stroke-width="1.5"/>
-          <text class="c-label" y="4">18</text>
-        </g>
+        <!-- RISE nodes 1-8 -->
+        <g class="c-node" data-step="1" data-phase="rise" transform="translate(95,235)"><circle r="16" fill="var(--rise-dim)" stroke="var(--rise)" stroke-width="1.5"/><text class="c-label" y="4">1</text></g>
+        <text class="c-label-name" x="95" y="258">leadership</text>
+
+        <g class="c-node" data-step="2" data-phase="rise" transform="translate(130,195)"><circle r="16" fill="var(--rise-dim)" stroke="var(--rise)" stroke-width="1.5"/><text class="c-label" y="4">2</text></g>
+        <text class="c-label-name" x="130" y="218">inventiveness</text>
+
+        <g class="c-node" data-step="3" data-phase="rise" transform="translate(170,160)"><circle r="16" fill="var(--rise-dim)" stroke="var(--rise)" stroke-width="1.5"/><text class="c-label" y="4">3</text></g>
+        <text class="c-label-name" x="170" y="183">education</text>
+
+        <g class="c-node" data-step="4" data-phase="rise" transform="translate(215,130)"><circle r="16" fill="var(--rise-dim)" stroke="var(--rise)" stroke-width="1.5"/><text class="c-label" y="4">4</text></g>
+        <text class="c-label-name" x="215" y="153">culture</text>
+
+        <g class="c-node" data-step="5" data-phase="rise" transform="translate(265,105)"><circle r="16" fill="var(--rise-dim)" stroke="var(--rise)" stroke-width="1.5"/><text class="c-label" y="4">5</text></g>
+        <text class="c-label-name" x="265" y="128">resources</text>
+
+        <g class="c-node" data-step="6" data-phase="rise" transform="translate(315,88)"><circle r="16" fill="var(--rise-dim)" stroke="var(--rise)" stroke-width="1.5"/><text class="c-label" y="4">6</text></g>
+        <text class="c-label-name" x="315" y="111">compete</text>
+
+        <g class="c-node" data-step="7" data-phase="rise" transform="translate(365,78)"><circle r="16" fill="var(--rise-dim)" stroke="var(--rise)" stroke-width="1.5"/><text class="c-label" y="4">7</text></g>
+        <text class="c-label-name" x="365" y="101">income</text>
+
+        <g class="c-node" data-step="8" data-phase="rise" transform="translate(415,75)"><circle r="16" fill="var(--rise-dim)" stroke="var(--rise)" stroke-width="1.5"/><text class="c-label" y="4">8</text></g>
+        <text class="c-label-name" x="415" y="98">markets</text>
+
+        <!-- TOP nodes 9-12 -->
+        <g class="c-node" data-step="9" data-phase="top" transform="translate(460,80)"><circle r="16" fill="var(--top-dim)" stroke="var(--top)" stroke-width="1.5"/><text class="c-label" y="4">9</text></g>
+        <text class="c-label-name" x="460" y="103">productivity</text>
+
+        <g class="c-node" data-step="10" data-phase="top" transform="translate(500,95)"><circle r="16" fill="var(--top-dim)" stroke="var(--top)" stroke-width="1.5"/><text class="c-label" y="4">10</text></g>
+        <text class="c-label-name" x="500" y="118">overextended</text>
+
+        <g class="c-node" data-step="11" data-phase="top" transform="translate(535,118)"><circle r="16" fill="var(--top-dim)" stroke="var(--top)" stroke-width="1.5"/><text class="c-label" y="4">11</text></g>
+        <text class="c-label-name" x="535" y="141">competitiveness</text>
+
+        <g class="c-node" data-step="12" data-phase="top" transform="translate(565,148)"><circle r="16" fill="var(--top-dim)" stroke="var(--top)" stroke-width="1.5"/><text class="c-label" y="4">12</text></g>
+        <text class="c-label-name" x="565" y="171">wealth gaps</text>
+
+        <!-- DECLINE nodes 13-18 -->
+        <g class="c-node" data-step="13" data-phase="decline" transform="translate(590,185)"><circle r="16" fill="var(--decline-dim)" stroke="var(--decline)" stroke-width="1.5"/><text class="c-label" y="4">13</text></g>
+        <text class="c-label-name" x="590" y="208">large debts</text>
+
+        <g class="c-node" data-step="14" data-phase="decline" transform="translate(608,225)"><circle r="16" fill="var(--decline-dim)" stroke="var(--decline)" stroke-width="1.5"/><text class="c-label" y="4">14</text></g>
+        <text class="c-label-name" x="608" y="248">printing money</text>
+
+        <g class="c-node" data-step="15" data-phase="decline" transform="translate(622,265)"><circle r="16" fill="var(--decline-dim)" stroke="var(--decline)" stroke-width="1.5"/><text class="c-label" y="4">15</text></g>
+        <text class="c-label-name" x="622" y="288">internal conflict</text>
+
+        <g class="c-node" data-step="16" data-phase="decline" transform="translate(640,295)"><circle r="18" fill="var(--decline-dim)" stroke="var(--danger)" stroke-width="2.5"/><text class="c-label" y="4">16</text></g>
+        <text class="c-label-name" x="640" y="321" style="fill:var(--danger);font-weight:500">reserve currency</text>
+
+        <g class="c-node" data-step="17" data-phase="decline" transform="translate(680,300)"><circle r="16" fill="var(--decline-dim)" stroke="var(--decline)" stroke-width="1.5"/><text class="c-label" y="4">17</text></g>
+        <text class="c-label-name" x="680" y="323">weak leadership</text>
+
+        <g class="c-node" data-step="18" data-phase="decline" transform="translate(725,295)"><circle r="16" fill="var(--decline-dim)" stroke="var(--decline)" stroke-width="1.5"/><text class="c-label" y="4">18</text></g>
+        <text class="c-label-name" x="725" y="318">civil war</text>
       </svg>
+
+      <div class="cycle-tooltip" id="cycle-tooltip">
+        <span class="tt-phase" id="tt-phase"></span>
+        <strong id="tt-title"></strong>
+        <div class="tt-desc" id="tt-desc"></div>
+      </div>
     </div>
   </div>
 
+  <!-- CHART -->
+  <div class="chart-section">
+    <h2>event frequency by step over time</h2>
+    <div class="chart-wrap">
+      <canvas id="freq-chart" width="900" height="280"></canvas>
+    </div>
+    <div class="chart-legend" id="chart-legend"></div>
+  </div>
+
+  <!-- FILTERS -->
   <div class="filters">
     <input type="text" id="search-input" placeholder="search events..." />
     <select id="region-filter">
@@ -511,6 +662,7 @@
     <button class="filter-pill" onclick="clearFilters()">clear</button>
   </div>
 
+  <!-- EVENTS -->
   <div class="events-header">
     <h2>tracked events</h2>
     <span class="events-count" id="events-count">0 events</span>
@@ -548,6 +700,12 @@ const STEPS = {
   16: { name: "Loss of Reserve Currency", phase: "decline", desc: "The reserve currency status erodes, removing the exorbitant privilege that financed dominance." },
   17: { name: "Weak Leadership", phase: "decline", desc: "Leadership becomes ineffective, corrupt, or divided — unable to reverse the decline." },
   18: { name: "Civil War / Revolution", phase: "decline", desc: "The empire collapses into internal violence or revolution as the old order breaks down." }
+};
+
+const PHASE_COLORS = {
+  rise: { bg: 'rgba(74,222,128,0.15)', text: '#4ade80' },
+  top: { bg: 'rgba(251,191,36,0.15)', text: '#fbbf24' },
+  decline: { bg: 'rgba(248,113,113,0.15)', text: '#f87171' }
 };
 
 let allEvents = [];
@@ -672,16 +830,50 @@ function escapeHtml(str) {
   return str.replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 }
 
-function setupCycleNodes() {
+// ===== CYCLE INTERACTIVITY =====
+function setupCycle() {
+  const tooltip = document.getElementById('cycle-tooltip');
+  const ttPhase = document.getElementById('tt-phase');
+  const ttTitle = document.getElementById('tt-title');
+  const ttDesc = document.getElementById('tt-desc');
+  const wrap = document.getElementById('cycle-wrap');
+
   document.querySelectorAll('.c-node').forEach(node => {
+    const stepNum = parseInt(node.getAttribute('data-step'));
+    const step = STEPS[stepNum];
+    const phase = step.phase;
+
+    node.addEventListener('mouseenter', () => {
+      ttPhase.textContent = `${phase} — step ${stepNum}`;
+      ttPhase.style.background = PHASE_COLORS[phase].bg;
+      ttPhase.style.color = PHASE_COLORS[phase].text;
+      ttTitle.textContent = step.name;
+      ttDesc.textContent = step.desc;
+      tooltip.classList.add('visible');
+    });
+
+    node.addEventListener('mousemove', (e) => {
+      const rect = wrap.getBoundingClientRect();
+      let x = e.clientX - rect.left + 16;
+      let y = e.clientY - rect.top - 10;
+      if (x + 260 > rect.width) x = e.clientX - rect.left - 276;
+      if (y + 120 > rect.height) y = e.clientY - rect.top - 130;
+      tooltip.style.left = x + 'px';
+      tooltip.style.top = y + 'px';
+    });
+
+    node.addEventListener('mouseleave', () => {
+      tooltip.classList.remove('visible');
+    });
+
     node.addEventListener('click', () => {
-      const step = parseInt(node.getAttribute('data-step'));
-      if (activeStep === step) {
+      const stepNum = parseInt(node.getAttribute('data-step'));
+      if (activeStep === stepNum) {
         activeStep = null;
         node.classList.remove('active');
       } else {
         document.querySelectorAll('.c-node').forEach(n => n.classList.remove('active'));
-        activeStep = step;
+        activeStep = stepNum;
         node.classList.add('active');
       }
       renderEvents();
@@ -741,12 +933,120 @@ function showAbout() {
   document.body.style.overflow = 'hidden';
 }
 
+// ===== CHART =====
+function buildChart() {
+  const canvas = document.getElementById('freq-chart');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+  const dpr = window.devicePixelRatio || 1;
+  canvas.width = 900 * dpr;
+  canvas.height = 280 * dpr;
+  ctx.scale(dpr, dpr);
+
+  const monthMap = {};
+  allEvents.forEach(ev => {
+    const d = new Date(ev.date);
+    if (isNaN(d)) return;
+    const key = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}`;
+    if (!monthMap[key]) monthMap[key] = {};
+    if (!monthMap[key][ev.step]) monthMap[key][ev.step] = 0;
+    monthMap[key][ev.step]++;
+  });
+
+  const months = Object.keys(monthMap).sort();
+  if (months.length === 0) {
+    ctx.fillStyle = '#6a6a80';
+    ctx.font = '13px sans-serif';
+    ctx.fillText('No data yet. Events will appear here as they are tracked.', 20, 140);
+    return;
+  }
+
+  const displayMonths = months.slice(-12);
+  const stepColors = {
+    1:'#4ade80',2:'#4ade80',3:'#4ade80',4:'#4ade80',5:'#4ade80',6:'#4ade80',7:'#4ade80',8:'#4ade80',
+    9:'#fbbf24',10:'#fbbf24',11:'#fbbf24',12:'#fbbf24',
+    13:'#f87171',14:'#f87171',15:'#f87171',16:'#ef4444',17:'#f87171',18:'#f87171'
+  };
+
+  const chartW = 900, chartH = 280;
+  const pad = { top: 30, right: 20, bottom: 50, left: 40 };
+  const plotW = chartW - pad.left - pad.right;
+  const plotH = chartH - pad.top - pad.bottom;
+
+  let maxVal = 0;
+  displayMonths.forEach(m => {
+    let sum = 0;
+    for (let s = 1; s <= 18; s++) sum += (monthMap[m][s] || 0);
+    maxVal = Math.max(maxVal, sum);
+  });
+  maxVal = Math.max(maxVal, 1);
+
+  ctx.clearRect(0, 0, chartW, chartH);
+  ctx.strokeStyle = '#2a2a3a';
+  ctx.lineWidth = 1;
+  for (let i = 0; i <= 5; i++) {
+    const y = pad.top + plotH - (i / 5) * plotH;
+    ctx.beginPath();
+    ctx.moveTo(pad.left, y);
+    ctx.lineTo(pad.left + plotW, y);
+    ctx.stroke();
+    ctx.fillStyle = '#6a6a80';
+    ctx.font = '10px sans-serif';
+    ctx.textAlign = 'right';
+    ctx.fillText(Math.round((i / 5) * maxVal), pad.left - 8, y + 3);
+  }
+
+  const barW = (plotW / displayMonths.length) * 0.7;
+  const gap = (plotW / displayMonths.length) * 0.3;
+  displayMonths.forEach((month, i) => {
+    const x = pad.left + i * (plotW / displayMonths.length) + gap / 2;
+    let y = pad.top + plotH;
+    for (let step = 1; step <= 18; step++) {
+      const count = monthMap[month][step] || 0;
+      if (count === 0) continue;
+      const h = (count / maxVal) * plotH;
+      y -= h;
+      ctx.fillStyle = stepColors[step];
+      ctx.fillRect(x, y, barW, h);
+      ctx.strokeStyle = '#12121a';
+      ctx.lineWidth = 1;
+      ctx.strokeRect(x, y, barW, h);
+    }
+    ctx.fillStyle = '#a0a0b8';
+    ctx.font = '10px sans-serif';
+    ctx.textAlign = 'center';
+    const [yLabel, mLabel] = month.split('-');
+    ctx.fillText(`${mLabel}/${yLabel.slice(2)}`, x + barW / 2, pad.top + plotH + 16);
+  });
+
+  ctx.fillStyle = '#e8e8f0';
+  ctx.font = '500 12px sans-serif';
+  ctx.textAlign = 'left';
+  ctx.fillText('events per month by dalio step', pad.left, 18);
+
+  const legendEl = document.getElementById('chart-legend');
+  if (legendEl) {
+    legendEl.innerHTML = `
+      <span><i style="background:#4ade80"></i>rise (steps 1-8)</span>
+      <span><i style="background:#fbbf24"></i>top (steps 9-12)</span>
+      <span><i style="background:#f87171"></i>decline (steps 13-18)</span>
+      <span><i style="background:#ef4444"></i>step 16 (reserve currency)</span>
+    `;
+  }
+}
+
+const originalRenderEvents = renderEvents;
+renderEvents = function() {
+  originalRenderEvents();
+  buildChart();
+};
+
 document.getElementById('search-input').addEventListener('input', renderEvents);
 document.getElementById('region-filter').addEventListener('change', renderEvents);
 document.getElementById('source-filter').addEventListener('change', renderEvents);
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDetail(); });
 
-setupCycleNodes();
+setupCycle();
 loadEvents();
 </script>
 
