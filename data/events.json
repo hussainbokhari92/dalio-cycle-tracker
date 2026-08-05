@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-04T08:44:41.637Z",
+  "lastUpdated": "2026-08-05T08:42:56.997Z",
   "events": [
     {
       "id": 1,
@@ -1691,6 +1691,1394 @@
         "auto-fetched",
         "rss"
       ]
+    },
+    {
+      "id": 93,
+      "title": "Analysis: Federal Reserve may be pulled into Bessent’s effort to support Japan’s yen",
+      "url": "https://www.cnbc.com/2026/08/03/bessent-fed-japan-yen-fima-repo-facility.html",
+      "date": "2026-08-03",
+      "source": "CNBC",
+      "sourceType": "news",
+      "region": "japan",
+      "step": 14,
+      "summary": "Treasury Secretary Scott Bessent wants to defend the yen without selling Treasuries into a sensitive U.S. bond market. The Federal Reserve could help.",
+      "dalioConnection": "Auto-tagged to Step 14. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 94,
+      "title": "The Republican resistance to Todd Blanche was never serious",
+      "url": "https://www.vox.com/policy/497801/todd-blanche-cornyn-tillis-cave",
+      "date": "2026-08-03",
+      "source": "Vox",
+      "sourceType": "geopolitical",
+      "region": "us",
+      "step": 14,
+      "summary": "For a brief moment late last week, it looked like acting Attorney General Todd Blanche’s bid to get the word “acting” removed from his job title was in serious trouble. But that moment appears to have passed, as two key Republican senators just signalled that…",
+      "dalioConnection": "Auto-tagged to Step 14. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 95,
+      "title": "US manufacturing hits 4-year high, with AI buildout a major driver of growth, though price volatility looms: survey",
+      "url": "https://nypost.com/2026/08/03/business/us-manufacturing-hits-4-year-high-with-ai-buildout-a-major-driver-of-growth-though-price-volatility-looms-survey/",
+      "date": "2026-08-03",
+      "source": "New York Post",
+      "sourceType": "geopolitical",
+      "region": "us",
+      "step": 2,
+      "summary": "Manufacturing activity in July hit a four-year high, with massive AI investment a major driver of growth -- even as industry leaders sounded the alarm over price volatility, according to a survey released Monday.",
+      "dalioConnection": "Auto-tagged to Step 2. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Traders in the world’s most important financial market are bracing for a wild stretch ahead",
+      "url": "https://www.marketwatch.com/story/traders-in-the-worlds-most-important-financial-market-are-bracing-for-a-wild-stretch-ahead-4a1507dc",
+      "date": "2026-08-03",
+      "source": "MarketWatch",
+      "sourceType": "news",
+      "region": "us",
+      "step": 6,
+      "summary": "Volatility is ticking higher in the $30 trillion Treasury market as investors bet that yields will push higher.",
+      "dalioConnection": "Auto-tagged to Step 6. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 97,
+      "title": "US stocks: Dow closes at record high on Iran talks optimism",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-dow-closes-at-record-high-on-iran-talks-optimism/articleshow/132841035.cms",
+      "date": "2026-08-03",
+      "source": "The Times of India",
+      "sourceType": "geopolitical",
+      "region": "us",
+      "step": 14,
+      "summary": "US stocks opened August with strong gains, pushing the Dow Industrials to a record closing high. Easing oil prices and Treasury yields supported the market's upward movement. Communication services sector led gains, while energy experienced a decline. Amazon'…",
+      "dalioConnection": "Auto-tagged to Step 14. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Stocks rise despite Iran tensions, oil up, yen eases",
+      "url": "https://www.channelnewsasia.com/business/stocks-rise-despite-iran-tensions-oil-up-yen-eases-6296466",
+      "date": "2026-08-04",
+      "source": "CNA",
+      "sourceType": "geopolitical",
+      "region": "japan",
+      "step": 13,
+      "summary": "Aug 4 : European stocks climbed alongside U.S. futures on Tuesday, although a rebound in oil prices underscored market scepticism that the U.S.-Iran war would be resolved quickly through diplomacy.Meanwhile the yen eased slightly, but held on to most of its i…",
+      "dalioConnection": "Auto-tagged to Step 13. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Stocks rise despite Iran tensions, oil up, yen eases",
+      "url": "https://finance.yahoo.com/markets/world-indices/articles/asia-stocks-move-higher-wall-003819857.html",
+      "date": "2026-08-04",
+      "source": "Yahoo Entertainment",
+      "sourceType": "geopolitical",
+      "region": "japan",
+      "step": 13,
+      "summary": "By Stefano Rebaudo Aug 4 (Reuters) - European stocks climbed alongside U.S. futures on Tuesday, although a rebound in oil prices underscored market scepticis...",
+      "dalioConnection": "Auto-tagged to Step 13. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 100,
+      "title": "India bonds pause before RBI policy, debt supply",
+      "url": "https://www.thehindubusinessline.com/markets/india-bonds-pause-before-rbi-policy-debt-supply/article71304022.ece",
+      "date": "2026-08-04",
+      "source": "BusinessLine",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 13,
+      "summary": "The benchmark 6.94% 2036 bond yield ⁠was flat at 6.8346% as of 10:30 a.m. IST.",
+      "dalioConnection": "Auto-tagged to Step 13. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 101,
+      "title": "How Europe Grows Gas Tax Revenues",
+      "url": "https://www.americanthinker.com/articles/2026/08/how-europe-grows-gas-tax-revenues/",
+      "date": "2026-08-04",
+      "source": "Americanthinker.com",
+      "sourceType": "geopolitical",
+      "region": "europe",
+      "step": 13,
+      "summary": "Photo Credit:\n \n Blademaster88By Thomas KolbeGas prices are rising again in Germany. The main culprit is the state with its towering levies.",
+      "dalioConnection": "Auto-tagged to Step 13. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 102,
+      "title": "Scott Bessent signals new era of US currency activism with coordinated yen intervention",
+      "url": "https://cryptobriefing.com/bessent-us-currency-activism-yen-intervention/",
+      "date": "2026-08-04",
+      "source": "Crypto Briefing",
+      "sourceType": "geopolitical",
+      "region": "japan",
+      "step": 13,
+      "summary": "The US's active currency intervention could weaken the dollar, potentially boosting Bitcoin and stabilizing global financial markets.\nThe post Scott Bessent signals new era of US currency activism with coordinated yen intervention appeared first on Crypto Bri…",
+      "dalioConnection": "Auto-tagged to Step 13. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 103,
+      "title": "East Java eyes investment, education partnerships with Morocco",
+      "url": "https://en.antaranews.com/news/425436/east-java-eyes-investment-education-partnerships-with-morocco",
+      "date": "2026-08-04",
+      "source": "Antaranews.com",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 3,
+      "summary": "East Java Governor Khofifah Indar Parawansa has encouraged a strategic partnership between her province and the Kingdom of Morocco, spanning investment, ...",
+      "dalioConnection": "Auto-tagged to Step 3. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 104,
+      "title": "International Petroleum Corporation Announces Second Quarter 2026 Financial and Operational Results and Releases Sustainability Report",
+      "url": "https://www.globenewswire.com/news-release/2026/08/04/3338026/0/en/International-Petroleum-Corporation-Announces-Second-Quarter-2026-Financial-and-Operational-Results-and-Releases-Sustainability-Report.html",
+      "date": "2026-08-04",
+      "source": "GlobeNewswire",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 8,
+      "summary": "International Petroleum Corporation (IPC or the Corporation) (TSX, Nasdaq Stockholm: IPCO) today released its financial and operational results and related management’s discussion and analysis (MD&A) for the three and six months ended June 30, 2026. IPC also …",
+      "dalioConnection": "Auto-tagged to Step 8. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 105,
+      "title": "International Petroleum Corporation Announces Second Quarter 2026 Financial and Operational Results and Releases Sustainability Report",
+      "url": "https://www.globenewswire.com/news-release/2026/08/04/3338025/0/en/International-Petroleum-Corporation-Announces-Second-Quarter-2026-Financial-and-Operational-Results-and-Releases-Sustainability-Report.html",
+      "date": "2026-08-04",
+      "source": "GlobeNewswire",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 8,
+      "summary": "TORONTO, Aug. 04, 2026 (GLOBE NEWSWIRE) -- International Petroleum Corporation (IPC or the Corporation) (TSX, Nasdaq Stockholm: IPCO) today released its financial and operational results and related management’s discussion and analysis (MD&A) for the three an…",
+      "dalioConnection": "Auto-tagged to Step 8. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 106,
+      "title": "AI at Work Is a Global Governance Stress Test",
+      "url": "https://clsbluesky.law.columbia.edu/2026/08/04/ai-at-work-is-a-global-governance-stress-test/",
+      "date": "2026-08-04",
+      "source": "Columbia.edu",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 2,
+      "summary": "Artificial intelligence at work is not merely a productivity story; it is a governance stress test. Unlike earlier waves of automation, which displaced routine, codifiable tasks, contemporary AI reaches into nonroutine, judgment-heavy work—drafting, summarizi…",
+      "dalioConnection": "Auto-tagged to Step 2. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 107,
+      "title": "Economic Digest: A Snapshot of Nepal’s Business News",
+      "url": "https://english.khabarhub.com/2026/04/561721/",
+      "date": "2026-08-04",
+      "source": "Khabarhub.com",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 8,
+      "summary": "KATHMANDU: Economic Digest presents a brief yet comprehensive roundup of major business developments in Nepal, delivered in clear and accessible summaries. Nepal’s latest economic indicators present a mixed picture of resilience alongside persistent structura…",
+      "dalioConnection": "Auto-tagged to Step 8. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 108,
+      "title": "Full Skynet: Why the Pentagon’s AI-First Military Is a Nightmare That Threatens Humanity",
+      "url": "https://www.naturalnews.com/2026-08-04-full-skynet-pentagon-ai-first-military-nightmare.html",
+      "date": "2026-08-04",
+      "source": "Naturalnews.com",
+      "sourceType": "geopolitical",
+      "region": "us",
+      "step": 2,
+      "summary": "The Skynet Nightmare Becomes Reality The Pentagon calls America’s AI-first military its new “manifest destiny.” I call it a one-way ticket to a dystopia we may never escape. Before this decade ends, autonomous kill drones and robot soldiers will make human tr…",
+      "dalioConnection": "Auto-tagged to Step 2. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 109,
+      "title": "Hugging Face CEO Says China Leads AI Race With Open-Weight Models",
+      "url": "https://www.naturalnews.com/2026-08-04-hugging-face-ceo-china-leads-ai-race.html",
+      "date": "2026-08-04",
+      "source": "Naturalnews.com",
+      "sourceType": "geopolitical",
+      "region": "china",
+      "step": 2,
+      "summary": "Hugging Face CEO Clément Delangue said Monday that China is winning the artificial intelligence race with open-weight models and could catch up to U.S. frontier labs by the end of 2026 or in 2027, according to CNBC. Open-weight models are AI systems whose tra…",
+      "dalioConnection": "Auto-tagged to Step 2. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 110,
+      "title": "Israeli startup Zenity bags $125M in funding to build the security layer for AI agents",
+      "url": "https://siliconangle.com/2026/08/03/israeli-startup-zenity-bags-125m-funding-build-security-layer-ai-agents/",
+      "date": "2026-08-04",
+      "source": "SiliconANGLE News",
+      "sourceType": "geopolitical",
+      "region": "us",
+      "step": 2,
+      "summary": "Artificial intelligence security startup Zenity Ltd. said today it has closed on a $125 million Series C round of funding to expand its platform, which secures autonomous agents in production across large global organizations. Today’s round was led by Norwest…",
+      "dalioConnection": "Auto-tagged to Step 2. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 111,
+      "title": "Experimental AI systems have been going on hacking sprees",
+      "url": "https://theconversation.com/experimental-ai-systems-have-been-going-on-hacking-sprees-288907",
+      "date": "2026-08-04",
+      "source": "The Conversation Africa",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 2,
+      "summary": "AI systems need ‘situational awareness’ to do the right thing – but recent events show they can get confused.",
+      "dalioConnection": "Auto-tagged to Step 2. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 112,
+      "title": "Live updates: Bitcoin at $63,600 as rare US-Japan yen action tests carry-trade fears",
+      "url": "https://www.coindesk.com/business/2026/08/04/live-updates-bitcoin-at-usd63-600-as-rare-us-japan-yen-action-tests-carry-trade-fears",
+      "date": "2026-08-04",
+      "source": "CoinDesk",
+      "sourceType": "geopolitical",
+      "region": "japan",
+      "step": 13,
+      "summary": "Japan may have spent as much as $36.6 billion buying yen in the first joint US-Japan action to support the currency since 1998. Bitget Wallet’s Alvin Kan says it can slow a disorderly slide without reversing the broader trend.",
+      "dalioConnection": "Auto-tagged to Step 13. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 113,
+      "title": "Trump calls US-Japan yen purchases a signal of friendship, and crypto markets are paying attention",
+      "url": "https://cryptobriefing.com/trump-us-japan-yen-intervention-crypto-impact/",
+      "date": "2026-08-04",
+      "source": "Crypto Briefing",
+      "sourceType": "geopolitical",
+      "region": "japan",
+      "step": 13,
+      "summary": "The US-Japan yen intervention highlights geopolitical ties and poses risks to crypto markets, potentially triggering volatility and asset sell-offs.\nThe post Trump calls US-Japan yen purchases a signal of friendship, and crypto markets are paying attention ap…",
+      "dalioConnection": "Auto-tagged to Step 13. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 114,
+      "title": "US and Japan jointly intervene to prop up the yen for the first time since 1998, and crypto markets are paying attention",
+      "url": "https://cryptobriefing.com/us-japan-yen-intervention-crypto-impact-4/",
+      "date": "2026-08-03",
+      "source": "Crypto Briefing",
+      "sourceType": "geopolitical",
+      "region": "japan",
+      "step": 13,
+      "summary": "The joint intervention signals potential shifts in global economic strategies, impacting currency stability and influencing crypto market dynamics.\nThe post US and Japan jointly intervene to prop up the yen for the first time since 1998, and crypto markets ar…",
+      "dalioConnection": "Auto-tagged to Step 13. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 115,
+      "title": "Bessent Note at Camp David Proves \"The End is Nigh\"",
+      "url": "https://freerepublic.com/focus/f-news/4390444/posts",
+      "date": "2026-08-03",
+      "source": "Freerepublic.com",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 13,
+      "summary": "Whether this scenario unfolds quickly over the next few days...or over the next few weeks or months...is unknown...but doesn't really matter at this stage of the world's 50+ year experiment with fiat currencies. It is a process that is not only accelerating..…",
+      "dalioConnection": "Auto-tagged to Step 13. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 116,
+      "title": "India's chip startups are cracking chip design. Now they need buyers",
+      "url": "https://www.livemint.com/companies/india-semiconductor-chip-startups-tape-out-paying-customers-11785758066135.html",
+      "date": "2026-08-04",
+      "source": "Livemint",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 2,
+      "summary": "India has been promoting sovereign chip capabilities through initiatives like the Design Linked Incentive (DLI) scheme, the newer Research, Development and Innovation (RDI) fund, and the broader India Semiconductor Mission.",
+      "dalioConnection": "Auto-tagged to Step 2. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 117,
+      "title": "Global Market: China stocks rebound on AI, chip rally; Hong Kong shares slip",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-stocks-rebound-on-ai-chip-rally-hong-kong-shares-slip/articleshow/132849652.cms",
+      "date": "2026-08-04",
+      "source": "The Times of India",
+      "sourceType": "geopolitical",
+      "region": "china",
+      "step": 11,
+      "summary": "Chinese stocks rebounded on Tuesday, led by gains in AI and semiconductor shares, as renewed optimism over the sector and a global technology rally lifted sentiment. While mainland markets advanced, Hong Kong shares slipped despite gains in Alibaba, with inve…",
+      "dalioConnection": "Auto-tagged to Step 11. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 118,
+      "title": "TSMC confirms Kumamoto JASM fab has returned to full operations after magnitude 7.1 earthquake",
+      "url": "https://cryptobriefing.com/tsmc-kumamoto-jasm-fab-full-operations/",
+      "date": "2026-08-04",
+      "source": "Crypto Briefing",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 11,
+      "summary": "TSMC's rapid recovery highlights the resilience of its diversified supply chain, mitigating potential global semiconductor disruptions.\nThe post TSMC confirms Kumamoto JASM fab has returned to full operations after magnitude 7.1 earthquake appeared first on C…",
+      "dalioConnection": "Auto-tagged to Step 11. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 119,
+      "title": "Nvidia dominates AI infrastructure, maintaining US hegemony over global compute",
+      "url": "https://cryptobriefing.com/nvidia-ai-infrastructure-us-hegemony-crypto/",
+      "date": "2026-08-04",
+      "source": "Crypto Briefing",
+      "sourceType": "geopolitical",
+      "region": "us",
+      "step": 2,
+      "summary": "Nvidia's AI infrastructure dominance reinforces US tech supremacy, influencing global AI investment trends and crypto market dynamics.\nThe post Nvidia dominates AI infrastructure, maintaining US hegemony over global compute appeared first on Crypto Briefing.",
+      "dalioConnection": "Auto-tagged to Step 2. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 120,
+      "title": "China tightens chip layout design protection to strengthen domestic semiconductor innovation",
+      "url": "https://www.digitimes.com/news/a20260804VL206/beijing-ic-design-regulation.html",
+      "date": "2026-08-04",
+      "source": "Digitimes",
+      "sourceType": "geopolitical",
+      "region": "china",
+      "step": 2,
+      "summary": "China has revised its regulations on the protection of integrated circuit (IC) layout designs, introducing stricter registration requirements, stronger enforcement measures and clearer commercialization rules as Beijing steps up efforts to strengthen its dome…",
+      "dalioConnection": "Auto-tagged to Step 2. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 121,
+      "title": "Why Have China and Russia Just Stepped Out of the Shadows in the U.S.-Iran War?",
+      "url": "https://www.nakedcapitalism.com/2026/08/why-have-china-and-russia-just-stepped-out-of-the-shadows-in-the-u-s-iran-war.html",
+      "date": "2026-08-04",
+      "source": "Nakedcapitalism.com",
+      "sourceType": "geopolitical",
+      "region": "china",
+      "step": 16,
+      "summary": "Readers will hopefully have fun with extreme neocon Simon Watkins' upset that Russia and China dare support Iran, and worse, more openly.",
+      "dalioConnection": "Auto-tagged to Step 16. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 122,
+      "title": "Apple’s India sales top $10 billion on widening retail push",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-04/apple-s-india-sales-top-10-billion-on-widening-retail-push",
+      "date": "2026-08-04",
+      "source": "Bloomberg",
+      "sourceType": "news",
+      "region": "china",
+      "step": 16,
+      "summary": "India could further gain in significance given the US’s increasingly uneasy geopolitical relationship with China, which is the Cupertino, California-based company’s largest overseas market",
+      "dalioConnection": "Auto-tagged to Step 16. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 123,
+      "title": "Apple’s India sales top $10 billion on widening retail push",
+      "url": "https://economictimes.indiatimes.com/industry/cons-products/electronics/apples-india-sales-top-10-billion-on-widening-retail-push/articleshow/132852104.cms",
+      "date": "2026-08-04",
+      "source": "The Times of India",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 16,
+      "summary": "Apple crossed $10 billion in annual sales in India for the first time in FY26, with revenue growing at a double-digit rate from about $9 billion a year earlier, according to a person familiar with the matter. iPhones accounted for the bulk of sales, while dem…",
+      "dalioConnection": "Auto-tagged to Step 16. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 124,
+      "title": "Delhi NCR emerges as the largest logistics and industrial market",
+      "url": "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/delhi-ncr-emerges-as-the-largest-logistics-and-industrial-market/articleshow/132851743.cms",
+      "date": "2026-08-04",
+      "source": "The Times of India",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 16,
+      "summary": "Delhi-NCR emerged as India's largest logistics and industrial real estate market in the first half of 2026, with 8.7 million sq ft (MSF) of leasing, up 69% year-on-year, and accounting for 24% of total demand, according to Cushman & Wakefield.",
+      "dalioConnection": "Auto-tagged to Step 16. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 125,
+      "title": "Standard Chartered is leaving Sri Lanka, referring customers to DFCC.",
+      "url": "https://english.gossiplankanews.com/2026/08/standard-chartered-is-leaving-sri-lanka.html",
+      "date": "2026-08-04",
+      "source": "Gossiplankanews.com",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 12,
+      "summary": "DFCC Bank has successfully completed the acquisition of Standard Chartered Sri Lanka's Wealth Management and Retail Banking business. With this significant strategic move, nearly 50,000 Standard Chartered Bank customers, as well as employees from the relevant…",
+      "dalioConnection": "Auto-tagged to Step 12. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 126,
+      "title": "Chelsea sign Henderson on two-year contract",
+      "url": "https://thefootballfaithful.com/chelsea-sign-henderson-on-two-year-contract/",
+      "date": "2026-08-04",
+      "source": "The Football Faithful",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 12,
+      "summary": "Chelsea have completed the signing of Jordan Henderson on a two-year contract after the England midfielder mutually agreed to terminate his deal with Brentford.The 36-year-old arrives at Stamford Brid...",
+      "dalioConnection": "Auto-tagged to Step 12. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 127,
+      "title": "Watch: 'Slippers hurled, effigy burnt' as DMK protest turns dramatic over Udhayanidhi Stalin's detention",
+      "url": "https://timesofindia.indiatimes.com/city/chennai/watch-slippers-hurled-effigy-burnt-as-dmk-protest-turns-dramatic-over-udhayanidhi-stalins-detention/articleshow/132852713.cms",
+      "date": "2026-08-04",
+      "source": "The Times of India",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 15,
+      "summary": "Tuesday's protest in Thanjavur saw DMK activists rallying against the detention of Udhayanidhi Stalin. Tensions flared as demonstrators threw slippers at the police and ignited an effigy in defiance. Concurrently, TVK activists organized a protest nearby, amp…",
+      "dalioConnection": "Auto-tagged to Step 15. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 128,
+      "title": "BrightSpring Health Services, Inc. Reports Second Quarter 2026 Financial Results and Increases Full Year 2026 Guidance",
+      "url": "https://pr.holladayjournal.com/article/BrightSpring-Health-Services-Inc-Reports-Second-Quarter-2026-Financial-Results-and-Increases-Full-Year-2026-Guidance/6a6c72fb0b3f8c6777521821",
+      "date": "2026-08-04",
+      "source": "Holladayjournal.com",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 15,
+      "summary": "The Holladay Journal is the local newspaper covering news and events in the city of Holladay, Utah. The Holladay Journal provides one of the best advertising channels to the residents of the city of Holladay. Holladayjournal.com is the online lead...",
+      "dalioConnection": "Auto-tagged to Step 15. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 129,
+      "title": "Former progressive Squad member Cori Bush attempts political comeback against Missouri US Rep. Bell",
+      "url": "https://abcnews.com/Politics/wireStory/former-progressive-squad-member-cori-bush-attempts-political-135344280",
+      "date": "2026-08-04",
+      "source": "Abcnews.com",
+      "sourceType": "geopolitical",
+      "region": "us",
+      "step": 15,
+      "summary": "Former U.S. Rep. Cori Bush is attempting a political comeback in a Missouri Democratic primary",
+      "dalioConnection": "Auto-tagged to Step 15. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 130,
+      "title": "Let the IDF win",
+      "url": "https://www.israelnationalnews.com/news/431199",
+      "date": "2026-08-04",
+      "source": "Israelnationalnews.com",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 15,
+      "summary": "In talking with IDF soldiers, Jonathan Pollard hears opinions that should be carefully listened to by decision makers.",
+      "dalioConnection": "Auto-tagged to Step 15. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 131,
+      "title": "‘I’m going to stab both of you!’ Watch Nick Shirley get VIOLENTLY ATTACKED, chased and stoned by invaders in Ceuta, Spain",
+      "url": "https://www.wnd.com/2026/08/im-going-stab-both-you-watch-nick-shirley/",
+      "date": "2026-08-03",
+      "source": "Wnd.com",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 15,
+      "summary": "'HE HAS A KNIFE. We got people throwing stuff at us. He's throwing rocks!'",
+      "dalioConnection": "Auto-tagged to Step 15. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 132,
+      "title": "The cost of being single – and how friends are teaming up to beat it",
+      "url": "https://www.bbc.co.uk/news/articles/cly7dqprlnvo?at_medium=RSS&at_campaign=rss",
+      "date": "",
+      "source": "BBC Business",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 10,
+      "summary": "Many singles face extra costs for housing, bills, food and holidays but there are ways to ease the burden.",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 133,
+      "title": "SpaceX shares sink after first earnings report reveals huge AI spending plans",
+      "url": "https://www.bbc.co.uk/news/articles/c0qvpveg20vo?at_medium=RSS&at_campaign=rss",
+      "date": "Wed, 05 Aug 2026 08:18:03 GM",
+      "source": "BBC Business",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 10,
+      "summary": "Elon Musk said during a call with financial analysts that people were \"underestimating\" his company.",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 134,
+      "title": "'I feel like I dug my own grave': The workers caught in the AI transition",
+      "url": "https://www.bbc.co.uk/news/articles/cgr7nxve05go?at_medium=RSS&at_campaign=rss",
+      "date": "",
+      "source": "BBC Business",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 10,
+      "summary": "AI is reshaping the Philippines' outsourcing industry, raising questions over the future of the industry.",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 135,
+      "title": "Fashion brand Jaded has ad banned for 'glamorising smoking'",
+      "url": "https://www.bbc.co.uk/news/articles/cly843vd3jmo?at_medium=RSS&at_campaign=rss",
+      "date": "",
+      "source": "BBC Business",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 10,
+      "summary": "The advertising watchdog said Jaded London's marketing email made smoking seem appealing.",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 136,
+      "title": "SpaceX dives 10% after AI spending surge rattles investors",
+      "url": "https://www.cnbc.com/2026/08/05/spacex-spcx-stock-today-earnings.html",
+      "date": "Wed, 05 Aug 2026 08:20:46 GM",
+      "source": "CNBC Markets",
+      "sourceType": "news",
+      "region": "us",
+      "step": 10,
+      "summary": "CEO Elon Musk said SpaceX would hit $1 trillion in annual revenue in 2030 versus a previous forecast of 2031 as he looked to strike an bullish tone.",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 137,
+      "title": "U.S. says Strait of Hormuz is 'free and open' as Bessent signals deal with Iran is close",
+      "url": "https://www.cnbc.com/2026/08/05/us-iran-war-trump-hormuz-bessent-iran-deal-close.html",
+      "date": "Wed, 05 Aug 2026 04:39:09 GM",
+      "source": "CNBC Markets",
+      "sourceType": "news",
+      "region": "global",
+      "step": 10,
+      "summary": "U.S. Central Command said the \"southern route of the Strait of Hormuz remains free and open\"",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 138,
+      "title": "Novo Nordisk CEO defends economics of Wegovy pill as lower prices weigh on sales; shares fall",
+      "url": "https://www.cnbc.com/2026/08/05/novo-nordisk-stock-guidance-earnings-wegovy-ozempic-eli-lilly.html",
+      "date": "Wed, 05 Aug 2026 08:32:08 GM",
+      "source": "CNBC Markets",
+      "sourceType": "news",
+      "region": "global",
+      "step": 10,
+      "summary": "Wall Street isn't convinced the Ozempic maker has a promising path back to sustainable growth as competition from Eli Lilly intensifies.",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 139,
+      "title": "Europe is blowing up riverbeds as an extreme drought wreaks havoc on its economy",
+      "url": "https://www.cnbc.com/2026/08/05/drought-rhine-danube-water-levels-economy.html",
+      "date": "Wed, 05 Aug 2026 07:15:17 GM",
+      "source": "CNBC Markets",
+      "sourceType": "news",
+      "region": "europe",
+      "step": 10,
+      "summary": "Severe drought is disrupting energy and freight across Europe as low Rhine and Danube levels raise risks for supply chains and economic growth.",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 140,
+      "title": "Stocks return to record highs. Investors who sat tight during the recent momentum crash are being rewarded.",
+      "url": "https://www.marketwatch.com/story/stocks-return-to-record-highs-investors-who-sat-tight-during-the-recent-momentum-crash-are-being-rewarded-8c960105?mod=mw_rss_topstories",
+      "date": "",
+      "source": "MarketWatch",
+      "sourceType": "news",
+      "region": "global",
+      "step": 10,
+      "summary": "The S&P 500 booked its 25th record close of 2026, after a 42-day break.",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 141,
+      "title": "Upstart’s AI upgrades pay off, as a pickup in loan growth helps send the stock higher",
+      "url": "https://www.marketwatch.com/story/upstarts-ai-upgrades-pay-off-as-a-pickup-in-loan-growth-helps-send-the-stock-higher-32e7ec9d?mod=mw_rss_topstories",
+      "date": "",
+      "source": "MarketWatch",
+      "sourceType": "news",
+      "region": "global",
+      "step": 10,
+      "summary": "The AI lending company says it’s enhanced its model to better assess the risk of borrowers.",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 142,
+      "title": "Chipotle pulls jalapenos from some locations after salmonella investigation. Here’s what to know.",
+      "url": "https://www.marketwatch.com/story/chipotle-pulls-jalapenos-from-some-locations-after-salmonella-investigation-heres-what-to-know-20d8c66f?mod=mw_rss_topstories",
+      "date": "",
+      "source": "MarketWatch",
+      "sourceType": "news",
+      "region": "global",
+      "step": 8,
+      "summary": "While Chipotle’s stock slid on Tuesday, it said health investigators had “no ongoing concerns” with the chain after it removed the jalapenos.",
+      "dalioConnection": "Auto-tagged to Step 8. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 143,
+      "title": "Stocks face their weakest seasonal stretch. Why extreme investor pessimism could limit any selling.",
+      "url": "https://www.marketwatch.com/story/stocks-face-their-weakest-seasonal-stretch-why-extreme-investor-pessimism-could-limit-any-selling-768261e9?mod=mw_rss_topstories",
+      "date": "",
+      "source": "MarketWatch",
+      "sourceType": "news",
+      "region": "global",
+      "step": 10,
+      "summary": "U.S. stocks are entering what has historically been the weakest stretch of the year, but unusually bearish investor sentiment could help limit any pullback, according to Ned Davis Research.",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 144,
+      "title": "Innovative Industrial Properties: Great Risks, Rich Dividends - Short-Term Contrarian Play",
+      "url": "https://seekingalpha.com/article/4930549-innovative-industrial-properties-reit-great-risks-rich-dividends-short-term-contrarian-play?source=feed_all_articles",
+      "date": "Wed, 05 Aug 2026 04:38:27 -0400",
+      "source": "Seeking Alpha",
+      "sourceType": "news",
+      "region": "global",
+      "step": 10,
+      "summary": "",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 145,
+      "title": "Ibstock plc 2026 Q2 - Results - Earnings Call Presentation",
+      "url": "https://seekingalpha.com/article/4930581-ibstock-plc-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
+      "date": "Wed, 05 Aug 2026 04:34:11 -0400",
+      "source": "Seeking Alpha",
+      "sourceType": "news",
+      "region": "global",
+      "step": 10,
+      "summary": "",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 146,
+      "title": "Siemens Energy AG 2026 Q3 - Results - Earnings Call Presentation",
+      "url": "https://seekingalpha.com/article/4930580-siemens-energy-ag-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "date": "Wed, 05 Aug 2026 04:33:21 -0400",
+      "source": "Seeking Alpha",
+      "sourceType": "news",
+      "region": "global",
+      "step": 10,
+      "summary": "",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 147,
+      "title": "Credito Emiliano S.p.A. 2026 Q2 - Results - Earnings Call Presentation",
+      "url": "https://seekingalpha.com/article/4930579-credito-emiliano-s-p-a-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
+      "date": "Wed, 05 Aug 2026 04:33:04 -0400",
+      "source": "Seeking Alpha",
+      "sourceType": "news",
+      "region": "global",
+      "step": 10,
+      "summary": "",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 148,
+      "title": "A NYT Headline About Trump Economy That We Had To Read Twice",
+      "url": "https://www.realclearmarkets.com/2026/08/05/a_nyt_headline_about_trump_economy_that_we_had_to_read_twice_1198519.html",
+      "date": "Wed, 05 Aug 2026 03:00:22 -0500",
+      "source": "RealClearMarkets",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 10,
+      "summary": "Editorial, I & I \n We had to look twice at this headline in the New York Times to believe it.",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 149,
+      "title": "In Defense of Paramount's Purchase of Warner Bros.",
+      "url": "https://www.realclearmarkets.com/2026/08/05/in_defense_of_paramounts_purchase_of_warner_bros_1198509.html",
+      "date": "Wed, 05 Aug 2026 03:00:14 -0500",
+      "source": "RealClearMarkets",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 10,
+      "summary": "David Ellison, New York Times \n Many people have weighed in on Paramount's agreement to acquire Warner Bros. Discovery — media analysts, power brokers, political commentators, competitors and,...",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 150,
+      "title": "The Hidden Cost of Government's Business Buying Spree",
+      "url": "https://www.realclearmarkets.com/2026/08/05/the_hidden_cost_of_governments_business_buying_spree_1198513.html",
+      "date": "Wed, 05 Aug 2026 03:00:18 -0500",
+      "source": "RealClearMarkets",
+      "sourceType": "geopolitical",
+      "region": "us",
+      "step": 10,
+      "summary": "Editorial, Washington Post \n The U.S. government just took ownership...",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 151,
+      "title": "Trump Undermines Market Efficiency & Innovation",
+      "url": "https://www.realclearmarkets.com/2026/08/05/trump_undermines_market_efficiency_and_innovation_1198476.html",
+      "date": "Wed, 05 Aug 2026 03:00:13 -0500",
+      "source": "RealClearMarkets",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 1,
+      "summary": "Clifford Winston, RealClearMarkets \n There is rarely a day that passes without a news headline—such as recent reports of President Donald Trump...",
+      "dalioConnection": "Auto-tagged to Step 1. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 152,
+      "title": "Progressive Will Lawrence wins key Michigan House primary in blow to Dem leaders",
+      "url": "https://www.axios.com/2026/08/05/michigan-7th-district-will-lawrence-maasdam-brink",
+      "date": "Wed, 05 Aug 2026 03:31:15 +0000",
+      "source": "Axios",
+      "sourceType": "geopolitical",
+      "region": "us",
+      "step": 1,
+      "summary": "Sunrise Movement co-founder Will Lawrence is the latest progressive candidate to notch an upset Democratic House primary win — this time in a key battleground district in Michigan.\nWhy it matters: The seat is a top target for Democrats in November, but party leaders fear that Lawrence's left-leaning politics will make it much harder to win.\n\nSeveral top House Democratic moderates expressed the vie",
+      "dalioConnection": "Auto-tagged to Step 1. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 153,
+      "title": "U.S. nears Hormuz deal, aiming for Wednesday announcement",
+      "url": "https://www.axios.com/2026/08/05/us-iran-strait-of-hormuz-deal-nears",
+      "date": "Wed, 05 Aug 2026 02:00:21 +0000",
+      "source": "Axios",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 1,
+      "summary": "The U.S., Iran and Oman are closing in on an interim agreement to reopen the Strait of Hormuz, with the U.S. aiming for a Wednesday announcement, according to two regional sources and a U.S. official.\nWhy it matters: The deal, which has been under negotiations for several weeks, is aimed at resuming the ceasefire between the U.S. and Iran and restarting negotiations over a nuclear deal. \n\nPresiden",
+      "dalioConnection": "Auto-tagged to Step 1. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 154,
+      "title": "Establishment Democrats notch rare win as Wesley Bell fends off DSA-backed Cori Bush",
+      "url": "https://www.axios.com/2026/08/05/wesley-bell-cori-bush-dsa-aipac-missouri-st-louis",
+      "date": "Wed, 05 Aug 2026 01:10:28 +0000",
+      "source": "Axios",
+      "sourceType": "geopolitical",
+      "region": "us",
+      "step": 1,
+      "summary": "Rep. Wesley Bell (D-Mo.) defeated former Rep. Cori Bush in his primary on Tuesday, thwarting an attempt by left-wing groups, including the Democratic Socialists of America, to avenge Bush's 2024 loss.\nWhy it matters: It's a win for the Democratic establishment in an election cycle where triumphs against left-wing insurgents have been few and far between. \n\nBell's win was propelled in part by Unite",
+      "dalioConnection": "Auto-tagged to Step 1. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 155,
+      "title": "Man arrested near Trump golf course after gun found in car",
+      "url": "https://www.axios.com/2026/08/05/trump-golf-course-arrest-la",
+      "date": "Wed, 05 Aug 2026 00:49:32 +0000",
+      "source": "Axios",
+      "sourceType": "geopolitical",
+      "region": "us",
+      "step": 1,
+      "summary": "Authorities said Tuesday they arrested a suspect near President Trump's Los Angeles-area golf course ahead of his fundraising visit.\nThe big picture: Jeanine John Taele, 38, of Downey, California, was arrested Sunday after deputies say they found a pistol and illegal ammunition in his vehicle in a parking lot at Trump National Golf Club in Rancho Palos Verdes, according to the Los Angeles County S",
+      "dalioConnection": "Auto-tagged to Step 1. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 156,
+      "title": "Appalachia's black lung rates highest in nearly 50 years as miners' protections stall",
+      "url": "https://www.npr.org/2026/08/05/nx-s1-5894884/appalachia-black-lung-coal-miners-silica-dust",
+      "date": "Wed, 05 Aug 2026 04:01:00 -0400",
+      "source": "NPR News",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 10,
+      "summary": "Rates are now as bad as the 1970s, with thousands of miners sick and dying. Mining experts blame toxic silica dust, now more common in mines.",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 157,
+      "title": "MLS named LAFC co-owner Larry Berg as its next commissioner. Here's what to know",
+      "url": "https://www.npr.org/2026/08/05/nx-s1-5919621/mls-commissioner-larry-berg-major-league-soccer",
+      "date": "Wed, 05 Aug 2026 00:00:00 -0400",
+      "source": "NPR News",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 10,
+      "summary": "For their commissioner of the future, MLS owners chose a soccer native. Berg's team is seen as one of MLS's best-run franchises, and he has embraced rule changes designed to modernize the league.",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 158,
+      "title": "Authorities arrested a man with ammo and apparently monitoring security at Trump golf course near LA",
+      "url": "https://www.npr.org/2026/08/04/g-s1-137415/trump-golf-course-arrest-california",
+      "date": "",
+      "source": "NPR News",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 10,
+      "summary": "The Los Angeles County Sheriff's Department said Jeanine John Taele, 38, was taking photos and video and had a 16-round magazine with ammunition in his pocket.",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 159,
+      "title": "SpaceX's revenue rises as its once-soaring stock price drifts back to Earth",
+      "url": "https://www.npr.org/2026/08/04/nx-s1-5918536/spacex-first-earnings-report-since-ipo",
+      "date": "",
+      "source": "NPR News",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 10,
+      "summary": "On their first earnings call since SpaceX's June public offering, executives said the company is pouring funds into rocket development, Starlink satellites and AI.",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 160,
+      "title": "Indonesia’s Prabowo is happy to play mediator to both Koreas. But does North want him to?",
+      "url": "https://www.scmp.com/week-asia/politics/article/3363040/indonesias-prabowo-happy-play-mediator-both-koreas-does-north-want-him?utm_source=rss_feed",
+      "date": "Wed, 05 Aug 2026 08:35:24 +0000",
+      "source": "South China Morning Post",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 1,
+      "summary": "Indonesian President Prabowo Subianto is keen to visit North Korea – a trip that could boost Jakarta’s diplomatic clout and allow it to act as a bridge between Seoul and Pyongyang.\nBut Indonesians might not support another overseas trip, given negative public opinion of Prabowo’s frequent travels, analysts warn. Plus, he has not even been invited by the increasingly isolated North Korea.\nAt a meet",
+      "dalioConnection": "Auto-tagged to Step 1. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 161,
+      "title": "To lead Greater Bay Area integration, Hong Kong can look to San Francisco",
+      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3362299/lead-greater-bay-area-integration-hong-kong-can-look-san-francisco?utm_source=rss_feed",
+      "date": "Wed, 05 Aug 2026 08:30:06 +0000",
+      "source": "South China Morning Post",
+      "sourceType": "geopolitical",
+      "region": "us",
+      "step": 10,
+      "summary": "Hong Kong’s first-ever five-year plan for economic and social development (2026-2030) is out for public consultation. The section on the “development of regional cooperation” stands out for its call to “advance the development of key cooperation platforms, and strengthen collaboration with other areas, provinces, municipalities and autonomous regions in the mainland”.\nSimilarly, Shenzhen has set o",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 162,
+      "title": "Beijing decries ‘bullying’ US tech curbs that ensnare Chinese firms and products",
+      "url": "https://www.scmp.com/economy/global-economy/article/3363036/beijing-decries-bullying-us-tech-curbs-ensnare-chinese-firms-and-products?utm_source=rss_feed",
+      "date": "Wed, 05 Aug 2026 08:11:46 +0000",
+      "source": "South China Morning Post",
+      "sourceType": "geopolitical",
+      "region": "china",
+      "step": 6,
+      "summary": "A mouthpiece of China’s ruling Communist Party has urged Washington to expand its cooperation list with Beijing rather than add to a restrictive “Covered List”, pushing back against broadening US curbs on Chinese technology exports.\nThe pushback came just days after the Federal Communications Commission (FCC) added foreign-made power inverters and advanced robotics, including humanoids, to its so-",
+      "dalioConnection": "Auto-tagged to Step 6. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 163,
+      "title": "Hong Kong tests thermal drones to catch illegal smoking at construction sites",
+      "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3363030/hong-kong-tests-thermal-drones-catch-illegal-smoking-construction-sites?utm_source=rss_feed",
+      "date": "Wed, 05 Aug 2026 07:34:27 +0000",
+      "source": "South China Morning Post",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 2,
+      "summary": "Hong Kong labour authorities have begun testing an infrared thermal-imaging drone to detect heat sources and illegal smoking at construction sites, with plans to add artificial intelligence (AI) to identify smoking workers.\nSince the total site smoking ban took effect on July 17, about 1,400 construction sites have been inspected as of Tuesday, according to Wan Chi-ping, assistant commissioner for",
+      "dalioConnection": "Auto-tagged to Step 2. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 164,
+      "title": " Organizers of summer festivals in Tohoku strengthen measures against bears ",
+      "url": "https://www.japantimes.co.jp/news/2026/08/05/japan/society/japan-summer-festivals-bears/",
+      "date": "Wed, 05 Aug 2026 17:40:00 +0900",
+      "source": "Japan Times",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 10,
+      "summary": "While protocols vary across prefectures, several organizers say events may be canceled if a bear is spotted within a certain distance of the festival venue.",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 165,
+      "title": " Owner of Kumamoto inn with expresses resolve amid concern over earthquake damage ",
+      "url": "https://www.japantimes.co.jp/news/2026/08/05/japan/kumamoto-earthquake-inn-voice-worries/",
+      "date": "Wed, 05 Aug 2026 17:35:00 +0900",
+      "source": "Japan Times",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 10,
+      "summary": "The inn, the main building and main gate of which are nationally registered tangible cultural properties, suffered extensive damage in the July 28 quake.",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 166,
+      "title": " Trump vowed to ‘bring free speech back.’ Judges in 75 cases ruled he has stifled it. ",
+      "url": "https://www.japantimes.co.jp/news/2026/08/05/world/politics/trump-free-speech-75-cases/",
+      "date": "Wed, 05 Aug 2026 17:21:00 +0900",
+      "source": "Japan Times",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 1,
+      "summary": "U.S. President Donald Trump administration officials have repeatedly called federal judges ruling against them \"activists\" interfering with the president's executive authority.",
+      "dalioConnection": "Auto-tagged to Step 1. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 167,
+      "title": " How China keeps tabs on foreigners ",
+      "url": "https://www.japantimes.co.jp/news/2026/08/05/asia-pacific/society/how-china-tracks-foreigners/",
+      "date": "Wed, 05 Aug 2026 17:15:00 +0900",
+      "source": "Japan Times",
+      "sourceType": "geopolitical",
+      "region": "china",
+      "step": 10,
+      "summary": "A futuristic dashboard — like something from the movie \"Minority Report\" — that appeared to track foreigners in a city was uncovered by an Amsterdam-based cybersecurity researcher.",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "title": "10-Year Treasury Yield: 4.7000000000 (-1.05% vs prior)",
+      "url": "https://fred.stlouisfed.org/series/DGS10",
+      "date": "2026-08-03",
+      "source": "FRED",
+      "sourceType": "data",
+      "region": "us",
+      "step": 13,
+      "summary": "Latest 10-Year Treasury Yield released: 4.7000000000 for 2026-08-03. Real yields falling while deficit widens = forced inflows thesis intact.",
+      "dalioConnection": "Step 13 data release. 10-Year Treasury Yield is a key indicator for tracking the empire cycle.",
+      "thesisConnection": "Real yields falling while deficit widens = forced inflows thesis intact.",
+      "watch": "Real yields falling while deficit widens = forced inflows thesis intact.",
+      "tags": [
+        "fred",
+        "economic-data",
+        "dgs10"
+      ],
+      "id": 168
+    },
+    {
+      "title": "Trade-Weighted Dollar Index: 119.7034000000 (+0.02% vs prior)",
+      "url": "https://fred.stlouisfed.org/series/DTWEXBGS",
+      "date": "2026-07-31",
+      "source": "FRED",
+      "sourceType": "data",
+      "region": "us",
+      "step": 16,
+      "summary": "Latest Trade-Weighted Dollar Index released: 119.7034000000 for 2026-07-31. Dollar strength despite deficits validates the reserve currency machine.",
+      "dalioConnection": "Step 16 data release. Trade-Weighted Dollar Index is a key indicator for tracking the empire cycle.",
+      "thesisConnection": "Dollar strength despite deficits validates the reserve currency machine.",
+      "watch": "Dollar strength despite deficits validates the reserve currency machine.",
+      "tags": [
+        "fred",
+        "economic-data",
+        "dtwexbgs"
+      ],
+      "id": 169
     }
   ]
 }
