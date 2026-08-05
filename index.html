@@ -681,6 +681,9 @@
 </div>
 
 <script>
+// ============================================================
+// CONFIG
+// ============================================================
 const STEPS = {
   1: { name: "Strong Leadership", phase: "rise", desc: "Rising empires begin with strong, capable leadership that unifies and directs the nation toward growth." },
   2: { name: "Inventiveness", phase: "rise", desc: "Investment in education, technology, and innovation drives the next wave of competitiveness." },
@@ -702,27 +705,326 @@ const STEPS = {
   18: { name: "Civil War / Revolution", phase: "decline", desc: "The empire collapses into internal violence or revolution as the old order breaks down." }
 };
 
-const PHASE_COLORS = {
-  rise: { bg: 'rgba(74,222,128,0.15)', text: '#4ade80' },
-  top: { bg: 'rgba(251,191,36,0.15)', text: '#fbbf24' },
-  decline: { bg: 'rgba(248,113,113,0.15)', text: '#f87171' }
+const HYPE_DATA = {
+  "AI": { label: "Generative AI", phase: "Peak", desc: "At the peak of inflated expectations. Massive capital deployment but revenue lagging." },
+  "Crypto": { label: "Crypto/Web3", phase: "Trough", desc: "Deep in the trough of disillusionment. Regulatory clarity emerging." },
+  "Green": { label: "Green Energy", phase: "Slope", desc: "Climbing the slope of enlightenment. Cost parity achieved in many markets." },
+  "Biotech": { label: "mRNA/Biotech", phase: "Slope", desc: "Platform technology proving value beyond vaccines." },
+  "Space": { label: "Space Economy", phase: "Innovation", desc: "Early innovation trigger. Starship changes cost economics." },
+  "Quantum": { label: "Quantum Computing", phase: "Innovation", desc: "Very early. Error correction still the bottleneck." },
+  "CBDC": { label: "CBDCs", phase: "Trough", desc: "Pilot fatigue. Privacy concerns slowing adoption." },
+  "Auto": { label: "EV / Autonomy", phase: "Plateau", desc: "Approaching plateau. EV adoption S-curve maturing." }
 };
 
+const CHART_DATA = {
+  labels: ['2000','2002','2004','2006','2008','2010','2012','2014','2016','2018','2020','2022','2024','2026'],
+  gdp: [4.1,1.7,3.8,2.8,-2.8,2.6,2.2,2.5,1.6,2.9,-3.4,1.9,2.8,0.3],
+  debt: [260,285,320,360,420,455,485,520,555,590,650,710,770,835],
+  assets: [45,35,55,70,48,68,80,95,98,108,115,120,140,105],
+  unemployment: [4.0,5.8,5.5,4.6,5.8,9.6,8.1,6.2,4.9,3.9,8.1,3.6,3.9,5.8],
+  rates: [6.5,1.7,1.0,1.0,0.25,0.25,0.25,0.25,0.75,2.5,0.25,4.5,5.25,3.0]
+};
+
+const GDP_DATA = [
+  { name: "United States", gdp: 27.36, region: "North America", color: "#e11d48" },
+  { name: "China", gdp: 17.79, region: "Asia", color: "#3b82f6" },
+  { name: "Germany", gdp: 4.46, region: "Europe", color: "#16a34a" },
+  { name: "Japan", gdp: 4.21, region: "Asia", color: "#3b82f6" },
+  { name: "India", gdp: 3.73, region: "Asia", color: "#3b82f6" },
+  { name: "United Kingdom", gdp: 3.34, region: "Europe", color: "#16a34a" },
+  { name: "France", gdp: 3.03, region: "Europe", color: "#16a34a" },
+  { name: "Brazil", gdp: 2.17, region: "Latin America", color: "#ea580c" },
+  { name: "Italy", gdp: 2.25, region: "Europe", color: "#16a34a" },
+  { name: "Canada", gdp: 2.14, region: "North America", color: "#e11d48" },
+  { name: "Russia", gdp: 2.02, region: "Europe", color: "#16a34a" },
+  { name: "Mexico", gdp: 1.79, region: "Latin America", color: "#ea580c" },
+  { name: "South Korea", gdp: 1.71, region: "Asia", color: "#3b82f6" },
+  { name: "Australia", gdp: 1.69, region: "Oceania", color: "#ca8a04" },
+  { name: "Spain", gdp: 1.58, region: "Europe", color: "#16a34a" },
+  { name: "Indonesia", gdp: 1.37, region: "Asia", color: "#3b82f6" },
+  { name: "Turkey", gdp: 1.15, region: "Middle East", color: "#0891b2" },
+  { name: "Saudi Arabia", gdp: 1.06, region: "Middle East", color: "#0891b2" },
+  { name: "Switzerland", gdp: 0.87, region: "Europe", color: "#16a34a" },
+  { name: "Poland", gdp: 0.81, region: "Europe", color: "#16a34a" },
+  { name: "Argentina", gdp: 0.64, region: "Latin America", color: "#ea580c" },
+  { name: "Nigeria", gdp: 0.39, region: "Africa", color: "#7c3aed" },
+  { name: "South Africa", gdp: 0.38, region: "Africa", color: "#7c3aed" },
+  { name: "UAE", gdp: 0.51, region: "Middle East", color: "#0891b2" },
+  { name: "Israel", gdp: 0.56, region: "Middle East", color: "#0891b2" },
+  { name: "Other", gdp: 8.5, region: "Other", color: "#64748b" }
+];
+
+// ============================================================
+// STATE
+// ============================================================
 let allEvents = [];
 let activeStep = null;
 let activePhases = new Set();
 
-async function loadEvents() {
+// ============================================================
+// UTILITIES
+// ============================================================
+function escapeHtml(str) {
+  if (!str) return '';
+  return str.replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+}
+
+function getPhase(stepNum) {
+  return STEPS[stepNum]?.phase || 'rise';
+}
+
+function getStepLabel(stepNum) {
+  const s = STEPS[stepNum];
+  return s ? `step ${stepNum}: ${s.name}` : `step ${stepNum}`;
+}
+
+// ============================================================
+// DATA LOADING
+// ============================================================
+async function loadData() {
   try {
     const res = await fetch('data/events.json?t=' + Date.now());
     const data = await res.json();
     allEvents = data.events || [];
-    document.getElementById('last-updated').textContent = 'updated: ' + (data.lastUpdated || 'unknown');
+    document.getElementById('last-updated').textContent = 'updated: ' + (data.lastUpdated ? new Date(data.lastUpdated).toLocaleDateString() : 'unknown');
+    populateFilters();
     renderEvents();
+    drawFreqChart();
+    initCycleSteps();
   } catch (e) {
-    document.getElementById('events-grid').innerHTML = '<div class="empty-state">failed to load events. check console.</div>';
-    console.error(e);
+    console.error('Failed to load events:', e);
+    document.getElementById('events-grid').innerHTML = '<div class="empty-state">Failed to load events. Make sure data/events.json exists.</div>';
   }
+}
+
+// ============================================================
+// 18-STEP CYCLE
+// ============================================================
+function initCycleSteps() {
+  const g = document.getElementById('cycle-steps');
+  const tooltip = document.getElementById('c-tooltip');
+  const dots = [
+    { step: 1, x: 90, y: 240 }, { step: 2, x: 110, y: 200 }, { step: 3, x: 135, y: 160 },
+    { step: 4, x: 165, y: 125 }, { step: 5, x: 200, y: 95 }, { step: 6, x: 240, y: 75 },
+    { step: 7, x: 285, y: 62 }, { step: 8, x: 330, y: 58 },
+    { step: 9, x: 390, y: 58 }, { step: 10, x: 430, y: 65 }, { step: 11, x: 470, y: 78 }, { step: 12, x: 510, y: 95 },
+    { step: 13, x: 550, y: 120 }, { step: 14, x: 585, y: 150 }, { step: 15, x: 615, y: 185 },
+    { step: 16, x: 640, y: 225 }, { step: 17, x: 660, y: 265 }, { step: 18, x: 675, y: 305 }
+  ];
+
+  let html = '';
+  dots.forEach(d => {
+    const phase = STEPS[d.step].phase;
+    const color = phase === 'rise' ? 'var(--rise)' : phase === 'top' ? 'var(--top)' : 'var(--decline)';
+    html += `<g class="c-step-dot" data-step="${d.step}" transform="translate(${d.x}, ${d.y})">
+      <circle r="6" fill="${color}" stroke="none"/>
+    </g>
+    <text class="c-step-label" x="${d.x}" y="${d.y + 18}">${d.step}</text>`;
+  });
+  g.innerHTML = html;
+
+  document.querySelectorAll('.c-step-dot').forEach(dot => {
+    dot.addEventListener('mouseenter', () => {
+      const stepNum = parseInt(dot.dataset.step);
+      const s = STEPS[stepNum];
+      tooltip.innerHTML = `<strong>Step ${stepNum}: ${s.name}</strong><span style="color:var(--text-muted);display:block;margin-top:4px;">${s.desc}</span>`;
+      tooltip.classList.add('visible');
+      const rect = dot.getBoundingClientRect();
+      const wrap = document.getElementById('cycle-wrap').getBoundingClientRect();
+      tooltip.style.left = (rect.left - wrap.left - 100) + 'px';
+      tooltip.style.top = (rect.top - wrap.top - tooltip.offsetHeight - 8) + 'px';
+    });
+    dot.addEventListener('mouseleave', () => tooltip.classList.remove('visible'));
+    dot.addEventListener('click', () => setActiveStep(parseInt(dot.dataset.step)));
+  });
+}
+
+function setActiveStep(step) {
+  if (activeStep === step) { activeStep = null; }
+  else { activeStep = step; }
+  document.querySelectorAll('.c-step-dot').forEach(d => {
+    d.classList.toggle('active', parseInt(d.dataset.step) === activeStep);
+  });
+  renderEvents();
+}
+
+// ============================================================
+// BIG CYCLE GRID
+// ============================================================
+function initBigCycleGrid() {
+  const grid = document.getElementById('bc-grid');
+  if (!grid) return;
+  let html = '';
+  for (let x = 100; x <= 900; x += 50) {
+    html += `<line class="bc-grid-line" x1="${x}" y1="40" x2="${x}" y2="440"/>`;
+  }
+  for (let y = 60; y <= 440; y += 40) {
+    html += `<line class="bc-grid-line" x1="80" y1="${y}" x2="920" y2="${y}"/>`;
+  }
+  grid.innerHTML = html;
+}
+
+// ============================================================
+// ECON CHART
+// ============================================================
+function drawEconChart() {
+  const canvas = document.getElementById('econ-cycle-canvas');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+  const dpr = window.devicePixelRatio || 1;
+  const rect = canvas.getBoundingClientRect();
+  canvas.width = rect.width * dpr;
+  canvas.height = rect.height * dpr;
+  ctx.scale(dpr, dpr);
+  const w = rect.width, h = rect.height;
+  const pad = { top: 20, right: 50, bottom: 35, left: 50 };
+  const cw = w - pad.left - pad.right;
+  const ch = h - pad.top - pad.bottom;
+
+  ctx.clearRect(0, 0, w, h);
+  ctx.strokeStyle = 'rgba(42,42,58,0.5)';
+  ctx.lineWidth = 1;
+  for (let i = 0; i <= 5; i++) {
+    const y = pad.top + (ch / 5) * i;
+    ctx.beginPath(); ctx.moveTo(pad.left, y); ctx.lineTo(pad.left + cw, y); ctx.stroke();
+  }
+  ctx.fillStyle = '#6a6a80';
+  ctx.font = '10px "SF Mono", monospace';
+  ctx.textAlign = 'center';
+  CHART_DATA.labels.forEach((label, i) => {
+    const x = pad.left + (cw / (CHART_DATA.labels.length - 1)) * i;
+    ctx.fillText(label, x, h - 8);
+  });
+
+  const recessions = [[4,5], [10,11]];
+  recessions.forEach(([start, end]) => {
+    const x1 = pad.left + (cw / (CHART_DATA.labels.length - 1)) * start;
+    const x2 = pad.left + (cw / (CHART_DATA.labels.length - 1)) * end;
+    ctx.fillStyle = 'rgba(248,113,113,0.06)';
+    ctx.fillRect(x1, pad.top, x2 - x1, ch);
+  });
+
+  function drawSeries(data, color, width, scaleFn) {
+    ctx.strokeStyle = color; ctx.lineWidth = width; ctx.lineJoin = 'round';
+    ctx.beginPath();
+    const pts = data.map((val, i) => {
+      const x = pad.left + (cw / (data.length - 1)) * i;
+      const y = pad.top + ch - scaleFn(val) * ch;
+      return [x, y];
+    });
+    pts.forEach(([x, y], i) => { if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y); });
+    ctx.stroke();
+    ctx.fillStyle = color;
+    pts.forEach(([x, y], i) => { if (i % 2 === 0) { ctx.beginPath(); ctx.arc(x, y, 2.5, 0, Math.PI * 2); ctx.fill(); } });
+  }
+
+  const norm = (arr) => { const min = Math.min(...arr), max = Math.max(...arr); return arr.map(v => (v - min) / (max - min || 1)); };
+  drawSeries(norm(CHART_DATA.gdp), '#4ade80', 2.5, v => v);
+  drawSeries(norm(CHART_DATA.debt), '#5b8def', 2, v => v);
+  drawSeries(norm(CHART_DATA.assets), '#fbbf24', 2, v => v);
+  drawSeries(norm(CHART_DATA.unemployment.map(v => 12 - v)), '#f87171', 2, v => v);
+  drawSeries(norm(CHART_DATA.rates), '#4a4a5a', 1.5, v => v);
+
+  const cx = pad.left + (cw / (CHART_DATA.labels.length - 1)) * (CHART_DATA.labels.length - 2);
+  ctx.strokeStyle = 'rgba(91,141,239,0.25)'; ctx.setLineDash([4, 4]); ctx.lineWidth = 1;
+  ctx.beginPath(); ctx.moveTo(cx, pad.top); ctx.lineTo(cx, pad.top + ch); ctx.stroke(); ctx.setLineDash([]);
+  ctx.fillStyle = '#5b8def'; ctx.font = 'bold 10px sans-serif'; ctx.fillText('NOW', cx, pad.top - 6);
+}
+
+// ============================================================
+// HYPE CYCLE
+// ============================================================
+function initHypeCycle() {
+  const tt = document.getElementById('hype-tt');
+  document.querySelectorAll('.hype-dot').forEach(dot => {
+    dot.addEventListener('mouseenter', () => {
+      const info = HYPE_DATA[dot.dataset.theme];
+      if (!info) return;
+      tt.innerHTML = `<strong style="color:#60a5fa">${info.label}</strong><br><span style="color:#94a3b8">${info.phase}</span><br><span style="font-size:11px">${info.desc}</span>`;
+      tt.classList.add('visible');
+      const rect = dot.getBoundingClientRect();
+      const wrap = document.getElementById('hype-wrap').getBoundingClientRect();
+      tt.style.left = (rect.left - wrap.left + rect.width / 2 - 110) + 'px';
+      tt.style.top = (rect.top - wrap.top - tt.offsetHeight - 8) + 'px';
+    });
+    dot.addEventListener('mouseleave', () => tt.classList.remove('visible'));
+  });
+}
+
+// ============================================================
+// CAUSAL LOOP PARTICLES
+// ============================================================
+function initCausalLoop() {
+  const particlesGroup = document.getElementById('cl-particles');
+  if (!particlesGroup) return;
+  const arrows = document.querySelectorAll('#cl-arrows path');
+  const particles = [];
+  arrows.forEach((arrow, idx) => {
+    const len = arrow.getTotalLength();
+    const isPos = arrow.classList.contains('pos');
+    const color = isPos ? '#4ade80' : '#f87171';
+    for (let i = 0; i < 3; i++) {
+      const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+      circle.setAttribute('r', '2.5'); circle.setAttribute('fill', color); circle.setAttribute('opacity', '0.6');
+      particlesGroup.appendChild(circle);
+      particles.push({ el: circle, path: arrow, len, pos: (i / 3) * len, speed: 0.6 + Math.random() * 0.5 });
+    }
+  });
+  function animate() {
+    particles.forEach(p => {
+      p.pos += p.speed;
+      if (p.pos > p.len) p.pos = 0;
+      const pt = p.path.getPointAtLength(p.pos);
+      p.el.setAttribute('cx', pt.x); p.el.setAttribute('cy', pt.y);
+    });
+    requestAnimationFrame(animate);
+  }
+  animate();
+}
+
+// ============================================================
+// WORLD GDP VORONOI (D3)
+// ============================================================
+function initWorldGDP() {
+  const svg = d3.select('#gdp-svg');
+  const width = 900, height = 580;
+  svg.attr('viewBox', `0 0 ${width} ${height}`);
+  const pack = d3.pack().size([width, height]).padding(2);
+  const root = d3.hierarchy({ children: GDP_DATA }).sum(d => d.gdp);
+  pack(root);
+  const sites = root.leaves().map(d => ({ x: d.x, y: d.y, r: d.r, data: d.data }));
+  const delaunay = d3.Delaunay.from(sites.map(d => [d.x, d.y]));
+  const voronoi = delaunay.voronoi([0, 0, width, height]);
+  const g = svg.append('g');
+  const centerX = width / 2, centerY = height / 2, maxR = Math.min(width, height) / 2 - 20;
+
+  sites.forEach((site, i) => {
+    const cell = voronoi.cellPolygon(i);
+    if (!cell) return;
+    const dist = Math.sqrt((site.x - centerX) ** 2 + (site.y - centerY) ** 2);
+    if (dist > maxR) return;
+    const pathData = 'M' + cell.map(p => p.join(',')).join('L') + 'Z';
+    const path = g.append('path').attr('d', pathData).attr('class', 'gdp-cell').attr('fill', site.data.color).attr('opacity', 0.9);
+    if (site.r > 25) {
+      g.append('text').attr('class', 'gdp-label').attr('x', site.x).attr('y', site.y - 6).text(site.data.name);
+      g.append('text').attr('class', 'gdp-sublabel').attr('x', site.x).attr('y', site.y + 10).text('$' + site.data.gdp + 'T');
+    } else if (site.r > 12) {
+      g.append('text').attr('class', 'gdp-sublabel').attr('x', site.x).attr('y', site.y + 4).text(site.data.name);
+    }
+  });
+  g.append('circle').attr('cx', centerX).attr('cy', centerY).attr('r', maxR).attr('fill', 'none').attr('stroke', '#2a2a3a').attr('stroke-width', 2);
+}
+
+// ============================================================
+// EVENTS & FILTERS
+// ============================================================
+function populateFilters() {
+  const regions = [...new Set(allEvents.map(e => e.region).filter(Boolean))].sort();
+  const sources = [...new Set(allEvents.map(e => e.sourceType).filter(Boolean))].sort();
+  const rSel = document.getElementById('region-filter');
+  const sSel = document.getElementById('source-filter');
+  regions.forEach(r => { const o = document.createElement('option'); o.value = r; o.textContent = r; rSel.appendChild(o); });
+  sources.forEach(s => { const o = document.createElement('option'); o.value = s; o.textContent = s; sSel.appendChild(o); });
 }
 
 function renderEvents() {
@@ -732,7 +1034,7 @@ function renderEvents() {
 
   let filtered = allEvents.filter(ev => {
     if (activeStep && ev.step !== activeStep) return false;
-    if (activePhases.size > 0 && !activePhases.has(STEPS[ev.step].phase)) return false;
+    if (activePhases.size > 0 && !activePhases.has(getPhase(ev.step))) return false;
     if (search && !ev.title.toLowerCase().includes(search) && !ev.summary.toLowerCase().includes(search)) return false;
     if (region && ev.region !== region) return false;
     if (source && ev.sourceType !== source) return false;
@@ -749,13 +1051,13 @@ function renderEvents() {
   }
 
   grid.innerHTML = filtered.map(ev => {
-    const step = STEPS[ev.step];
+    const phase = getPhase(ev.step);
     const dateStr = new Date(ev.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
     return `
-      <div class="event-card" data-phase="${step.phase}" onclick="openDetail(${ev.id})">
+      <div class="event-card" data-phase="${phase}" onclick="openDetail(${ev.id})">
         <div class="event-header">
           <a class="event-title" href="${ev.url}" target="_blank" onclick="event.stopPropagation()">${escapeHtml(ev.title)}</a>
-          <span class="event-step ${step.phase}">step ${ev.step}: ${step.name}</span>
+          <span class="event-step ${phase}">${getStepLabel(ev.step)}</span>
         </div>
         <div class="event-meta">
           <span>${dateStr}</span>
@@ -774,11 +1076,12 @@ function renderEvents() {
 function openDetail(id) {
   const ev = allEvents.find(e => e.id === id);
   if (!ev) return;
+  const phase = getPhase(ev.step);
   const step = STEPS[ev.step];
   const dateStr = new Date(ev.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
 
   const content = `
-    <span class="detail-step ${step.phase}">step ${ev.step}: ${step.name}</span>
+    <span class="detail-step ${phase}">${getStepLabel(ev.step)}</span>
     <div class="detail-title"><a href="${ev.url}" target="_blank">${escapeHtml(ev.title)}</a></div>
     <div class="detail-meta">
       <span>${dateStr}</span>
@@ -786,30 +1089,11 @@ function openDetail(id) {
       <span>${ev.region}</span>
       <span>${ev.sourceType}</span>
     </div>
-    <div class="detail-section">
-      <h4>Summary</h4>
-      <p>${escapeHtml(ev.summary)}</p>
-    </div>
-    ${ev.dalioConnection ? `
-    <div class="detail-section">
-      <h4>Connection to Dalio Cycle</h4>
-      <p>${escapeHtml(ev.dalioConnection)}</p>
-    </div>
-    ` : ''}
-    ${ev.thesisConnection ? `
-    <div class="detail-section">
-      <h4>Capital Flow Thesis Connection</h4>
-      <p>${escapeHtml(ev.thesisConnection)}</p>
-    </div>
-    ` : ''}
-    <div class="detail-section">
-      <h4>What to Watch</h4>
-      <p>${escapeHtml(ev.watch || 'Monitor follow-on policy actions and market reactions.')}</p>
-    </div>
-    <div class="detail-section">
-      <h4>About This Step</h4>
-      <div class="step-desc"><strong>${step.name}:</strong> ${step.desc}</div>
-    </div>
+    <div class="detail-section"><h4>Summary</h4><p>${escapeHtml(ev.summary)}</p></div>
+    ${ev.dalioConnection ? `<div class="detail-section"><h4>Connection to Dalio Cycle</h4><p>${escapeHtml(ev.dalioConnection)}</p></div>` : ''}
+    ${ev.thesisConnection ? `<div class="detail-section"><h4>Capital Flow Thesis Connection</h4><p>${escapeHtml(ev.thesisConnection)}</p></div>` : ''}
+    <div class="detail-section"><h4>What to Watch</h4><p>${escapeHtml(ev.watch || 'Monitor follow-on policy actions and market reactions.')}</p></div>
+    <div class="detail-section"><h4>About This Step</h4><div class="step-desc"><strong>${step.name}:</strong> ${step.desc}</div></div>
     <a class="detail-link" href="${ev.url}" target="_blank">read original source &rarr;</a>
   `;
 
@@ -825,229 +1109,128 @@ function closeDetail() {
   document.body.style.overflow = '';
 }
 
-function escapeHtml(str) {
-  if (!str) return '';
-  return str.replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
-}
-
-// ===== CYCLE INTERACTIVITY =====
-function setupCycle() {
-  const tooltip = document.getElementById('cycle-tooltip');
-  const ttPhase = document.getElementById('tt-phase');
-  const ttTitle = document.getElementById('tt-title');
-  const ttDesc = document.getElementById('tt-desc');
-  const wrap = document.getElementById('cycle-wrap');
-
-  document.querySelectorAll('.c-node').forEach(node => {
-    const stepNum = parseInt(node.getAttribute('data-step'));
-    const step = STEPS[stepNum];
-    const phase = step.phase;
-
-    node.addEventListener('mouseenter', () => {
-      ttPhase.textContent = `${phase} — step ${stepNum}`;
-      ttPhase.style.background = PHASE_COLORS[phase].bg;
-      ttPhase.style.color = PHASE_COLORS[phase].text;
-      ttTitle.textContent = step.name;
-      ttDesc.textContent = step.desc;
-      tooltip.classList.add('visible');
-    });
-
-    node.addEventListener('mousemove', (e) => {
-      const rect = wrap.getBoundingClientRect();
-      let x = e.clientX - rect.left + 16;
-      let y = e.clientY - rect.top - 10;
-      if (x + 260 > rect.width) x = e.clientX - rect.left - 276;
-      if (y + 120 > rect.height) y = e.clientY - rect.top - 130;
-      tooltip.style.left = x + 'px';
-      tooltip.style.top = y + 'px';
-    });
-
-    node.addEventListener('mouseleave', () => {
-      tooltip.classList.remove('visible');
-    });
-
-    node.addEventListener('click', () => {
-      const stepNum = parseInt(node.getAttribute('data-step'));
-      if (activeStep === stepNum) {
-        activeStep = null;
-        node.classList.remove('active');
-      } else {
-        document.querySelectorAll('.c-node').forEach(n => n.classList.remove('active'));
-        activeStep = stepNum;
-        node.classList.add('active');
-      }
-      renderEvents();
-    });
-  });
-}
-
-function togglePhase(btn) {
-  const phase = btn.getAttribute('data-phase');
-  if (activePhases.has(phase)) {
-    activePhases.delete(phase);
-    btn.classList.remove('active');
-  } else {
-    activePhases.add(phase);
-    btn.classList.add('active');
-  }
-  renderEvents();
-}
-
-function clearFilters() {
-  activeStep = null;
-  activePhases.clear();
-  document.getElementById('search-input').value = '';
-  document.getElementById('region-filter').value = '';
-  document.getElementById('source-filter').value = '';
-  document.querySelectorAll('.c-node').forEach(n => n.classList.remove('active'));
-  document.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
-  renderEvents();
-}
-
 function showAbout() {
-  const content = `
-    <span class="detail-step" style="background:var(--accent-dim);color:var(--accent)">about</span>
-    <div class="detail-title">Dalio Cycle Macro Tracker</div>
-    <div class="detail-section">
-      <h4>Purpose</h4>
-      <p>This tracker maps real-world macro events to Ray Dalio's 18-step empire cycle, overlaying the capital flow thesis: that international capital flows between the US and China are the root mechanism driving valuations, policy, and the AI arms race.</p>
-    </div>
-    <div class="detail-section">
-      <h4>How It Works</h4>
-      <p>Events are tagged to specific steps in the cycle. The tracker monitors news from central banks, treasuries, geopolitical developments, and economic data releases. Each event includes a connection to both the Dalio framework and the capital flow thesis.</p>
-    </div>
-    <div class="detail-section">
-      <h4>Contributing</h4>
-      <p>This is open source. Add events by editing <code>data/events.json</code> and submitting a pull request. The GitHub Actions workflow can also auto-fetch news daily.</p>
-    </div>
-    <div class="detail-section">
-      <h4>The 18 Steps</h4>
-      <p><strong style="color:var(--rise)">Rise (1-8):</strong> Strong leadership, inventiveness, education, culture, resource allocation, competitiveness, income growth, financial centers.<br><br>
-      <strong style="color:var(--top)">Top (9-12):</strong> Less productive, overextended, losing competitiveness, wealth gaps.<br><br>
-      <strong style="color:var(--decline)">Decline (13-18):</strong> Large debts, printing money, internal conflict, loss of reserve currency, weak leadership, civil war/revolution.</p>
-    </div>
-  `;
-  document.getElementById('detail-content').innerHTML = content;
-  document.getElementById('detail-panel').classList.add('open');
-  document.getElementById('detail-overlay').classList.add('open');
+  document.getElementById('about-panel').classList.add('open');
+  document.getElementById('about-overlay').classList.add('open');
   document.body.style.overflow = 'hidden';
 }
 
-// ===== CHART =====
-function buildChart() {
-  const canvas = document.getElementById('freq-chart');
-  if (!canvas) return;
-  const ctx = canvas.getContext('2d');
-  const dpr = window.devicePixelRatio || 1;
-  canvas.width = 900 * dpr;
-  canvas.height = 280 * dpr;
-  ctx.scale(dpr, dpr);
-
-  const monthMap = {};
-  allEvents.forEach(ev => {
-    const d = new Date(ev.date);
-    if (isNaN(d)) return;
-    const key = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}`;
-    if (!monthMap[key]) monthMap[key] = {};
-    if (!monthMap[key][ev.step]) monthMap[key][ev.step] = 0;
-    monthMap[key][ev.step]++;
-  });
-
-  const months = Object.keys(monthMap).sort();
-  if (months.length === 0) {
-    ctx.fillStyle = '#6a6a80';
-    ctx.font = '13px sans-serif';
-    ctx.fillText('No data yet. Events will appear here as they are tracked.', 20, 140);
-    return;
-  }
-
-  const displayMonths = months.slice(-12);
-  const stepColors = {
-    1:'#4ade80',2:'#4ade80',3:'#4ade80',4:'#4ade80',5:'#4ade80',6:'#4ade80',7:'#4ade80',8:'#4ade80',
-    9:'#fbbf24',10:'#fbbf24',11:'#fbbf24',12:'#fbbf24',
-    13:'#f87171',14:'#f87171',15:'#f87171',16:'#ef4444',17:'#f87171',18:'#f87171'
-  };
-
-  const chartW = 900, chartH = 280;
-  const pad = { top: 30, right: 20, bottom: 50, left: 40 };
-  const plotW = chartW - pad.left - pad.right;
-  const plotH = chartH - pad.top - pad.bottom;
-
-  let maxVal = 0;
-  displayMonths.forEach(m => {
-    let sum = 0;
-    for (let s = 1; s <= 18; s++) sum += (monthMap[m][s] || 0);
-    maxVal = Math.max(maxVal, sum);
-  });
-  maxVal = Math.max(maxVal, 1);
-
-  ctx.clearRect(0, 0, chartW, chartH);
-  ctx.strokeStyle = '#2a2a3a';
-  ctx.lineWidth = 1;
-  for (let i = 0; i <= 5; i++) {
-    const y = pad.top + plotH - (i / 5) * plotH;
-    ctx.beginPath();
-    ctx.moveTo(pad.left, y);
-    ctx.lineTo(pad.left + plotW, y);
-    ctx.stroke();
-    ctx.fillStyle = '#6a6a80';
-    ctx.font = '10px sans-serif';
-    ctx.textAlign = 'right';
-    ctx.fillText(Math.round((i / 5) * maxVal), pad.left - 8, y + 3);
-  }
-
-  const barW = (plotW / displayMonths.length) * 0.7;
-  const gap = (plotW / displayMonths.length) * 0.3;
-  displayMonths.forEach((month, i) => {
-    const x = pad.left + i * (plotW / displayMonths.length) + gap / 2;
-    let y = pad.top + plotH;
-    for (let step = 1; step <= 18; step++) {
-      const count = monthMap[month][step] || 0;
-      if (count === 0) continue;
-      const h = (count / maxVal) * plotH;
-      y -= h;
-      ctx.fillStyle = stepColors[step];
-      ctx.fillRect(x, y, barW, h);
-      ctx.strokeStyle = '#12121a';
-      ctx.lineWidth = 1;
-      ctx.strokeRect(x, y, barW, h);
-    }
-    ctx.fillStyle = '#a0a0b8';
-    ctx.font = '10px sans-serif';
-    ctx.textAlign = 'center';
-    const [yLabel, mLabel] = month.split('-');
-    ctx.fillText(`${mLabel}/${yLabel.slice(2)}`, x + barW / 2, pad.top + plotH + 16);
-  });
-
-  ctx.fillStyle = '#e8e8f0';
-  ctx.font = '500 12px sans-serif';
-  ctx.textAlign = 'left';
-  ctx.fillText('events per month by dalio step', pad.left, 18);
-
-  const legendEl = document.getElementById('chart-legend');
-  if (legendEl) {
-    legendEl.innerHTML = `
-      <span><i style="background:#4ade80"></i>rise (steps 1-8)</span>
-      <span><i style="background:#fbbf24"></i>top (steps 9-12)</span>
-      <span><i style="background:#f87171"></i>decline (steps 13-18)</span>
-      <span><i style="background:#ef4444"></i>step 16 (reserve currency)</span>
-    `;
-  }
+function closeAbout() {
+  document.getElementById('about-panel').classList.remove('open');
+  document.getElementById('about-overlay').classList.remove('open');
+  document.body.style.overflow = '';
 }
 
-const originalRenderEvents = renderEvents;
-renderEvents = function() {
-  originalRenderEvents();
-  buildChart();
-};
+// ============================================================
+// EVENT FREQUENCY CHART
+// ============================================================
+function drawFreqChart() {
+  const canvas = document.getElementById('freq-chart');
+  if (!canvas || allEvents.length === 0) return;
+  const ctx = canvas.getContext('2d');
+  const dpr = window.devicePixelRatio || 1;
+  const rect = canvas.getBoundingClientRect();
+  canvas.width = rect.width * dpr; canvas.height = rect.height * dpr;
+  ctx.scale(dpr, dpr);
+  const w = rect.width, h = rect.height;
+  const pad = { top: 20, right: 20, bottom: 40, left: 40 };
+  const cw = w - pad.left - pad.right, ch = h - pad.top - pad.bottom;
 
+  const counts = {};
+  allEvents.forEach(ev => {
+    const key = ev.date.slice(0, 7);
+    const phase = getPhase(ev.step);
+    counts[key] = counts[key] || { rise: 0, top: 0, decline: 0 };
+    counts[key][phase]++;
+  });
+  const months = Object.keys(counts).sort();
+  if (months.length === 0) return;
+
+  const maxCount = Math.max(...months.map(m => counts[m].rise + counts[m].top + counts[m].decline), 1);
+  const barW = cw / months.length * 0.7;
+  const gap = cw / months.length * 0.3;
+
+  ctx.clearRect(0, 0, w, h);
+  ctx.fillStyle = 'rgba(42,42,58,0.3)';
+  for (let i = 0; i <= 4; i++) {
+    const y = pad.top + (ch / 4) * i;
+    ctx.fillRect(pad.left, y, cw, 1);
+  }
+
+  months.forEach((month, i) => {
+    const x = pad.left + (cw / months.length) * i + gap / 2;
+    let y = pad.top + ch;
+    ['decline', 'top', 'rise'].forEach(phase => {
+      const count = counts[month][phase];
+      const barH = (count / maxCount) * ch;
+      const color = phase === 'rise' ? '#4ade80' : phase === 'top' ? '#fbbf24' : '#f87171';
+      ctx.fillStyle = color;
+      ctx.fillRect(x, y - barH, barW, barH);
+      y -= barH;
+    });
+    ctx.fillStyle = '#6a6a80';
+    ctx.font = '9px "SF Mono", monospace';
+    ctx.textAlign = 'center';
+    const label = month.slice(5) + '/' + month.slice(2, 4);
+    ctx.fillText(label, x + barW / 2, h - 8);
+  });
+}
+
+// ============================================================
+// FILTER HANDLERS
+// ============================================================
 document.getElementById('search-input').addEventListener('input', renderEvents);
 document.getElementById('region-filter').addEventListener('change', renderEvents);
 document.getElementById('source-filter').addEventListener('change', renderEvents);
-document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDetail(); });
 
-setupCycle();
-loadEvents();
+document.querySelectorAll('.filter-pill').forEach(pill => {
+  pill.addEventListener('click', () => {
+    const phase = pill.dataset.phase;
+    if (phase === '') {
+      activePhases.clear();
+      document.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+    } else {
+      if (activePhases.has(phase)) activePhases.delete(phase);
+      else activePhases.add(phase);
+      document.querySelectorAll('.filter-pill[data-phase=""]').forEach(p => p.classList.remove('active'));
+      pill.classList.toggle('active');
+    }
+    renderEvents();
+  });
+});
+
+// ============================================================
+// NAV HIGHLIGHTING
+// ============================================================
+function initNav() {
+  const links = document.querySelectorAll('.nav-links a');
+  const sections = document.querySelectorAll('.section');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        links.forEach(l => l.classList.remove('active'));
+        const link = document.querySelector(`.nav-links a[href="#${entry.target.id}"]`);
+        if (link) link.classList.add('active');
+      }
+    });
+  }, { threshold: 0.2 });
+  sections.forEach(s => observer.observe(s));
+}
+
+// ============================================================
+// INIT
+// ============================================================
+document.addEventListener('DOMContentLoaded', () => {
+  initBigCycleGrid();
+  initHypeCycle();
+  initCausalLoop();
+  initWorldGDP();
+  initNav();
+  loadData();
+  drawEconChart();
+  window.addEventListener('resize', () => { drawEconChart(); drawFreqChart(); });
+});
 </script>
 
 </body>
