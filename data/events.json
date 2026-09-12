@@ -1,1410 +1,6 @@
 {
-  "lastUpdated": "2026-09-11T10:55:52.790Z",
+  "lastUpdated": "2026-09-12T10:23:24.499Z",
   "events": [
-    {
-      "id": 2393,
-      "title": "Japanese Yen Strengthens Amid Intervention Chatter",
-      "url": "https://www.wsj.com/finance/currencies/japanese-yen-strengthens-amid-intervention-chatter-1fe5ad1d",
-      "date": "2026-09-03",
-      "source": "The Wall Street Journal",
-      "sourceType": "geopolitical",
-      "region": "japan",
-      "step": 13,
-      "summary": "The Japanese yen strengthened to a one-month high against the dollar, amid chatter that authorities could again intervene in foreign-exchange markets.",
-      "dalioConnection": "Auto-tagged to Step 13. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2394,
-      "title": "Novo Nordisk Foundation to build $62M quantum chip plant in Copenhagen",
-      "url": "https://thenextweb.com/news/quantum-foundry-copenhagen-novo-nordisk-foundation",
-      "date": "2026-09-04",
-      "source": "The Next Web",
-      "sourceType": "geopolitical",
-      "region": "europe",
-      "step": 11,
-      "summary": "Europe is getting a factory for quantum chips rather than another quantum computer. Quantum Foundry Copenhagen, owned by the Novo Nordisk Foundation, is building a 5,300-square-metre facility in the Danish capital that is due to open in 2027 and will offer wa…",
-      "dalioConnection": "Auto-tagged to Step 11. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2395,
-      "title": "John Ternus takes the helm at Apple, as AI pressure hits",
-      "url": "https://fortune.com/2026/09/04/john-ternus-takes-helm-apple-ai-pressure-hits/",
-      "date": "2026-09-04",
-      "source": "Fortune",
-      "sourceType": "geopolitical",
-      "region": "us",
-      "step": 11,
-      "summary": "After 15 years as CEO, Tim Cook this week stepped aside, replaced with longtime executive John Ternus.",
-      "dalioConnection": "Auto-tagged to Step 11. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2396,
-      "title": "South Korea confirms chip investment talks with US as tariff threat grows",
-      "url": "https://thenextweb.com/news/south-korea-us-chip-investment-tariff-talks",
-      "date": "2026-09-04",
-      "source": "The Next Web",
-      "sourceType": "geopolitical",
-      "region": "us",
-      "step": 1,
-      "summary": "South Korea negotiated tariff protection for its chipmakers, and Washington is pressing for American factories anyway. Semiconductor investment is now part of the broader talks between the two governments, a presidential official in Seoul has confirmed. The c…",
-      "dalioConnection": "Auto-tagged to Step 1. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2397,
-      "title": "How agentic AI and 'AI physics' are reshaping chip design",
-      "url": "https://www.digitimes.com/news/a20260903VL227/ai-agent-eda-design-hardware-software-nvidia.html",
-      "date": "2026-09-04",
-      "source": "Digitimes",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 11,
-      "summary": "As semiconductor designs advance toward trillion-transistor packages, the traditional engineering playbook of simply adding more personnel or running legacy software faster has hit a wall, a top Nvidia executive warned Tuesday.",
-      "dalioConnection": "Auto-tagged to Step 11. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2398,
-      "title": "Germany accuses Russia of sabotage after Leipzig airport drone attack",
-      "url": "https://cryptobriefing.com/germany-accuses-russia-of-sabotage-after-leipzig-airport-drone-attack/",
-      "date": "2026-09-04",
-      "source": "Crypto Briefing",
-      "sourceType": "geopolitical",
-      "region": "europe",
-      "step": 16,
-      "summary": "The incident exacerbates EU-Russia tensions, potentially influencing military strategies and market perceptions of regional stability.\nThe post Germany accuses Russia of sabotage after Leipzig airport drone attack appeared first on Crypto Briefing.",
-      "dalioConnection": "Auto-tagged to Step 16. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2399,
-      "title": "Citigroup expects approval for China brokerage unit this month",
-      "url": "https://cryptobriefing.com/citigroup-china-brokerage-approval/",
-      "date": "2026-09-04",
-      "source": "Crypto Briefing",
-      "sourceType": "geopolitical",
-      "region": "china",
-      "step": 16,
-      "summary": "Citigroup's brokerage approval in China could enhance global financial integration, influencing diplomatic and economic relations significantly.\nThe post Citigroup expects approval for China brokerage unit this month appeared first on Crypto Briefing.",
-      "dalioConnection": "Auto-tagged to Step 16. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2400,
-      "title": "World food prices at highest since 2022 as supply risks mount, FAO says",
-      "url": "https://www.thehindubusinessline.com/news/world/world-food-prices-at-highest-since-2022-as-supply-risks-mount-fao-says/article71427631.ece",
-      "date": "2026-09-04",
-      "source": "BusinessLine",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 16,
-      "summary": "The FAO Food ⁠Price Index, which tracks monthly changes in a basket of internationally traded food commodities, averaged 133.3 points in August, up from ​July's revised reading of ‌130.8",
-      "dalioConnection": "Auto-tagged to Step 16. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2401,
-      "title": "‘Protection for Canada’: Ontario, Quebec rely on U.S. gas. Could they get it from Alberta?",
-      "url": "https://financialpost.com/commodities/energy/ontario-quebec-rely-on-u-s-gas-could-they-realistically-get-it-from-alberta",
-      "date": "2026-09-04",
-      "source": "Financial Post",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 16,
-      "summary": "Trade tensions exposed what analysts consider a vulnerability in domestic energy security: Eastern Canada’s reliance on U.S. natural gas.",
-      "dalioConnection": "Auto-tagged to Step 16. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2402,
-      "title": "US adversary turns up the heat on America’s AI lead with an underestimated edge",
-      "url": "https://www.foxnews.com/world/us-adversary-turns-up-heat-americas-ai-lead-underestimated-edge",
-      "date": "2026-09-04",
-      "source": "Fox News",
-      "sourceType": "geopolitical",
-      "region": "china",
-      "step": 16,
-      "summary": "China's \"East Data, West Computing\" initiative is rapidly expanding AI infrastructure, but a major chip constraint complicates Beijing's push.",
-      "dalioConnection": "Auto-tagged to Step 16. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2403,
-      "title": "Democrat William Lawrence’s deleted tweets show far-left record",
-      "url": "https://www.cnn.com/2026/09/04/politics/william-lawrence-michigan-midterms-kfile",
-      "date": "2026-09-04",
-      "source": "CNN",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 4,
-      "summary": "William Lawrence, the Democratic nominee in one of the country’s most competitive House races in Michigan, deleted hundreds of old social media posts in which he embraced police and prison abolition, called for nationalizing fossil-fuel companies to end their…",
-      "dalioConnection": "Auto-tagged to Step 4. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2404,
-      "title": "Should I delay taking CPP and OAS if I have chronic health issues?",
-      "url": "https://financialpost.com/personal-finance/cpp-oas-chronic-health-issues",
-      "date": "2026-09-04",
-      "source": "Financial Post",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 12,
-      "summary": "FP Answers: Delaying benefits gives you higher payments but the decision should be guided by factors like health and spending needs",
-      "dalioConnection": "Auto-tagged to Step 12. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2405,
-      "title": "The Principled Cynicism of “By Any Means”",
-      "url": "https://www.newyorker.com/culture/the-front-row/the-principled-cynicism-of-by-any-means",
-      "date": "2026-09-04",
-      "source": "The New Yorker",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 12,
-      "summary": "Elegance Bratton’s second feature, starring Mark Wahlberg and Yahya Abdul-Mateen II, brings a gangland perspective to the legal battle for civil rights in the nineteen-sixties.",
-      "dalioConnection": "Auto-tagged to Step 12. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2406,
-      "title": "EXCLUSIVE: Byron Donalds Says GOP Must Offer Young Voters A ‘Plan For Their Success’",
-      "url": "https://dailycaller.com/2026/09/04/duke-byron-donalds-interview-florida-gubernatorial-affordability-young-voters-david-jolly",
-      "date": "2026-09-04",
-      "source": "The Daily Caller",
-      "sourceType": "geopolitical",
-      "region": "us",
-      "step": 12,
-      "summary": "Florida GOP nominee Byron Donalds addresses what Republicans are getting wrong about young voters, affordability, and the American dream.",
-      "dalioConnection": "Auto-tagged to Step 12. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2407,
-      "title": "Global Top-20 Economy Yanks $13,588,825,600 in Gold out of US and Canada To Ensure It’s ‘Readily Available’",
-      "url": "https://dailyhodl.com/2026/09/04/global-top-20-economy-yanks-13588825600-in-gold-out-of-the-us-and-canada-to-ensure-its-more-readily-available-for-use-in-a-crisis-situation/",
-      "date": "2026-09-04",
-      "source": "The Daily Hodl",
-      "sourceType": "geopolitical",
-      "region": "us",
-      "step": 15,
-      "summary": "De Nederlandsche Bank relocated roughly 86 tonnes of gold from the US and Canada to London to improve liquidity and rapid deployment during crises.\nThe post Global Top-20 Economy Yanks $13,588,825,600 in Gold out of US and Canada To Ensure It’s ‘Readily Avail…",
-      "dalioConnection": "Auto-tagged to Step 15. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2408,
-      "title": "Teenage kicks: 9 cult films that will take you back to school",
-      "url": "https://www.dazeddigital.com/film-tv/article/70884/1/teen-9-cult-films-back-to-school-daze-spike-lee-welcome-to-the-dollhouse?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=teenage-kicks-9-cult-films-that-will-take-you-back-to-school",
-      "date": "2026-09-04",
-      "source": "Dazed",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 15,
-      "summary": "As summer draws to a close, embrace the season ahead with these subversive stories about teenage rebellion, lust and obsession in the classroom",
-      "dalioConnection": "Auto-tagged to Step 15. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2409,
-      "title": "Europe is rethinking where it keeps its gold",
-      "url": "https://www.businessinsider.com/netherlands-moves-gold-from-us-canada-central-bank-reserves-transfer-2026-9#article",
-      "date": "2026-09-04",
-      "source": "Business Insider",
-      "sourceType": "geopolitical",
-      "region": "europe",
-      "step": 15,
-      "summary": "The Netherlands and France have shifted gold reserves as geopolitical tensions put new focus on where Europe keeps its bullion.",
-      "dalioConnection": "Auto-tagged to Step 15. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2410,
-      "title": "Why the Netherlands pulled 86t of gold out of the US central bank",
-      "url": "https://www.abc.net.au/news/2026-09-04/why-the-netherlands-moved-its-gold-from-us-and-canada/107111990",
-      "date": "2026-09-04",
-      "source": "ABC News (AU)",
-      "sourceType": "geopolitical",
-      "region": "us",
-      "step": 15,
-      "summary": "The central bank of the Netherlands has moved dozens of tonnes of its gold out of the United States and Canada to boost the country's \"crisis preparedness\" amid \"increasing geopolitical unrest\".",
-      "dalioConnection": "Auto-tagged to Step 15. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2411,
-      "title": "Christof Damian: Friday Links 26-28",
-      "url": "https://christof.damian.net/2026/09/friday-links-26-28.html/",
-      "date": "2026-09-03",
-      "source": "Damian.net",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 9,
-      "summary": "A short one this week. The management reading list gave me some new ideas and the interview with Mr. T is great.\nQuote of the Week I’ve become absolutely convinced that the seminal difference between successful companies and mediocre or unsuccessful ones has …",
-      "dalioConnection": "Auto-tagged to Step 9. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2412,
-      "title": "Economy won't improve until Australia climbs productivity mountain",
-      "url": "https://www.abc.net.au/news/2026-09-04/productivity-housing-migration-jim-chalmers-economists-growth/107097652",
-      "date": "2026-09-03",
-      "source": "ABC News (AU)",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 9,
-      "summary": "For the average Australian, just where we are economically is, at best, confusing; at worst, alarming.",
-      "dalioConnection": "Auto-tagged to Step 9. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2413,
-      "title": "Women’s empowerment — schools and beyond",
-      "url": "https://www.thehindubusinessline.com/opinion/womens-empowerment-schools-and-beyond/article71424838.ece",
-      "date": "2026-09-03",
-      "source": "BusinessLine",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 3,
-      "summary": "Women’s education, voice, agency and collectives make a difference to gender gaps",
-      "dalioConnection": "Auto-tagged to Step 3. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2414,
-      "title": "UBL targets mid-teens growth as premiumisation, beer reforms aid outlook",
-      "url": "https://www.business-standard.com/companies/news/ubl-targets-mid-teens-growth-as-premiumisation-beer-reforms-aid-outlook-126090301432_1.html",
-      "date": "2026-09-03",
-      "source": "Business Standard",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 9,
-      "summary": "United Breweries sees significant headroom in India's underpenetrated beer market, with premiumisation, state-level reforms and productivity measures driving growth",
-      "dalioConnection": "Auto-tagged to Step 9. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2415,
-      "title": "Trump calls for interest rate cut after jobs figures raise hike bets",
-      "url": "https://www.bbc.co.uk/news/articles/cy0zx2pkpx9o?at_medium=RSS&at_campaign=rss",
-      "date": "Fri, 04 Sep 2026 17:23:13 GM",
-      "source": "BBC Business",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 1,
-      "summary": "The president's remarks came as stronger-than-expected jobs figures added to growing expectations that rates could be increased.",
-      "dalioConnection": "Auto-tagged to Step 1. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2416,
-      "title": "Trump doubles down on threat to halt trade with top partners unless Fed cuts rates",
-      "url": "https://www.cnbc.com/2026/09/04/trump-fed-rates-jobs-trade.html",
-      "date": "Fri, 04 Sep 2026 19:48:08 GM",
-      "source": "CNBC Markets",
-      "sourceType": "news",
-      "region": "global",
-      "step": 1,
-      "summary": "President Donald Trump demanded that the Fed slash interest rates or else he will cut off trade with countries with which the U.S. maintains trade deficits.",
-      "dalioConnection": "Auto-tagged to Step 1. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2417,
-      "title": "Tesla's stock drops 6% as Cybercab update 'underwhelms' Wall Street",
-      "url": "https://www.cnbc.com/2026/09/04/teslas-stock-drops-as-cybercab-update-underwhelms-nhtsa-probe.html",
-      "date": "Fri, 04 Sep 2026 20:06:13 GM",
-      "source": "CNBC Markets",
-      "sourceType": "news",
-      "region": "global",
-      "step": 10,
-      "summary": "Tesla's long-awaited Cybercab update failed to dazzle investors.",
-      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2418,
-      "title": "From Trump’s takeover threats to a ‘northern neighborhood,’ why the EU chief is going to Greenland",
-      "url": "https://www.cnbc.com/2026/09/05/eu-greenland-von-der-leyen-trump-arctic.html",
-      "date": "Sat, 05 Sep 2026 05:00:01 GM",
-      "source": "CNBC Markets",
-      "sourceType": "news",
-      "region": "europe",
-      "step": 10,
-      "summary": "The visit comes as Trump renews his push for greater U.S. control of the self-governing Danish territory.",
-      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2419,
-      "title": "Longtime Fox News host Maria Bartiromo disputes reports of termination",
-      "url": "https://www.cnbc.com/2026/09/04/maria-bartiromo-fox-news-termination.html",
-      "date": "Fri, 04 Sep 2026 20:17:13 GM",
-      "source": "CNBC Markets",
-      "sourceType": "news",
-      "region": "global",
-      "step": 10,
-      "summary": "Maria Bartiromo, the longtime host of Fox News and Fox Business programming, has disputed reports she was fired from the cable TV networks.",
-      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2420,
-      "title": "Bloom Energy was just named to the S&P 500. These other stocks are joining the index as well.",
-      "url": "https://www.marketwatch.com/story/s-p-500-changes-are-coming-soon-these-stocks-could-be-named-to-the-index-today-2d0d7c14?mod=mw_rss_topstories",
-      "date": "Fri, 04 Sep 2026 21:46:00 GM",
-      "source": "MarketWatch",
-      "sourceType": "news",
-      "region": "global",
-      "step": 10,
-      "summary": "Molson Coors Beverage, Builders FirstSource and Trade Desk will be getting the boot from the benchmark index.",
-      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2421,
-      "title": "Tesla’s stock falls as Cybercab launch lands with a thud",
-      "url": "https://www.marketwatch.com/story/teslas-stock-falls-as-cybercab-launch-lands-with-a-thud-1108376b?mod=mw_rss_topstories",
-      "date": "Fri, 04 Sep 2026 20:18:00 GM",
-      "source": "MarketWatch",
-      "sourceType": "news",
-      "region": "global",
-      "step": 10,
-      "summary": "The company’s Cybercab rollout won’t be as broad as some investors had hoped.",
-      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2422,
-      "title": "Micron is doubling down on AI memory chips. That could pay off big time for investors.",
-      "url": "https://www.marketwatch.com/story/micron-is-doubling-down-on-ai-memory-chips-that-could-pay-off-big-time-for-investors-da9e7f5e?mod=mw_rss_topstories",
-      "date": "Fri, 04 Sep 2026 20:12:00 GM",
-      "source": "MarketWatch",
-      "sourceType": "news",
-      "region": "global",
-      "step": 10,
-      "summary": "Micron is reportedly increasing production capacity of a more profitable memory offering that’s in high demand due to AI.",
-      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2423,
-      "title": "Will a data center hurt your home’s value? Research says no. Sellers disagree.",
-      "url": "https://www.marketwatch.com/story/will-a-data-center-hurt-your-homes-value-research-says-no-sellers-disagree-7017ace4?mod=mw_rss_topstories",
-      "date": "Fri, 04 Sep 2026 20:03:00 GM",
-      "source": "MarketWatch",
-      "sourceType": "news",
-      "region": "us",
-      "step": 10,
-      "summary": "In recent months, Americans have gotten more vocal about their concerns over data centers and the effects they could have on home values.",
-      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2424,
-      "title": "Semis Survived Hawkish August Jobs Data: CPI's Next",
-      "url": "https://seekingalpha.com/article/4943324-semis-survived-hawkish-august-jobs-data-cpis-next?source=feed_all_articles",
-      "date": "Sat, 05 Sep 2026 06:12:18 -0400",
-      "source": "Seeking Alpha",
-      "sourceType": "news",
-      "region": "global",
-      "step": 10,
-      "summary": "",
-      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2425,
-      "title": "CRISPR Therapeutics: CASGEVY Validates The Platform, Strengthening The Acquisition Case",
-      "url": "https://seekingalpha.com/article/4943323-crispr-therapeutics-casgevy-validates-the-platform-strengthening-the-acquisition-case?source=feed_all_articles",
-      "date": "Sat, 05 Sep 2026 06:10:53 -0400",
-      "source": "Seeking Alpha",
-      "sourceType": "news",
-      "region": "global",
-      "step": 10,
-      "summary": "",
-      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2426,
-      "title": "CoreWeave Is More Than A GPU Rental Company",
-      "url": "https://seekingalpha.com/article/4943322-coreweave-more-than-gpu-rental-company?source=feed_all_articles",
-      "date": "Sat, 05 Sep 2026 06:05:05 -0400",
-      "source": "Seeking Alpha",
-      "sourceType": "news",
-      "region": "global",
-      "step": 10,
-      "summary": "",
-      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2427,
-      "title": "Netflix: Advertising Alone Won't Justify A Higher Multiple",
-      "url": "https://seekingalpha.com/article/4943321-netflix-advertising-alone-wont-justify-a-higher-multiple?source=feed_all_articles",
-      "date": "Sat, 05 Sep 2026 05:48:30 -0400",
-      "source": "Seeking Alpha",
-      "sourceType": "news",
-      "region": "global",
-      "step": 10,
-      "summary": "",
-      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2428,
-      "title": "AI's Biggest Breakthrough Is 80% Here. Here's How To Play It",
-      "url": "https://www.realclearmarkets.com/2026/09/05/ais_biggest_breakthrough_is_80_here_heres_how_to_play_it_1204455.html",
-      "date": "Sat, 05 Sep 2026 03:00:19 -0500",
-      "source": "RealClearMarkets",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 10,
-      "summary": "Eric Fry, InvestorPlace \n Find out how Astra could be a glimpse of the final stretch toward AGI – and the \"hidden beneficiary\" that could benefit along the way.",
-      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2429,
-      "title": "Beware, Governments Keep Trying to Calm the Markets",
-      "url": "https://www.realclearmarkets.com/2026/09/05/beware_governments_keep_trying_to_calm_the_markets_1204454.html",
-      "date": "Sat, 05 Sep 2026 03:00:19 -0500",
-      "source": "RealClearMarkets",
-      "sourceType": "geopolitical",
-      "region": "japan",
-      "step": 10,
-      "summary": "Isabel Wang, Marketwatch \n First it was downward pressure on the Japanese yen. Then it was upward pressure on U.S. bond yields. Now, Japan is back in the spotlight — and the fix looks the same:...",
-      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2430,
-      "title": "Why Community Opposition To Data Centers Is Perplexing",
-      "url": "https://www.realclearmarkets.com/2026/09/05/why_community_opposition_to_data_centers_is_perplexing_1204413.html",
-      "date": "Sat, 05 Sep 2026 03:00:13 -0500",
-      "source": "RealClearMarkets",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 10,
-      "summary": "Judge Glock, City Journal \n All industrial projects carry a mix of costs and benefits, but the massive IT facilities offer one of the better deals to be found.",
-      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2431,
-      "title": "Socialist Takeover Spreads From Town Halls to Classrooms",
-      "url": "https://www.realclearmarkets.com/2026/09/05/socialist_takeover_spreads_from_town_halls_to_classrooms_1204456.html",
-      "date": "Sat, 05 Sep 2026 03:00:21 -0500",
-      "source": "RealClearMarkets",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 1,
-      "summary": "Rosemary Becchi, Fox \n Low-turnout school board elections in 2026 could let DSA chapters reshape curriculum and budgets before communities realize the lasting consequences.",
-      "dalioConnection": "Auto-tagged to Step 1. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2432,
-      "title": "Trump envoys Witkoff and Kushner to travel to Moscow and Kyiv this weekend",
-      "url": "https://www.axios.com/2026/09/04/trump-witkoff-kushner-moscow-kyiv",
-      "date": "Fri, 04 Sep 2026 20:23:34 +0000",
-      "source": "Axios",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 1,
-      "summary": "President Trump's envoys Steve Witkoff and Jared Kushner will travel this weekend to Moscow and Kyiv for talks on ending the war, U.S. officials said. \nWhy it matters: This will be the first visit by Witkoff and Kushner to Kyiv since President Trump returned to office. \nState of play: Witkoff and Kushner will travel on Friday, hold talks with Russian President Vladimir Putin at the Kremlin on Satu",
-      "dalioConnection": "Auto-tagged to Step 1. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2433,
-      "title": "A costly summer sendoff approaches",
-      "url": "https://www.axios.com/2026/09/04/gas-prices-labor-day-summer-sendoff",
-      "date": "Fri, 04 Sep 2026 18:45:09 +0000",
-      "source": "Axios",
-      "sourceType": "geopolitical",
-      "region": "us",
-      "step": 1,
-      "summary": "Persistent pump pain and pricey burgers mean this summer's last hurrah comes with a cost crunch.\nThe big picture: Gasoline prices are almost certain to remain north of $4 per gallon over Labor Day weekend — a heavy travel stretch and the time when midterm election season intensifies.\n\nDriving the news: Labor Day gas prices are slated to be the highest on record, surpassing the previous one set in ",
-      "dalioConnection": "Auto-tagged to Step 1. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2434,
-      "title": "Scoop: Trump administration drafting post-war Middle East plan",
-      "url": "https://www.axios.com/2026/09/04/trump-middle-east-iran-post-war-strategy",
-      "date": "Fri, 04 Sep 2026 17:49:40 +0000",
-      "source": "Axios",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 1,
-      "summary": "The Trump administration is working on a post-war strategy focused on a regional effort to contain Iran and expand normalization of relations between Israel and its neighbors, according to two U.S. officials and two other sources with knowledge of the issue. \nWhy it matters: While the plan is still in the early stages of drafting, it's intended to guide the U.S. approach in the Middle East after t",
-      "dalioConnection": "Auto-tagged to Step 1. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2435,
-      "title": "Voters are fed up with data centers. Both parties are trying to cash in for midterms",
-      "url": "https://www.npr.org/2026/09/05/nx-s1-5913671/ai-data-center-campaign-spending",
-      "date": "Sat, 05 Sep 2026 05:00:00 -0400",
-      "source": "NPR News",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 15,
-      "summary": "Democrats and Republicans have found common ground in this campaign season. Both parties have poured millions into ads attacking data centers as the public continues to protest the AI facilities.",
-      "dalioConnection": "Auto-tagged to Step 15. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2436,
-      "title": "Flock cameras draw opposition from across the political spectrum",
-      "url": "https://www.npr.org/2026/09/05/nx-s1-5955778/flock-surveillance-camera-opposition-politics",
-      "date": "Sat, 05 Sep 2026 05:00:00 -0400",
-      "source": "NPR News",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 10,
-      "summary": "As political races heat up heading into the midterms, candidates from both parties are increasingly joining the fray to voice concerns over Flock surveillance cameras.",
-      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2437,
-      "title": "Philippines Vice President Sara Duterte posts bail after arrest",
-      "url": "https://www.npr.org/2026/09/05/g-s1-142148/philippines-vice-president-posts-bail",
-      "date": "Sat, 05 Sep 2026 03:21:10 -0400",
-      "source": "NPR News",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 1,
-      "summary": "Philippines Vice President Sara Duterte has posted bail after order issued for her arrest on charges she publicly threatened to arrange assassination of President Ferdinand Marcos Jr. and two others.",
-      "dalioConnection": "Auto-tagged to Step 1. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2438,
-      "title": "The U.N. backs a new world map showing Africa in its true relative size",
-      "url": "https://www.npr.org/2026/09/04/nx-s1-5958611/africa-world-map-un-vote",
-      "date": "Fri, 04 Sep 2026 18:26:35 -0400",
-      "source": "NPR News",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 10,
-      "summary": "The U.N. has backed a new map showing Africa in its true relative size, with the U.S. standing alone in opposition.",
-      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2439,
-      "title": "Asia-Pacific media outlets forge new partnerships ahead of Shenzhen Apec summit",
-      "url": "https://www.scmp.com/economy/global-economy/article/3366482/asia-pacific-media-outlets-forge-new-partnerships-ahead-shenzhen-apec-summit?utm_source=rss_feed",
-      "date": "Sat, 05 Sep 2026 10:03:07 +0000",
-      "source": "South China Morning Post",
-      "sourceType": "geopolitical",
-      "region": "china",
-      "step": 10,
-      "summary": "Media outlets across the Asia-Pacific region have gathered in Shenzhen to deepen collaboration on content, talent and technology ahead of the coming Asia-Pacific Economic Cooperation (Apec) summit in the southern Chinese city.\nHundreds of media representatives witnessed the launch of several partnerships at the Asia-Pacific Media Forum, which opened in Shenzhen on Saturday after two days of sub-fo",
-      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2440,
-      "title": "Hong Kong mega bridge’s popularity takes toll on helicopter, ferry services: lawmaker",
-      "url": "https://www.scmp.com/news/hong-kong/transport/article/3366479/hong-kong-mega-bridges-popularity-takes-toll-helicopter-ferry-services-lawmaker?utm_source=rss_feed",
-      "date": "Sat, 05 Sep 2026 10:00:27 +0000",
-      "source": "South China Morning Post",
-      "sourceType": "geopolitical",
-      "region": "china",
-      "step": 10,
-      "summary": "The number of vehicles using a mega bridge linking Hong Kong with Zhuhai and Macau hit a record high last year, the South China Morning Post has learned, with a lawmaker saying the boom has taken a heavy toll on ferry services and a long-running helicopter service.\nTransport Department figures obtained by the SCMP showed that vehicle flow via the popular Hong Kong-Zhuhai-Macau Bridge reached a rec",
-      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2441,
-      "title": "China’s billion-dollar pet funeral industry stays largely unregulated without public oversight",
-      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3366455/chinas-billion-dollar-pet-funeral-industry-stays-largely-unregulated-without-public-oversight?utm_source=rss_feed",
-      "date": "Sat, 05 Sep 2026 10:00:13 +0000",
-      "source": "South China Morning Post",
-      "sourceType": "geopolitical",
-      "region": "china",
-      "step": 18,
-      "summary": "In May, at a pet funeral home in Dalian, northeastern Liaoning province, a grieving couple wept as they tenderly combed the fur of their deceased pet cat, a Silver British Shorthair, bidding farewell to their beloved “fur kid.”\nThe feline, cherished by the couple for eight years, succumbed to heart disease.\n“Pidan (the cat’s nickname), you will no longer feel pain in that world. Please visit us in",
-      "dalioConnection": "Auto-tagged to Step 18. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2442,
-      "title": "War on Earth could spill over to the moon, Chinese space scientists warn",
-      "url": "https://www.scmp.com/news/china/science/article/3366170/war-earth-could-spill-over-moon-chinese-space-scientists-warn?utm_source=rss_feed",
-      "date": "Sat, 05 Sep 2026 10:00:09 +0000",
-      "source": "South China Morning Post",
-      "sourceType": "geopolitical",
-      "region": "china",
-      "step": 10,
-      "summary": "In a rare study, Chinese aerospace researchers have explored how a war could one day spill into the vast space between the Earth and the moon, with rival spacecraft chasing and evading each other, trying to slip past defences and even blocking strategic routes.\nSpacecraft could hide in the complex gravitational environment around the moon, where their trajectories are difficult to predict, before ",
-      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2443,
-      "title": " Government may fully cover local losses from consumption tax cut ",
-      "url": "https://www.japantimes.co.jp/news/2026/09/05/japan/tax-cut-local-losses-cover/",
-      "date": "Sat, 05 Sep 2026 18:21:00 +0900",
-      "source": "Japan Times",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 10,
-      "summary": "The national government is expected to present the plan at a meeting with local governments to be held shortly.",
-      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2444,
-      "title": " The woman at the center of Japan’s currency fight ",
-      "url": "https://www.japantimes.co.jp/business/2026/09/05/economy/katayama-currency-fight/",
-      "date": "Sat, 05 Sep 2026 15:10:00 +0900",
-      "source": "Japan Times",
-      "sourceType": "geopolitical",
-      "region": "japan",
-      "step": 1,
-      "summary": "Finance Minister Satsuki Katayama is under pressure to strengthen the yen while balancing competing demands from the prime minister and Washington.",
-      "dalioConnection": "Auto-tagged to Step 1. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2445,
-      "title": " OpenAI agents hijacked German website in previously undisclosed AI breakout this spring ",
-      "url": "https://www.japantimes.co.jp/business/2026/09/05/ai-agent-german-website-hijack/",
-      "date": "Sat, 05 Sep 2026 14:49:00 +0900",
-      "source": "Japan Times",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 2,
-      "summary": "OpenAI officials had kept the incident under wraps as they grappled with the fallout from the July breach of the open source repository Hugging Face.",
-      "dalioConnection": "Auto-tagged to Step 2. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2446,
-      "title": " Takaichi seen retaining foreign and finance ministers in Cabinet reshuffle ",
-      "url": "https://www.japantimes.co.jp/news/2026/09/05/japan/politics/takaichi-motegi-katayama-cabinet-reshuffle/",
-      "date": "Sat, 05 Sep 2026 14:09:00 +0900",
-      "source": "Japan Times",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 1,
-      "summary": "Prime Minister Sanae Takaichi is considering keeping Foreign Minister Toshimitsu Motegi and Finance Minister Satsuki Katayama in their posts.",
-      "dalioConnection": "Auto-tagged to Step 1. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "rss"
-      ]
-    },
-    {
-      "id": 2447,
-      "title": "Gold slides after robust US payrolls boosts rate hike bets",
-      "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-slides-after-robust-us-payrolls-boosts-rate-hike-bets/articleshow/133787001.cms",
-      "date": "2026-09-05",
-      "source": "The Times of India",
-      "sourceType": "geopolitical",
-      "region": "us",
-      "step": 14,
-      "summary": "Gold prices experienced a downturn on Friday, setting the stage for a weekly loss as solid US job data raised the bar for anticipated rate hikes by the Federal Reserve. This shift has rendered the non-yielding precious metal less desirable. Alongside gold, si…",
-      "dalioConnection": "Auto-tagged to Step 14. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2448,
-      "title": "Fed’s Hammack: Current policy not tight enough amid high inflation",
-      "url": "https://cryptobriefing.com/feds-hammack-current-policy-not-tight-enough-amid-high-inflation/",
-      "date": "2026-09-05",
-      "source": "Crypto Briefing",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 14,
-      "summary": "Hammack's stance signals potential prolonged high interest rates, impacting economic growth and market expectations for future rate cuts.\nThe post Fed’s Hammack: Current policy not tight enough amid high inflation appeared first on Crypto Briefing.",
-      "dalioConnection": "Auto-tagged to Step 14. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2449,
-      "title": "Why the U.S. job market remains resilient in face of global pressures and inflation",
-      "url": "https://www.pbs.org/newshour/show/why-the-u-s-job-market-remains-resilient-in-face-of-global-pressures-and-inflation",
-      "date": "2026-09-04",
-      "source": "PBS",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 14,
-      "summary": "The job market delivered a surprising rebound in August, adding 162,000 jobs, far more than economists had expected. The unemployment rate held steady at 4.1%, and the Labor Department revised July numbers upward. The stronger-than-expected report comes as th…",
-      "dalioConnection": "Auto-tagged to Step 14. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2450,
-      "title": "Surprise nonfarm payrolls print sends Bitcoin back below 80K",
-      "url": "https://cointelegraph.com/markets/surprise-labor-market-print-sends-bitcoin-back-below-80k",
-      "date": "2026-09-04",
-      "source": "Cointelegraph",
-      "sourceType": "geopolitical",
-      "region": "us",
-      "step": 14,
-      "summary": "The US economy added far more jobs than expected in August, pressuring Bitcoin lower as traders repriced the odds of a Federal Reserve rate cut this month.",
-      "dalioConnection": "Auto-tagged to Step 14. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2451,
-      "title": "US hiring surge strengthens case for Federal Reserve rate hike in September",
-      "url": "https://cryptobriefing.com/us-hiring-surge-strengthens-case-for-federal-reserve-rate-hike-in-september/",
-      "date": "2026-09-04",
-      "source": "Crypto Briefing",
-      "sourceType": "geopolitical",
-      "region": "us",
-      "step": 7,
-      "summary": "The hiring surge may prompt a rate hike, impacting borrowing costs, consumer spending, and potentially slowing economic growth.\nThe post US hiring surge strengthens case for Federal Reserve rate hike in September appeared first on Crypto Briefing.",
-      "dalioConnection": "Auto-tagged to Step 7. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2452,
-      "title": "Wall Street Week Ahead:Investors to pore over inflation data for signals on rate trajectory",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-investors-to-pore-over-inflation-data-for-signals-on-rate-trajectory/articleshow/133786604.cms",
-      "date": "2026-09-05",
-      "source": "The Times of India",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 14,
-      "summary": "Investors await crucial inflation data next week which may decide the Fed's interest rate move.  The S&P 500 index is nearing its record high while facing market volatility.  Producer and Consumer Price Index reports will offer insights into August's inflatio…",
-      "dalioConnection": "Auto-tagged to Step 14. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2453,
-      "title": "August Jobs Report Blows Past Forecasts, Putting a September Fed Rate Hike Back on the Table",
-      "url": "https://freerepublic.com/focus/f-news/4394266/posts",
-      "date": "2026-09-04",
-      "source": "Freerepublic.com",
-      "sourceType": "geopolitical",
-      "region": "us",
-      "step": 1,
-      "summary": "The U.S. economy added 162,000 jobs in August, more than triple Wall Street’s forecast, giving the Federal Reserve more room to raise interest rates despite President Donald Trump’s escalating demands for cuts. Hiring Rebounds After a Weak SummerNonfarm payro…",
-      "dalioConnection": "Auto-tagged to Step 1. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2454,
-      "title": "JPMorgan’s Own Strategist Says the Fed Has Quietly Surrendered on 2% Inflation",
-      "url": "https://247wallst.com/investing/2026/09/04/jpmorgans-own-strategist-says-the-fed-has-quietly-surrendered-on-2-inflation/",
-      "date": "2026-09-04",
-      "source": "24/7 Wall St.",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 14,
-      "summary": "A senior strategist at one of America's largest private banks just said something that reframes every fixed-income position in your portfolio, and the implic...",
-      "dalioConnection": "Auto-tagged to Step 14. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2455,
-      "title": "Famed economist Mohamed El-Erian lays out why he sees more pain in store for bonds",
-      "url": "https://www.businessinsider.com/bond-market-yields-treasury-selloff-demand-inflation-mohamed-el-erian-2026-9#article",
-      "date": "2026-09-04",
-      "source": "Business Insider",
-      "sourceType": "geopolitical",
-      "region": "us",
-      "step": 13,
-      "summary": "Top economist Mohamed El-Erian says US bond yields likely have further to climb as demand from big foreign buyers weakens.",
-      "dalioConnection": "Auto-tagged to Step 13. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2456,
-      "title": "Bank of America’s Hartnett sees Democratic sweep boosting bonds as contrarian fourth-quarter play",
-      "url": "https://cryptobriefing.com/hartnett-democratic-sweep-bonds-contrarian/",
-      "date": "2026-09-04",
-      "source": "Crypto Briefing",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 13,
-      "summary": "A Democratic sweep could shift market dynamics, favoring bonds over equities, and potentially leading to increased market volatility and policy changes.\nThe post Bank of America’s Hartnett sees Democratic sweep boosting bonds as contrarian fourth-quarter play…",
-      "dalioConnection": "Auto-tagged to Step 13. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2457,
-      "title": "Jakarta eyes Guangdong partnership in economy, water management",
-      "url": "https://en.antaranews.com/news/430008/jakarta-eyes-guangdong-partnership-in-economy-water-management",
-      "date": "2026-09-05",
-      "source": "Antaranews.com",
-      "sourceType": "geopolitical",
-      "region": "china",
-      "step": 8,
-      "summary": "The Jakarta provincial government and China&#39;s Guangdong Province held a paradiplomatic dialogue in Guangzhou to explore economic cooperation, focusing on ...",
-      "dalioConnection": "Auto-tagged to Step 8. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2458,
-      "title": "Can the EU find its energy independence in the Arctic?",
-      "url": "https://www.rte.ie/news/business/2026/0905/1590308-arctic-energy-independence/",
-      "date": "2026-09-05",
-      "source": "RTE",
-      "sourceType": "geopolitical",
-      "region": "europe",
-      "step": 8,
-      "summary": "Brussel's focus on the High North has sharpened in recent years for security and economic reasons.",
-      "dalioConnection": "Auto-tagged to Step 8. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2459,
-      "title": "Can the EU find its energy independence in the Arctic?",
-      "url": "https://www.rte.ie/news/analysis-and-comment/2026/0905/1590308-arctic-energy-independence/",
-      "date": "2026-09-05",
-      "source": "RTE",
-      "sourceType": "geopolitical",
-      "region": "europe",
-      "step": 8,
-      "summary": "Brussel's focus on the High North has sharpened in recent years for security and economic reasons.",
-      "dalioConnection": "Auto-tagged to Step 8. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2460,
-      "title": "Drone hysteria, Kiev gunfights, and aviation threats: RT stories that shaped the week",
-      "url": "https://www.rt.com/news/645148-rt-top-stories-drones-airlines-arctic-wedding/",
-      "date": "2026-09-05",
-      "source": "RT",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 8,
-      "summary": "Drone hysteria, Kiev gunfights, Arctic ship seizures, and a deadly Iran wedding strike feature in RT’s stories that shaped the week Read Full Article at RT.com",
-      "dalioConnection": "Auto-tagged to Step 8. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2461,
-      "title": "Sanctioning a Ghost: Europe’s Empty Gesture Against Iran",
-      "url": "https://www.lewrockwell.com/2026/09/no_author/sanctioning-a-ghost-europes-empty-gesture-against-iran/",
-      "date": "2026-09-05",
-      "source": "Lewrockwell.com",
-      "sourceType": "geopolitical",
-      "region": "europe",
-      "step": 8,
-      "summary": "US Treasury Secretary Scott Bessent announced today that the European Union has “officially joined” the American sanctions campaign against Iran — Operation Economic Outcast — and framed Tehran’s choice in the usual absolutes: complete global isolation and a …",
-      "dalioConnection": "Auto-tagged to Step 8. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2462,
-      "title": "What bird sounds like a pipe?",
-      "url": "https://www.lifesciencesworld.com/what-bird-sounds-like-a-pipe/",
-      "date": "2026-09-05",
-      "source": "Lifesciencesworld.com",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 2,
-      "summary": "What Bird Sounds Like a Pipe? Exploring the Whistling World of Avian Mimicry The bird most often described as sounding like a pipe is the Northern Cardinal; its clear, descending whistle is frequently likened to a high-pitched pipe organ or a simple whistle. …",
-      "dalioConnection": "Auto-tagged to Step 2. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2463,
-      "title": "Artificial intelligence: ‘One screw-up ... and we will destroy any remaining trust the public has in science’",
-      "url": "https://www.irishtimes.com/business/2026/09/05/artificial-intelligence-one-screw-up-and-we-will-destroy-any-remaining-trust-the-public-has-in-science/",
-      "date": "2026-09-05",
-      "source": "The Irish Times",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 2,
-      "summary": "Executives and biosecurity experts concerned that future models could help users create novel viruses or bioweapons",
-      "dalioConnection": "Auto-tagged to Step 2. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2464,
-      "title": "The Silicon Man",
-      "url": "https://arenamag.com/articles/the-silicon-man",
-      "date": "2026-09-05",
-      "source": "Arenamag.com",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 2,
-      "summary": "Biological Bootloaders and the Meaning of Life",
-      "dalioConnection": "Auto-tagged to Step 2. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2465,
-      "title": "Supreme Court sets aside ₹425 crore penalty over fake legal citations, says material appears to be ‘hallucination of AI’",
-      "url": "https://www.livemint.com/money/personal-finance/supreme-court-sets-aside-425-crore-penalty-over-fake-legal-citations-says-material-appears-to-be-hallucination-of-ai-11788579780578.html",
-      "date": "2026-09-05",
-      "source": "Livemint",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 2,
-      "summary": "The Supreme Court set aside a  ₹425.27 crore customs penalty after finding that the order relied on AI-generated legal material. The diamond trader will now face fresh adjudication by a different customs officer, while the court warned against relying on unve…",
-      "dalioConnection": "Auto-tagged to Step 2. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2466,
-      "title": "Smart Glasses, Robot Dogs, AI Tamagotchis, and Desk-Sized Supercomputers: How IFA 2026 Redefined Robots",
-      "url": "https://www.yankodesign.com/2026/09/04/smart-glasses-robot-dogs-ai-tamagotchis-and-desk-sized-supercomputers-how-ifa-2026-redefined-robots/",
-      "date": "2026-09-05",
-      "source": "Yanko Design",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 2,
-      "summary": "Smart Glasses, Robot Dogs, AI Tamagotchis, and Desk-Sized Supercomputers: How IFA 2026 Redefined RobotsThe creator economy reshaped who makes content, and then quietly reshaped what tools are worth building. When millions of people are shooting, editing, scan…",
-      "dalioConnection": "Auto-tagged to Step 2. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2467,
-      "title": "CFTC data shows hedge funds loaded up on yen shorts before the surge",
-      "url": "https://cryptobriefing.com/cftc-hedge-funds-yen-shorts-surge/",
-      "date": "2026-09-04",
-      "source": "Crypto Briefing",
-      "sourceType": "geopolitical",
-      "region": "japan",
-      "step": 13,
-      "summary": "The yen's unexpected strength highlights the risks of leveraged currency bets, potentially leading to increased market volatility and strategic reassessments.\nThe post CFTC data shows hedge funds loaded up on yen shorts before the surge appeared first on Cryp…",
-      "dalioConnection": "Auto-tagged to Step 13. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2468,
-      "title": "Japan Has Not Done This Since 1990. If It Happens, the Cheap Money Propping Up US Stocks Gets Expensive",
-      "url": "https://247wallst.com/investing/2026/09/04/japan-has-not-done-this-since-1990-if-it-happens-the-cheap-money-propping-up-us-stocks-gets-expensive/",
-      "date": "2026-09-04",
-      "source": "24/7 Wall St.",
-      "sourceType": "geopolitical",
-      "region": "japan",
-      "step": 13,
-      "summary": "A single public comment from a Bank of Japan official sent the yen surging and rattled a cornerstone assumption holding up American equities, and the policy...",
-      "dalioConnection": "Auto-tagged to Step 13. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2469,
-      "title": "Yen's changing fortunes might finally be spooking the bears",
-      "url": "https://finance.yahoo.com/markets/currencies/articles/analysis-yens-changing-fortunes-might-073818401.html",
-      "date": "2026-09-04",
-      "source": "Yahoo Entertainment",
-      "sourceType": "geopolitical",
-      "region": "japan",
-      "step": 13,
-      "summary": "By Dhara Ranasinghe, Rae Wee and Atsuko Aoyama LONDON/SINGAPORE/TOKYO, Sept 4 (Reuters) - Six weeks after hitting a four-decade low against the dollar, the t...",
-      "dalioConnection": "Auto-tagged to Step 13. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
-    {
-      "id": 2470,
-      "title": "Sensex today | Stock Highlights: Sensex rises 362 pts, Nifty ends at 23,897.7 as elevated crude keeps sentiment subdued",
-      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-4th-september-2026/article71425360.ece",
-      "date": "2026-09-04",
-      "source": "BusinessLine",
-      "sourceType": "geopolitical",
-      "region": "global",
-      "step": 13,
-      "summary": "Sensex, Nifty, Share Prices Highlights: Indian shares rose on Friday after declining ​for four straight sessions but logged weekly losses as high ‌crude prices and bond yields earlier in the ​week outweighed robust domestic growth and tax-collection ⁠data.",
-      "dalioConnection": "Auto-tagged to Step 13. Review needed for Dalio context.",
-      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
-      "watch": "Monitor follow-on developments.",
-      "tags": [
-        "auto-fetched",
-        "newsapi"
-      ]
-    },
     {
       "id": 2471,
       "title": "Monolithic Power Revenue Jumped 48%. Can AI Power Chips Keep the Momentum Going?",
@@ -8996,6 +7592,1410 @@
       "step": 10,
       "summary": "The discounts, which will be offered from Tuesday, will apply to overnight stays in Kumamoto between Oct. 1 and Dec. 25.",
       "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2893,
+      "title": "BNP Paribas economist suggests US may need three Fed rate hikes",
+      "url": "https://cryptobriefing.com/bnp-paribas-economist-suggests-us-may-need-three-fed-rate-hikes/",
+      "date": "2026-09-11",
+      "source": "Crypto Briefing",
+      "sourceType": "geopolitical",
+      "region": "us",
+      "step": 14,
+      "summary": "Increased rate hike expectations could lead to tighter monetary policy, impacting interest rate-sensitive assets and the U.S. dollar.\nThe post BNP Paribas economist suggests US may need three Fed rate hikes appeared first on Crypto Briefing.",
+      "dalioConnection": "Auto-tagged to Step 14. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2894,
+      "title": "Aswath Damodaran calls Fed rate debate pointless, says stock market adapts quickly to higher rates",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/aswath-damodaran-calls-fed-rate-debate-pointless-says-stock-market-adapts-quickly-to-higher-rates/articleshow/134059501.cms",
+      "date": "2026-09-11",
+      "source": "The Times of India",
+      "sourceType": "geopolitical",
+      "region": "us",
+      "step": 8,
+      "summary": "Aswath Damodaran argues that the Federal Reserve’s interest-rate debate is overemphasized, saying corporate earnings and fundamentals will ultimately drive US stocks. Rising Treasury yields, $40 trillion debt and inflation fears remain concerns, but stronger …",
+      "dalioConnection": "Auto-tagged to Step 8. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2895,
+      "title": "Ethereum tests the $2,431 support as hot US inflation pressures crypto market",
+      "url": "https://coinjournal.net/news/ethereum-tests-the-2431-support-as-hot-us-inflation-pressures-crypto-market/",
+      "date": "2026-09-11",
+      "source": "Coinjournal.net",
+      "sourceType": "geopolitical",
+      "region": "us",
+      "step": 14,
+      "summary": "Key takeaways Ethereum fell 0.7% as annual US producer inflation accelerated to 5.4%. Polymarket traders assigned a 62% probability to a rate hike at the next Fed meeting. ETH is testing support at $2,431 and $2,405, with resistance near $2,545. Ethereum (ETH…",
+      "dalioConnection": "Auto-tagged to Step 14. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2896,
+      "title": "High Treasury yields aren't breaking the stock market yet, economists say",
+      "url": "https://www.businessinsider.com/bonds-bond-market-10-year-treasury-yields-rates-stocks-impact-2026-9#article",
+      "date": "2026-09-11",
+      "source": "Business Insider",
+      "sourceType": "geopolitical",
+      "region": "us",
+      "step": 8,
+      "summary": "The 10-year Treasury yield hit 4.97%, capping a monthslong bond selloff driven by sticky inflation, oil prices and Fed rate bets.",
+      "dalioConnection": "Auto-tagged to Step 8. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2897,
+      "title": "Global Market: Japan's Nikkei falls 3% as oil surge, US rate hike fears weigh",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japans-nikkei-falls-3-as-oil-surge-us-rate-hike-fears-weigh/articleshow/134045193.cms",
+      "date": "2026-09-11",
+      "source": "The Times of India",
+      "sourceType": "geopolitical",
+      "region": "japan",
+      "step": 14,
+      "summary": "Japan’s Nikkei fell over 3% in early trade as surging oil prices and rising US Treasury yields revived inflation and rate-hike concerns. Japanese equities came under broad pressure, with 201 Nikkei 225 stocks declining against just 23 gainers.",
+      "dalioConnection": "Auto-tagged to Step 14. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2898,
+      "title": "RBI partially cancels debt sale for first time in a year as rates spike",
+      "url": "https://www.thehindubusinessline.com/money-and-banking/rbi-partially-cancels-debt-sale-for-first-time-in-a-year-as-rates-spike/article71455603.ece",
+      "date": "2026-09-11",
+      "source": "BusinessLine",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 13,
+      "summary": "Central bank’s decision to limit bond sales amid rising yields signals potential shifts in monetary policy, as geopolitical tensions and U.S. economic data influence global market dynamics.",
+      "dalioConnection": "Auto-tagged to Step 13. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2899,
+      "title": "Osama Bin Laden Won",
+      "url": "https://theintercept.com/2026/09/11/bin-laden-september-11-trump-america/",
+      "date": "2026-09-11",
+      "source": "The Intercept",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 13,
+      "summary": "The architect of the September 11 attacks dreamed of the destruction of America. In the last 25 years, his wish has come true.\nThe post Osama Bin Laden Won appeared first on The Intercept.",
+      "dalioConnection": "Auto-tagged to Step 13. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2900,
+      "title": "Rising Bond Yields Are Driving US Stocks Toward Correction Territory: Markets Pulse",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rising-bond-yields-driving-us-093100638.html",
+      "date": "2026-09-11",
+      "source": "Yahoo Entertainment",
+      "sourceType": "geopolitical",
+      "region": "us",
+      "step": 8,
+      "summary": "The escalating bond selloff is driving US Treasury yields toward levels that threaten to deal a significant blow to the stock market, according to the latest...",
+      "dalioConnection": "Auto-tagged to Step 8. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2901,
+      "title": "Global Market: Eurozone bonds slide as energy prices stoke inflation fears",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-eurozone-bonds-slide-as-energy-prices-stoke-inflation-fears/articleshow/134055842.cms",
+      "date": "2026-09-11",
+      "source": "The Times of India",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 14,
+      "summary": "Eurozone government bonds are facing their sharpest weekly selloff since the Iran war began as surging energy prices fuel inflation concerns and boost expectations of further rate hikes. German, French and Italian yields have climbed, putting global debt mark…",
+      "dalioConnection": "Auto-tagged to Step 14. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2902,
+      "title": "Trump wants to send Americans money. Congress and economists don't seem thrilled with the idea",
+      "url": "https://abcnews.com/Business/wireStory/trump-send-americans-money-congress-economists-thrilled-idea-136342877",
+      "date": "2026-09-11",
+      "source": "Abcnews.com",
+      "sourceType": "geopolitical",
+      "region": "us",
+      "step": 13,
+      "summary": "Donald Trump’s pitch to send Americans $5,000 checks should Republicans prevail in the November midterms is drawing scorn from some members of Congress — the very people who have constitutional authority over federal spending",
+      "dalioConnection": "Auto-tagged to Step 13. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2903,
+      "title": "Mexico and US race to lock down bilateral trade deal before midterm elections",
+      "url": "https://cryptobriefing.com/mexico-us-trade-deal-midterm-elections/",
+      "date": "2026-09-11",
+      "source": "Crypto Briefing",
+      "sourceType": "geopolitical",
+      "region": "us",
+      "step": 1,
+      "summary": "The bilateral trade deal could reshape North American supply chains, impacting costs and investments, while sidelining Canada in regional trade.\nThe post Mexico and US race to lock down bilateral trade deal before midterm elections appeared first on Crypto Br…",
+      "dalioConnection": "Auto-tagged to Step 1. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2904,
+      "title": "Asia’s Economic Integration: A Roadmap for Peacebuilding in the Middle East",
+      "url": "https://thediplomat.com/2026/09/asias-economic-integration-a-roadmap-for-peacebuilding-in-the-middle-east/",
+      "date": "2026-09-11",
+      "source": "The Diplomat",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 8,
+      "summary": "Economic cooperation in the Asia-Pacific has been the key driver of peace since 1952.",
+      "dalioConnection": "Auto-tagged to Step 8. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2905,
+      "title": "Diesel costs more than $6 a gallon for the first time. Here’s how that affects you | CNN Business",
+      "url": "https://www.cnn.com/2026/09/11/business/6-dollar-diesel-effects",
+      "date": "2026-09-11",
+      "source": "CNN",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 8,
+      "summary": "Record high prices for the workhorse fuel that powers the world economy, topped $6 a gallon on Friday for the first time ever.",
+      "dalioConnection": "Auto-tagged to Step 8. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2906,
+      "title": "Former China ambassador warns Beijing is becoming 'smug' and closed",
+      "url": "https://www.abc.net.au/news/2026-09-11/former-china-ambassador-coalition-delighted-beijing-coercion/107144700",
+      "date": "2026-09-11",
+      "source": "ABC News (AU)",
+      "sourceType": "geopolitical",
+      "region": "china",
+      "step": 8,
+      "summary": "A former ambassador to China has sharply critiqued elements of the Morrison government's response to Beijing's coercion, saying some in the Coalition \"almost delighted\" in being targeted and \"paraded\" the famous list of 14 grievances handed over by Chinese di…",
+      "dalioConnection": "Auto-tagged to Step 8. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2907,
+      "title": "Oil Tanker Rates Hit Record Highs as Middle East Shipping Risks Soar",
+      "url": "https://freerepublic.com/focus/f-news/4395085/posts",
+      "date": "2026-09-11",
+      "source": "Freerepublic.com",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 8,
+      "summary": "Oil tanker rates have jumped to record highs as escalating risks to shipping in and out of the Middle East are prompting traders and tanker operators to undertake inefficient and more expensive trade routes. While the crude oil supply is actually there, shipp…",
+      "dalioConnection": "Auto-tagged to Step 8. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2908,
+      "title": "Bridgewater’s Greg Jensen warns AI boom could require fatalities before society takes risks seriously",
+      "url": "https://cryptobriefing.com/greg-jensen-ai-boom-risks-bridgewater/",
+      "date": "2026-09-11",
+      "source": "Crypto Briefing",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 2,
+      "summary": "AI's unchecked growth risks societal upheaval, demanding urgent regulatory frameworks to mitigate potential catastrophic consequences.\nThe post Bridgewater’s Greg Jensen warns AI boom could require fatalities before society takes risks seriously appeared firs…",
+      "dalioConnection": "Auto-tagged to Step 2. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2909,
+      "title": "China, Iran among countries that have used AI to aid spying, Anthropic says",
+      "url": "https://www.vanguardngr.com/2026/09/china-iran-among-countries-that-have-used-ai-to-aid-spying-anthropic-says/",
+      "date": "2026-09-11",
+      "source": "Vanguard",
+      "sourceType": "geopolitical",
+      "region": "china",
+      "step": 2,
+      "summary": "Anthropic said Thursday it shut down multiple cases of state-sponsored surveillance operations that used its artificial intelligence (AI) models, and warned that governments and state-aligned actors are increasingly using AI to spy on ethnic minorities and di…",
+      "dalioConnection": "Auto-tagged to Step 2. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2910,
+      "title": "Why So Many AI Researchers Think the Machines Could Kill Everyone",
+      "url": "https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone/",
+      "date": "2026-09-11",
+      "source": "Wired",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 2,
+      "summary": "A combination of rapid advances, recursive self-improvement, and agentic swarms are genuinely “spooking people” inside big labs.",
+      "dalioConnection": "Auto-tagged to Step 2. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2911,
+      "title": "BRICS flags unilateral tariffs, trade barriers as global risks",
+      "url": "https://economictimes.indiatimes.com/news/economy/finance/brics-flags-unilateral-tariffs-trade-barriers-as-global-risks/articleshow/134055321.cms",
+      "date": "2026-09-11",
+      "source": "The Times of India",
+      "sourceType": "geopolitical",
+      "region": "us",
+      "step": 6,
+      "summary": "BRICS finance ministers voiced serious concerns over unilateral trade measures.  Higher tariffs and non-tariff barriers are distorting global trade and adding risks.  The global economic outlook remains under pressure from geopolitical tensions.  Trade fragme…",
+      "dalioConnection": "Auto-tagged to Step 6. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2912,
+      "title": "Sergey Brin is back at Google, working on Gemini",
+      "url": "https://thenextweb.com/news/sergey-brin-gemini-microkitchen-google-deepmind",
+      "date": "2026-09-11",
+      "source": "The Next Web",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 2,
+      "summary": "Sergey Brin holds no executive title at Google. He has nonetheless become increasingly influential over Gemini, the company’s flagship AI model, Business Insider reported, citing eight current and former employees. The Google cofounder works from a converted …",
+      "dalioConnection": "Auto-tagged to Step 2. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2913,
+      "title": "Nikkei Drops 2.8% as Oil Shock and Rate Fears Hit Tokyo",
+      "url": "https://newsonjapan.com/article/150724.php",
+      "date": "2026-09-11",
+      "source": "Newsonjapan.com",
+      "sourceType": "geopolitical",
+      "region": "japan",
+      "step": 13,
+      "summary": "Tokyo stocks fell sharply on September 11, with the Nikkei 225 closing at 63,442, down 2.8%, as oil prices above $108, renewed Middle East tensions, U.S. rate-hike fears and expectations for another Bank of Japan increase triggered a broad selloff led by arti…",
+      "dalioConnection": "Auto-tagged to Step 13. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2914,
+      "title": "Scott Bessent dared the $32 trillion bond market with ‘I am the house now’ statement. It didn’t listen",
+      "url": "https://finance.yahoo.com/economy/policy/articles/scott-bessent-dared-32-trillion-173755314.html",
+      "date": "2026-09-10",
+      "source": "Yahoo Entertainment",
+      "sourceType": "geopolitical",
+      "region": "japan",
+      "step": 13,
+      "summary": "After helping lift the yen, Bessent is finding the much larger Treasury market harder to tame as yields push toward 5%.",
+      "dalioConnection": "Auto-tagged to Step 13. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2915,
+      "title": "Scott Bessent dared the $32 trillion bond market with ‘I am the house now’ statement. It didn’t listen",
+      "url": "https://fortune.com/2026/09/10/scott-bessent-treasury-yields-bond-market-yen-intervention-japan-buybacks-10-year-treasury-iran-war-markets-us-economy-trump-administration/",
+      "date": "2026-09-10",
+      "source": "Fortune",
+      "sourceType": "geopolitical",
+      "region": "japan",
+      "step": 13,
+      "summary": "After helping lift the yen, Bessent is finding the much larger Treasury market harder to tame as yields push toward 5%.",
+      "dalioConnection": "Auto-tagged to Step 13. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2916,
+      "title": "Arizona’s lifeline for chip manufacturing is drying up",
+      "url": "https://www.theverge.com/science/993522/water-chip-semiconductor-manufacturing-colorado-river",
+      "date": "2026-09-11",
+      "source": "The Verge",
+      "sourceType": "geopolitical",
+      "region": "us",
+      "step": 4,
+      "summary": "Arizona, an epicenter for the bipartisan push to revive American chip manufacturing, is about to lose more than a quarter of the water it typically pulls each year from the Colorado River. The 1,400-mile waterway is a crucial lifeline for the region and other…",
+      "dalioConnection": "Auto-tagged to Step 4. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2917,
+      "title": "The chip industry's future is memory by design - Asia Times",
+      "url": "https://asiatimes.com/2026/09/the-chip-industrys-future-is-memory-by-design/",
+      "date": "2026-09-11",
+      "source": "Asia Times",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 11,
+      "summary": "In 1884, an English schoolmaster wrote a short novel about a world with only length and breadth, whose inhabitants could not conceive of a third direction",
+      "dalioConnection": "Auto-tagged to Step 11. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2918,
+      "title": "'Nothing new to announce' on possible chip collaboration with Samsung: OpenAI - The Korea Times",
+      "url": "https://www.koreatimes.co.kr/business/companies/20260911/nothing-new-to-announce-on-possible-chip-collaboration-with-samsung-openai",
+      "date": "2026-09-11",
+      "source": "코리아타임스",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 2,
+      "summary": "OpenAI Korea said Friday it has \"nothing new to announce\" other than the existing partnership with Samsung Electronics Co., in response to reports...",
+      "dalioConnection": "Auto-tagged to Step 2. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2919,
+      "title": "Global Market: Tencent-backed Enflame soars 200% in blockbuster Shanghai IPO debut",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-tencent-backed-enflame-soars-200-in-blockbuster-shanghai-ipo-debut/articleshow/134054449.cms",
+      "date": "2026-09-11",
+      "source": "The Times of India",
+      "sourceType": "geopolitical",
+      "region": "china",
+      "step": 8,
+      "summary": "Tencent-backed Shanghai Enflame Technology surged nearly 200% in its Shanghai debut after raising $912 million through its IPO. Strong investor demand reflects China’s push for domestic AI chips amid US restrictions. Despite rapid revenue growth, Enflame rema…",
+      "dalioConnection": "Auto-tagged to Step 8. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2920,
+      "title": "China's AI chip IPO boom rolls on as another Nvidia challenger soars 200% in market debut",
+      "url": "https://www.businessinsider.com/nvidia-challenger-enflame-techology-stock-china-ai-chip-ipo-boom-2026-9#article",
+      "date": "2026-09-11",
+      "source": "Business Insider",
+      "sourceType": "geopolitical",
+      "region": "china",
+      "step": 6,
+      "summary": "Tencent-backed Enflame is riding China's AI chip boom as US export curbs accelerate Beijing's semiconductor ambitions.",
+      "dalioConnection": "Auto-tagged to Step 6. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2921,
+      "title": "NVP’s Vaughn Crowe on how manufacturing and industrials hit their venture moment",
+      "url": "https://fortune.com/2026/09/11/nvps-vaughn-crowe-manufacturing-industrials-hit-their-venture-moment/",
+      "date": "2026-09-11",
+      "source": "Fortune",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 6,
+      "summary": "Why manufacturing is finally having its venture moment, according to Vaugh Crowe, cofounder of VC firm NVP Capital.",
+      "dalioConnection": "Auto-tagged to Step 6. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2922,
+      "title": "Houthis reach strategic island in key shipping route, threatening global trade chokepoint",
+      "url": "https://cryptobriefing.com/houthis-perim-island-shipping-route/",
+      "date": "2026-09-11",
+      "source": "Crypto Briefing",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 16,
+      "summary": "The Houthi control of Perim Island heightens geopolitical tensions, risking global trade disruptions and escalating regional conflicts.\nThe post Houthis reach strategic island in key shipping route, threatening global trade chokepoint appeared first on Crypto…",
+      "dalioConnection": "Auto-tagged to Step 16. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2923,
+      "title": "Energy Edits Newsletter for September 11, 2026",
+      "url": "https://www.thehindubusinessline.com/newsletter/bl-energy/energy-edits-newsletter-for-september-11-2026/article71455556.ece",
+      "date": "2026-09-11",
+      "source": "BusinessLine",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 2,
+      "summary": "Explore the latest energy trends, geopolitical challenges, and innovations in the Energy Edits Newsletter for November 11, 2026.",
+      "dalioConnection": "Auto-tagged to Step 2. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2924,
+      "title": "The 'end of an era' as Goethe-Institut in Russia closes",
+      "url": "https://www.dw.com/en/the-end-of-an-era-as-goethe-institut-in-russia-closes/a-79224321",
+      "date": "2026-09-11",
+      "source": "DW (English)",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 16,
+      "summary": "The Goethe-Institut was one of the last German institutions still operating in Russia. However, following Moscow’s decision to close its offices, all employees will have to stop working by September 13.",
+      "dalioConnection": "Auto-tagged to Step 16. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2925,
+      "title": "What if the Assumptions Embedded in the Oil Curve Are Wrong?",
+      "url": "https://www.rigzone.com/news/what_if_the_assumptions_embedded_in_the_oil_curve_are_wrong-11-sep-2026-184593-article/",
+      "date": "2026-09-11",
+      "source": "Rigzone",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 12,
+      "summary": "What if the assumptions embedded in the oil curve are wrong - J.P. Morgan analysts, including Natasha Kaneva, J.P. Morgan's Head of Global Commodities Strategy, ask.",
+      "dalioConnection": "Auto-tagged to Step 12. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2926,
+      "title": "An Irish screen genius, raves for Robert Pattinson and early Oscar tips",
+      "url": "https://www.irishtimes.com/culture/film/2026/09/11/an-irish-screen-genius-raves-for-robert-pattinson-and-early-oscar-tips/",
+      "date": "2026-09-11",
+      "source": "The Irish Times",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 12,
+      "summary": "Donald Clarke on what has gone down a storm in the opening week of Venice International Film Festival 2026",
+      "dalioConnection": "Auto-tagged to Step 12. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2927,
+      "title": "Why Latino Families Need More Than Financial Literacy To Build Wealth",
+      "url": "https://biztoc.com/x/97f21c4b85e888fa",
+      "date": "2026-09-11",
+      "source": "Biztoc.com",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 12,
+      "summary": "Financial literacy is often treated as the missing step toward building wealth; however, knowledge alone may not be enough for many Latino households. With Hispanic Heritage Month just days away, findings from a 2025 Pew Research Center survey showing that 63…",
+      "dalioConnection": "Auto-tagged to Step 12. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2928,
+      "title": "In 1998, a Russian submarine launched a German satellite from beneath the Barents Sea, turning a nuclear missile into a space launcher",
+      "url": "https://timesofindia.indiatimes.com/science/space/in-1998-a-russian-submarine-launched-a-german-satellite-from-beneath-the-barents-sea-turning-a-nuclear-missile-into-a-space-launcher/articleshow/134059030.cms",
+      "date": "2026-09-11",
+      "source": "The Times of India",
+      "sourceType": "geopolitical",
+      "region": "us",
+      "step": 12,
+      "summary": "A Russian submarine launched a German satellite in 1998. This mission utilized a missile originally designed for nuclear warheads. The launch demonstrated Russia's post-Cold War efforts to commercialize surplus military technology. Engineers modified the RSM-…",
+      "dalioConnection": "Auto-tagged to Step 12. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2929,
+      "title": "Global Market: Hong Kong draws professionals back as IPO boom revives financial hub",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-hong-kong-draws-professionals-back-as-ipo-boom-revives-financial-hub/articleshow/134053066.cms",
+      "date": "2026-09-11",
+      "source": "The Times of India",
+      "sourceType": "geopolitical",
+      "region": "china",
+      "step": 8,
+      "summary": "Hong Kong is seeing finance professionals return as a strong IPO market, rising corporate investment and deeper China links revive its appeal as a global financial hub. Hiring is picking up across wealth management, asset management, AI, compliance and risk.",
+      "dalioConnection": "Auto-tagged to Step 8. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2930,
+      "title": "Why are European banks moving their gold out of the US?",
+      "url": "https://www.dw.com/en/why-are-european-banks-moving-their-gold-out-of-the-us/a-79213013",
+      "date": "2026-09-11",
+      "source": "DW (English)",
+      "sourceType": "geopolitical",
+      "region": "europe",
+      "step": 6,
+      "summary": "The Netherlands and France have moved their gold out of US vaults. Part of the reason is fear over US reliability, but equally important is the need to have their gold closer to home in the event of a crisis. Fort Knox, the fortified complex in the state of K…",
+      "dalioConnection": "Auto-tagged to Step 6. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2931,
+      "title": "Why are European banks moving gold out of United States?",
+      "url": "https://www.dw.com/en/why-are-european-banks-moving-gold-out-of-united-states/a-79213013",
+      "date": "2026-09-11",
+      "source": "DW (English)",
+      "sourceType": "geopolitical",
+      "region": "europe",
+      "step": 6,
+      "summary": "The Netherlands and France have moved their gold out of US vaults. Part of the reason is fears about the reliability of the US, but equally important is the need to keep gold closer to home in the event of a crisis. Fort Knox, the fortified complex in the sta…",
+      "dalioConnection": "Auto-tagged to Step 6. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2932,
+      "title": "Haitian community speaks out following recent ICE arrests in San Diego and across the US",
+      "url": "https://www.kpbs.org/news/border-immigration/2026/09/10/haitian-community-speaks-out-following-recent-ice-arrests-in-san-diego-and-across-the-us",
+      "date": "2026-09-11",
+      "source": "KPBS",
+      "sourceType": "geopolitical",
+      "region": "us",
+      "step": 15,
+      "summary": "Dozens of people came together Thursday to speak out against recent immigrations arrests in San Diego they say are targeting the Haitian community.",
+      "dalioConnection": "Auto-tagged to Step 15. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2933,
+      "title": "America After 9/11: 25 Years of Fear, War, Surveillance, and Permanent Emergency",
+      "url": "https://original.antiwar.com/jwhitehead/2026/09/10/america-after-9-11-25-years-of-fear-war-surveillance-and-permanent-emergency/",
+      "date": "2026-09-11",
+      "source": "Antiwar.com",
+      "sourceType": "geopolitical",
+      "region": "us",
+      "step": 1,
+      "summary": "“I tell you, freedom and human rights in America are doomed. The U.S. government will lead the American people in  –  and the West in general  –  into an unbearable hell and a choking life.” – Osama bin Laden (October 2001) “GIVE THEM NIGHTMARES.” – President…",
+      "dalioConnection": "Auto-tagged to Step 1. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2934,
+      "title": "$4 billion CIO Nimesh Chandan spots 4 bullish signals for Indian stocks. What changed?",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/4-billion-cio-nimesh-chandan-spots-4-bullish-signals-for-indian-stocks-what-changed/articleshow/134048593.cms",
+      "date": "2026-09-11",
+      "source": "The Times of India",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 8,
+      "summary": "India’s stock market is poised for a broader recovery as four core cycles—macroeconomics, corporate earnings, credit growth, and market sentiment—align positively. Nimesh Chandan, CIO of Bajaj Finserv AMC, highlights these improving indicators as a key founda…",
+      "dalioConnection": "Auto-tagged to Step 8. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2935,
+      "title": "Project Canterbury: Why I ditched Auckland for Christchurch - Miriyana Alexander",
+      "url": "https://www.nzherald.co.nz/business/business-reports/project-canterbury/project-canterbury-why-i-ditched-auckland-for-christchurch-miriyana-alexander/premium/3SREBRMYENCQJB5WWUD7YDQIAQ/",
+      "date": "2026-09-11",
+      "source": "New Zealand Herald",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 9,
+      "summary": "Opinion: The South Island is making its case as New Zealand’s next growth engine.",
+      "dalioConnection": "Auto-tagged to Step 9. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2936,
+      "title": "Country- and individual-level factors associated with healthy working life expectancy: A multinational longitudinal study",
+      "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004676",
+      "date": "2026-09-10",
+      "source": "Plos.org",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 3,
+      "summary": "Jingjie Zhu and Bo Ye examine healthy working life expectancy across nearly 175,000 adults aged 50 and over in 28 countries, finding that factors such as higher education, healthier lifestyles, and supportive economic, governance, and employment environments …",
+      "dalioConnection": "Auto-tagged to Step 3. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2937,
+      "title": "The impact and mechanisms of educational human capital on the risk of relapse into poverty: Evidence from Chinese micro-families",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0357459",
+      "date": "2026-09-10",
+      "source": "Plos.org",
+      "sourceType": "geopolitical",
+      "region": "china",
+      "step": 3,
+      "summary": "Educational human capital, as a critical driver of social development, plays an instrumental role in alleviating poverty and mitigating the risk of its recurrence. Drawing on human capital theory and utilizing data from four waves of the China Family Panel St…",
+      "dalioConnection": "Auto-tagged to Step 3. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "newsapi"
+      ]
+    },
+    {
+      "id": 2938,
+      "title": "Ryanair boss O'Leary defends 'high-fare rapists' airlines remarks",
+      "url": "https://www.bbc.co.uk/news/articles/c5yejw9pjjyo?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 11 Sep 2026 15:37:25 GM",
+      "source": "BBC Business",
+      "sourceType": "geopolitical",
+      "region": "europe",
+      "step": 10,
+      "summary": "O'Leary has said airline passengers \"can't afford to fly with the high-fare rapists around Europe\".",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2939,
+      "title": "US prices remain high as fuel costs squeeze household budgets",
+      "url": "https://www.bbc.co.uk/news/articles/cly41rdkrleo?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 11 Sep 2026 14:22:42 GM",
+      "source": "BBC Business",
+      "sourceType": "geopolitical",
+      "region": "us",
+      "step": 14,
+      "summary": "Prices in the US rose 3.4% in the 12 months to August,  according to the latest official report on inflation.",
+      "dalioConnection": "Auto-tagged to Step 14. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2940,
+      "title": "Here’s the inflation breakdown for August 2026 — in one chart",
+      "url": "https://www.cnbc.com/2026/09/11/cpi-inflation-breakdown-august-2026.html",
+      "date": "Fri, 11 Sep 2026 17:14:27 GM",
+      "source": "CNBC Markets",
+      "sourceType": "news",
+      "region": "global",
+      "step": 14,
+      "summary": "Inflation remained stubbornly high in August, largely on the back of higher energy prices amid the Iran war, economists said.",
+      "dalioConnection": "Auto-tagged to Step 14. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2941,
+      "title": "Tehran won’t surrender to the U.S., Iranian President Pezeshkian says, as India's Modi urges dialogue and peace",
+      "url": "https://www.cnbc.com/2026/09/12/iran-us-israel-war-india-brics.html",
+      "date": "Sat, 12 Sep 2026 08:44:39 GM",
+      "source": "CNBC Markets",
+      "sourceType": "news",
+      "region": "global",
+      "step": 1,
+      "summary": "On his first visit to India, Iranian President Masoud Pezeshkian said he will not surrender to the U.S. and Israel, as New Delhi renewed its appeal for peace.",
+      "dalioConnection": "Auto-tagged to Step 1. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2942,
+      "title": "Saudi Arabia shut down East-West crude oil pipeline after multiple attacks by drones from Iraq",
+      "url": "https://www.cnbc.com/2026/09/11/saudi-arabia-shut-down-east-west-crude-oil-pipeline.html",
+      "date": "Fri, 11 Sep 2026 21:35:14 GM",
+      "source": "CNBC Markets",
+      "sourceType": "news",
+      "region": "global",
+      "step": 10,
+      "summary": "Iran-allied Houthi militants in Yemen have escalated strikes on Saudi Arabia this week.",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2943,
+      "title": "Trump's America-first world is pushing other powers to hedge their bets",
+      "url": "https://www.cnbc.com/2026/09/12/brics-summit-xi-putin-modi-trump.html",
+      "date": "Sat, 12 Sep 2026 06:25:50 GM",
+      "source": "CNBC Markets",
+      "sourceType": "news",
+      "region": "global",
+      "step": 6,
+      "summary": "Xi, Putin and Modi meet in New Delhi as U.S. tariffs, sanctions and the Iran war test whether BRICS members can find more common ground.",
+      "dalioConnection": "Auto-tagged to Step 6. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2944,
+      "title": "The Fed could raise interest rates three times. Here’s where the market could face the stiffest test.",
+      "url": "https://www.marketwatch.com/story/the-fed-could-raise-interest-rates-three-times-heres-where-the-market-could-face-the-stiffest-test-757872a1?mod=mw_rss_topstories",
+      "date": "Fri, 11 Sep 2026 23:54:00 GM",
+      "source": "MarketWatch",
+      "sourceType": "news",
+      "region": "global",
+      "step": 10,
+      "summary": "Economists note that the Fed historically has not been content to raise rates only once.",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2945,
+      "title": "This investment is safe from both Trump and the Democrats — and it pays 4.7%",
+      "url": "https://www.marketwatch.com/story/this-investment-is-safe-from-both-trump-and-the-democrats-and-it-pays-4-7-4b76c2f3?mod=mw_rss_topstories",
+      "date": "Fri, 11 Sep 2026 22:06:00 GM",
+      "source": "MarketWatch",
+      "sourceType": "news",
+      "region": "global",
+      "step": 10,
+      "summary": "There’s a safe haven hiding in plain sight.",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2946,
+      "title": "Marvell is sitting on an incredibly ‘sticky’ business that could help it unlock a $30 billion opportunity",
+      "url": "https://www.marketwatch.com/story/marvell-is-sitting-on-an-incredibly-sticky-business-that-could-help-it-unlock-a-30-billion-opportunity-caa6c83f?mod=mw_rss_topstories",
+      "date": "Fri, 11 Sep 2026 21:16:00 GM",
+      "source": "MarketWatch",
+      "sourceType": "news",
+      "region": "global",
+      "step": 10,
+      "summary": "Marvell is best known for making custom chips — but an analyst notes there’s arguably more potential in supporting components and optical networking.",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2947,
+      "title": "Xanadu Quantum Technologies Limited (XNDU:CA) Shareholder/Analyst Call - Slideshow",
+      "url": "https://seekingalpha.com/article/4945760-xanadu-quantum-technologies-limited-xndu-ca-shareholder-analyst-call-slideshow?source=feed_all_articles",
+      "date": "Sat, 12 Sep 2026 06:17:42 -0400",
+      "source": "Seeking Alpha",
+      "sourceType": "news",
+      "region": "global",
+      "step": 10,
+      "summary": "",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2948,
+      "title": "Designer Brands: Margin Growth And Positive Outlook Support Share Price Upside",
+      "url": "https://seekingalpha.com/article/4945751-designer-brands-margin-growth-and-positive-outlook-support-share-price-upside?source=feed_all_articles",
+      "date": "Sat, 12 Sep 2026 06:00:00 -0400",
+      "source": "Seeking Alpha",
+      "sourceType": "news",
+      "region": "global",
+      "step": 10,
+      "summary": "",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2949,
+      "title": "HBT Financial: Expansion By Acquisition Appears To Be Working",
+      "url": "https://seekingalpha.com/article/4945750-hbt-financial-expansion-by-acquisition-appears-to-be-working?source=feed_all_articles",
+      "date": "Sat, 12 Sep 2026 05:50:00 -0400",
+      "source": "Seeking Alpha",
+      "sourceType": "news",
+      "region": "global",
+      "step": 10,
+      "summary": "",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2950,
+      "title": "Snap's Growth Metrics Warrant A Risk Capital Bet",
+      "url": "https://seekingalpha.com/article/4945752-snaps-growth-metrics-warrant-a-risk-capital-bet?source=feed_all_articles",
+      "date": "Sat, 12 Sep 2026 05:45:24 -0400",
+      "source": "Seeking Alpha",
+      "sourceType": "news",
+      "region": "global",
+      "step": 10,
+      "summary": "",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2951,
+      "title": "You Can't Have a Prosperous Nation Without New Arrivals",
+      "url": "https://www.realclearmarkets.com/2026/09/12/you_cant_have_a_prosperous_nation_without_new_arrivals_1205700.html",
+      "date": "Sat, 12 Sep 2026 03:00:21 -0500",
+      "source": "RealClearMarkets",
+      "sourceType": "geopolitical",
+      "region": "us",
+      "step": 10,
+      "summary": "John Tamny, RealClear \n \"Regimes planted by bayonets do not take root.\" Those were the words of Ronald Reagan.\nReagan was describing the communist opposition. He knew they would lose...",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2952,
+      "title": "Bono's Hard-Won Lesson About Poverty: Capitalism Works",
+      "url": "https://www.realclearmarkets.com/2026/09/12/bonos_hard-won_lesson_about_poverty_capitalism_works_1205609.html",
+      "date": "Sat, 12 Sep 2026 03:00:14 -0500",
+      "source": "RealClearMarkets",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 9,
+      "summary": "Anne Bradley, TDE \n Aid may relieve immediate suffering, but only productivity, enterprise, and strong institutions can conquer poverty for good.",
+      "dalioConnection": "Auto-tagged to Step 9. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2953,
+      "title": "Want Your Charity Dollars to Stretch? Be the Pit Crew",
+      "url": "https://www.realclearmarkets.com/2026/09/12/want_your_charity_dollars_to_stretch_be_the_pit_crew_1205696.html",
+      "date": "Sat, 12 Sep 2026 03:00:18 -0500",
+      "source": "RealClearMarkets",
+      "sourceType": "geopolitical",
+      "region": "us",
+      "step": 10,
+      "summary": "Mitzi Perdue, RealClearMarkets \n Frank Perdue was famous for taking his father-and-son chicken farm from no employees to 20,000. What he was less known for was being entrepreneurial about...",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2954,
+      "title": "Wealth Taxes Failed in Europe. They'll Fail Here Too",
+      "url": "https://www.realclearmarkets.com/2026/09/12/wealth_taxes_failed_in_europe_theyll_fail_here_too_1205713.html",
+      "date": "Sat, 12 Sep 2026 03:00:22 -0500",
+      "source": "RealClearMarkets",
+      "sourceType": "geopolitical",
+      "region": "europe",
+      "step": 10,
+      "summary": "Kristian Niemietz, Quillette \n Every few decades, the ideas with the worst track records come back into style.",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2955,
+      "title": "Record diesel prices stoke food inflation, transportation costs",
+      "url": "https://www.axios.com/2026/09/11/diesel-fuel-prices-food-transportation",
+      "date": "Fri, 11 Sep 2026 20:29:07 +0000",
+      "source": "Axios",
+      "sourceType": "geopolitical",
+      "region": "us",
+      "step": 1,
+      "summary": "The record price of diesel threatens to stoke inflation at a time when consumers are already price-sensitive and businesses are reeling from higher costs due to trade tensions. \nWhy it matters: Diesel is a key cost throughout the supply chain, meaning soaring prices could eventually show up in what consumers pay for everything from groceries to household goods.\n\nDriving the news: The national aver",
+      "dalioConnection": "Auto-tagged to Step 1. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2956,
+      "title": "9/11 widow blasts Saudi Arabia during annual ceremony",
+      "url": "https://www.axios.com/2026/09/11/911-widow-saudi-arabia-trump",
+      "date": "Fri, 11 Sep 2026 19:54:59 +0000",
+      "source": "Axios",
+      "sourceType": "geopolitical",
+      "region": "us",
+      "step": 1,
+      "summary": "A widow of a 9/11 victim used the annual reading of the names of those killed to plead with the Trump administration about Saudi Arabian officials' alleged ties to the terror attack, which the kingdom has dismissed.\nThe big picture: During the New York City ceremony for 9/11's 25th anniversary, Terry Strada slammed Saudi Arabia, which Axios' Barak Ravid reports is actively urging President Trump t",
+      "dalioConnection": "Auto-tagged to Step 1. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2957,
+      "title": "Afghan woman deported in first-ever \"Alien Terrorist\" court case, DOJ says",
+      "url": "https://www.axios.com/2026/09/11/alien-terrorist-court-first-deportation",
+      "date": "Fri, 11 Sep 2026 19:39:09 +0000",
+      "source": "Axios",
+      "sourceType": "geopolitical",
+      "region": "us",
+      "step": 1,
+      "summary": "An Afghan national who was the first-ever case before the federal Alien Terrorist Removal Court has been deported, the Justice Department announced Friday.\nThe big picture: The DOJ win before the previously dormant court could give the administration a path to remove people it links to terrorism while keeping much of its evidence secret, Axios previously reported.\n\n\"It'll be interesting to see wha",
+      "dalioConnection": "Auto-tagged to Step 1. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2958,
+      "title": "Scoop: Mike Johnson urged to cancel House recess over AI warnings",
+      "url": "https://www.axios.com/2026/09/11/mike-johnson-house-recess-ai-doom-warnings",
+      "date": "Fri, 11 Sep 2026 19:33:58 +0000",
+      "source": "Axios",
+      "sourceType": "geopolitical",
+      "region": "europe",
+      "step": 1,
+      "summary": "A letter is circulating among House members urging Speaker Mike Johnson (R-La.) to bring back the House \"immediately\" and keep it in session until Congress passes AI safeguards, Axios has learned.\nWhy it matters: Such drastic action has been proposed by members of both parties this week after current and former Anthropic researchers went public with warnings that AI could kill off humanity in the ",
+      "dalioConnection": "Auto-tagged to Step 1. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2959,
+      "title": "The secret quest to preserve Palestinian writer Raja Shehadeh's diaries",
+      "url": "https://www.npr.org/2026/09/12/g-s1-142760/palestinian-writer-archive-scotland-israel-shehadeh",
+      "date": "Sat, 12 Sep 2026 06:00:00 -0400",
+      "source": "NPR News",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 10,
+      "summary": "Leading Palestinian writer Raja Shehadeh has documented Israel's occupation of the West Bank since day one. Fearing the occupation might consume his archive, he secretly moved it to Scotland",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2960,
+      "title": "Why are the people building the most powerful AI so worried about what it could do?",
+      "url": "https://www.npr.org/2026/09/12/nx-s1-5950588/openai-anthropic-ai-safety-researchers-hacks",
+      "date": "Sat, 12 Sep 2026 05:00:00 -0400",
+      "source": "NPR News",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 2,
+      "summary": "As an Anthropic resignation and OpenAI agents' hack on Hugging Face capture public attention, some researchers worry the industry is racing too fast to develop powerful AI while safety measures lag.",
+      "dalioConnection": "Auto-tagged to Step 2. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2961,
+      "title": "Neighbor turned on neighbor after Charlie Kirk's killing. Is the divide here to stay?",
+      "url": "https://www.npr.org/2026/09/12/nx-s1-5952234/charlie-kirk-death-doxing",
+      "date": "Sat, 12 Sep 2026 05:00:00 -0400",
+      "source": "NPR News",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 10,
+      "summary": "The assassination of far right activist Charlie Kirk opened the floodgates of neighbor-on-neighbor doxing. A year later, the damage to political discourse in the U.S. remains.",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2962,
+      "title": "Miami crash raises concerns about the jet's operator, and why it's flying for Amazon",
+      "url": "https://www.npr.org/2026/09/12/nx-s1-5964931/miami-airport-amazon-cargo-crash",
+      "date": "Sat, 12 Sep 2026 05:00:00 -0400",
+      "source": "NPR News",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 10,
+      "summary": "The cargo plane crash in Miami is raising concerns about the safety culture at 21 Air, one of the carriers that fly for Amazon. Former pilots were sounding alarms even before Sunday's accident.",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2963,
+      "title": "Chinese leader Xi urges Brics to play its ‘due role’ in bringing peace to Middle East",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3367303/chinese-leader-xi-urges-brics-play-its-due-role-bringing-peace-middle-east?utm_source=rss_feed",
+      "date": "Sat, 12 Sep 2026 10:21:03 +0000",
+      "source": "South China Morning Post",
+      "sourceType": "geopolitical",
+      "region": "china",
+      "step": 1,
+      "summary": "Chinese President Xi Jinping on Saturday hailed Brics as the world’s most influential platform for cooperation among emerging markets and developing countries.\nSpeaking at the bloc’s summit in New Delhi, Xi also called on the leaders of major emerging economies to play a to play a “due role” in bringing peace to the Middle East, calling for member states to stand on the right side of history.\nHe s",
+      "dalioConnection": "Auto-tagged to Step 1. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2964,
+      "title": "China urges US to ‘stop all spying’ or face retaliation, slams ‘gangster logic’",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3367300/china-urges-us-stop-all-spying-or-face-retaliation-slams-gangster-logic?utm_source=rss_feed",
+      "date": "Sat, 12 Sep 2026 10:19:16 +0000",
+      "source": "South China Morning Post",
+      "sourceType": "geopolitical",
+      "region": "china",
+      "step": 1,
+      "summary": "Beijing has urged the United States to “immediately stop all espionage activities” targeting Chinese companies, warning that it had “firm resolve and abundant means” to retaliate after a senior CIA official defended spying on China’s artificial intelligence (AI) and chip sectors.\nThe call from China’s Ministry of Commerce comes just two weeks ahead of President Xi Jinping’s visit to Washington, wh",
+      "dalioConnection": "Auto-tagged to Step 1. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2965,
+      "title": "A symbol of harmony: Chinese scientists discover earliest dragon-phoenix pairing in ancient tomb",
+      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3367261/symbol-harmony-chinese-scientists-discover-earliest-dragon-phoenix-pairing-ancient-tomb?utm_source=rss_feed",
+      "date": "Sat, 12 Sep 2026 10:00:08 +0000",
+      "source": "South China Morning Post",
+      "sourceType": "geopolitical",
+      "region": "china",
+      "step": 6,
+      "summary": "It sometimes guards kingdoms and empires; other times, it hoards treasures within a hidden cave. The dragon frequently symbolises power, strength, and good fortune. In contrast, its counterpart, the phoenix, meets its end in a pile of ashes only to be reborn at the pinnacle of its beauty, symbolising grace, beauty, and rebirth.\nIndividually, the dragon and phoenix are iconic figures in Chinese myt",
+      "dalioConnection": "Auto-tagged to Step 6. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2966,
+      "title": "Hong Kong Police College becomes first government unit to roll out degree course",
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3367297/hong-kong-police-college-becomes-first-government-unit-roll-out-degree-course?utm_source=rss_feed",
+      "date": "Sat, 12 Sep 2026 09:56:10 +0000",
+      "source": "South China Morning Post",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 10,
+      "summary": "The Hong Kong Police College has become the first government department to offer a bachelor’s degree programme, with the force set to roll out the course for rank-and-file officers by the end of this year.\nCommissioner of Police Joe Chow Yat-ming announced the development on Saturday, after the Hong Kong Council for Accreditation of Academic and Vocational Qualifications approved the college’s Bac",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2967,
+      "title": " Chubu Electric chairman Satoru Katsuno may step down over data fraud ",
+      "url": "https://www.japantimes.co.jp/business/2026/09/12/chubu-electric-chairman-scandal-accountability/",
+      "date": "Sat, 12 Sep 2026 17:21:00 +0900",
+      "source": "Japan Times",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 10,
+      "summary": "Industry officials have criticized Katsuno, with some saying that \"there is no way he can remain in the position.\"",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2968,
+      "title": " Justice Ministry to test GPS tracking of sex offenders on parole ",
+      "url": "https://www.japantimes.co.jp/news/2026/09/12/japan/crime-legal/sex-offender-parole-gps/",
+      "date": "Sat, 12 Sep 2026 16:46:00 +0900",
+      "source": "Japan Times",
+      "sourceType": "geopolitical",
+      "region": "global",
+      "step": 10,
+      "summary": "Only parolees who consent to participate in the program will be monitored with GPS devices, which are not slated to be attached to parolees' bodies.",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2969,
+      "title": " Japan adopts measures to stamp out invasive longhorn beetle ",
+      "url": "https://www.japantimes.co.jp/news/2026/09/12/japan/antilonghorn-beetle-measures/",
+      "date": "Sat, 12 Sep 2026 16:45:00 +0900",
+      "source": "Japan Times",
+      "sourceType": "geopolitical",
+      "region": "japan",
+      "step": 10,
+      "summary": "\"We will engage in systematic and wide-area pest control to enable its eradication in Japan,\"  Environment Minister Hirotaka Ishihara said.",
+      "dalioConnection": "Auto-tagged to Step 10. Review needed for Dalio context.",
+      "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
+      "watch": "Monitor follow-on developments.",
+      "tags": [
+        "auto-fetched",
+        "rss"
+      ]
+    },
+    {
+      "id": 2970,
+      "title": " How a billion-dollar sanctions dodge kept Chinese goods flowing to Iran ",
+      "url": "https://www.japantimes.co.jp/business/2026/09/12/china-iran-secret-trade-mechanism/",
+      "date": "Sat, 12 Sep 2026 16:43:00 +0900",
+      "source": "Japan Times",
+      "sourceType": "geopolitical",
+      "region": "china",
+      "step": 6,
+      "summary": "The secretive trade mechanism, in which Iranian oil is exchanged for credits for Chinese imports, has provided a financial lifeline for Tehran.",
+      "dalioConnection": "Auto-tagged to Step 6. Review needed for Dalio context.",
       "thesisConnection": "Auto-generated. Please review and add capital flow thesis context.",
       "watch": "Monitor follow-on developments.",
       "tags": [
